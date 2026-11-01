@@ -1,0 +1,2142 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "source_path": "../【反】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松.pdf",
+    "sha256": "7127bd4252d1b2c9af56bb6bdbc82a69694c7f1ee0cc700bb38dc89125ccb52e",
+    "format": ".pdf",
+    "unit_type": "PDF 页面文字行",
+    "original_unchanged": true
+  },
+  "debate_topic": {
+    "text": "【反】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松",
+    "basis": "文件名；需对照正文确认",
+    "locator": "filename"
+  },
+  "declared_title": "【反】在筋疲力尽的生活中强调松弛感，让我们",
+  "position": {
+    "text": "反方",
+    "basis": "标题/文件名中的【反】",
+    "locator": "filename",
+    "kind": "原稿标注"
+  },
+  "extraction_status": "parsed_unverified",
+  "classification_note": "字段为规则匹配的原稿片段候选，不代表事实核验；无标签的论证或跨行来源可能遗漏。",
+  "judging_criteria": [],
+  "core_claims": [
+    {
+      "text": "论点一、面对自我苛责带来的过度紧绷，强调松弛感赋予人安心休息的正",
+      "locator": "page:3:line:29"
+    },
+    {
+      "text": "论点二、面对他人审视造成的精神绑架，强调松弛感让人挣脱外界评价的",
+      "locator": "page:4:line:37"
+    }
+  ],
+  "arguments": [
+    {
+      "text": "论点一、面对自我苛责带来的过度紧绷，强调松弛感赋予人安心休息的正",
+      "locator": "page:3:line:29",
+      "mechanisms": [
+        "page:3:line:32",
+        "page:4:line:16"
+      ],
+      "cases": [],
+      "data": [
+        "page:4:line:20",
+        "page:4:line:21",
+        "page:4:line:22",
+        "page:4:line:23",
+        "page:4:line:25",
+        "page:4:line:26",
+        "page:4:line:28"
+      ]
+    },
+    {
+      "text": "论点二、面对他人审视造成的精神绑架，强调松弛感让人挣脱外界评价的",
+      "locator": "page:4:line:37",
+      "mechanisms": [
+        "page:5:line:1",
+        "page:5:line:36",
+        "page:6:line:13",
+        "page:6:line:16"
+      ],
+      "cases": [
+        "page:6:line:42",
+        "page:7:line:12",
+        "page:7:line:36"
+      ],
+      "data": [
+        "page:5:line:1",
+        "page:5:line:8",
+        "page:5:line:9",
+        "page:5:line:38",
+        "page:6:line:2"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "text": "1.1 现状人们自我苛求过高，在追逐的惯性下越绷越紧，带来两重自我苛求的精神困境​",
+      "locator": "page:3:line:32"
+    },
+    {
+      "text": "1.2 强调松弛感让大家敢休息、会休息，收获解脱​",
+      "locator": "page:4:line:16"
+    },
+    {
+      "text": "2.1 人们往往在外界眼光的挑剔评价中，选择了焦虑的追赶和紧绷的精致；在对自我的牺牲中，陷入了",
+      "locator": "page:5:line:1"
+    },
+    {
+      "text": "2.2【方向】 强调松弛感是不要太在意外界的评价，要为自己的体验买单​",
+      "locator": "page:5:line:36"
+    },
+    {
+      "text": "2.3 【方法论】​",
+      "locator": "page:6:line:13"
+    },
+    {
+      "text": "机理：肢体反馈假说​",
+      "locator": "page:6:line:16"
+    }
+  ],
+  "cases": [
+    {
+      "text": "▪类比：强调多睡觉，有的人精神衰弱失眠。不是我要打你一拳睡着，而是可以慢慢改善​",
+      "locator": "page:3:line:2"
+    },
+    {
+      "text": "▪类比：强调多睡觉，是因为现在大家很多熬夜，但不是说应该24小时都在睡觉​",
+      "locator": "page:3:line:4"
+    },
+    {
+      "text": "2. 场景：紧绷的打卡出片 vs 松弛感旅行",
+      "locator": "page:6:line:42"
+    },
+    {
+      "text": "3. 场景：紧绷的教育氛围 vs 松弛感育儿",
+      "locator": "page:7:line:12"
+    },
+    {
+      "text": "类比：强调要多运动会更健康，不需要论证到能让瘸子也通过跑步来锻炼身体。​",
+      "locator": "page:7:line:36"
+    }
+  ],
+  "data": [
+    {
+      "text": "▪2.9万赞《川渝人与生俱来的松弛感》：累了随地大小睡，菜市场里打麻将，在垃圾桶上打",
+      "locator": "page:2:line:1"
+    },
+    {
+      "text": "▪类比：强调多睡觉，是因为现在大家很多熬夜，但不是说应该24小时都在睡觉​",
+      "locator": "page:3:line:4"
+    },
+    {
+      "text": "研究发现，在15岁时承受较高学业压力的青少年，在直至22岁时仍表现出较高的抑郁症状水平。学",
+      "locator": "page:3:line:13"
+    },
+    {
+      "text": "业压力每增加1分，自伤风险就会增加8%。——《柳叶刀-儿童青少年健康》​",
+      "locator": "page:3:line:14"
+    },
+    {
+      "text": "《2025年职场人请假报告》 后浪研究所​",
+      "locator": "page:3:line:17"
+    },
+    {
+      "text": "▪有47.9%的受访者认为，因为「休息」而请假，本身就不够「正当」​",
+      "locator": "page:3:line:19"
+    },
+    {
+      "text": "的受访者认为，在日常事务中追求完美主义是痛苦• 全球前三的市场研究机构益普索调查发现：51%",
+      "locator": "page:3:line:24"
+    },
+    {
+      "text": "【正念疗法】美国加州大学2025 年《针对员工压力的数字冥想干预》通过临床对比试验证明：​",
+      "locator": "page:4:line:20"
+    },
+    {
+      "text": "在存在中轻度工作压力的员工中，在8周内每天完成10分钟的正念冥想后，工作压力得分平均下",
+      "locator": "page:4:line:21"
+    },
+    {
+      "text": "降22.6%，工作倦怠感降低 19.3%。​",
+      "locator": "page:4:line:22"
+    },
+    {
+      "text": "▪并且在随访的 4 个月后依然能稳定维持，远优于不干预的对照组。​",
+      "locator": "page:4:line:23"
+    },
+    {
+      "text": "分钟的参与者，压力改善效果是练习 < 5 分钟者的2.1 倍。​   ▪每日练习时长 ≥10",
+      "locator": "page:4:line:25"
+    },
+    {
+      "text": "怎么做：抽出 10 分钟，找一个舒适的地方坐下，打开b 站视频​",
+      "locator": "page:4:line:26"
+    },
+    {
+      "text": "分钟正念冥想视频 300 万播放量，20分钟正念冥想视频 1700 万播放量​    ▪b 站：10",
+      "locator": "page:4:line:28"
+    },
+    {
+      "text": "2.1 人们往往在外界眼光的挑剔评价中，选择了焦虑的追赶和紧绷的精致；在对自我的牺牲中，陷入了",
+      "locator": "page:5:line:1"
+    },
+    {
+      "text": "抖音 11 万赞的视频：当我一直素颜拍照，我就会得到松弛感​",
+      "locator": "page:5:line:8"
+    },
+    {
+      "text": "小红书 1.1 万赞的帖子：我爱素颜，无拘无束的我，松弛感，我永远喜欢我自己​",
+      "locator": "page:5:line:9"
+    },
+    {
+      "text": "抖音 35 万赞的视频，超绝松弛感是在地铁上随地大小坐，练习舞蹈​",
+      "locator": "page:5:line:38"
+    },
+    {
+      "text": "▪小红书2.9万赞《川渝人与生俱来的松弛感》：累了随地大小睡，菜市场里打麻将，在垃圾",
+      "locator": "page:6:line:2"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "text": "松弛感：面对压力时从容应对、善待自己、不慌张、不焦虑的心理状态 ——《咬文嚼字》​•",
+      "locator": "page:1:line:31",
+      "mentioned_sources": [
+        "《咬文嚼字》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪《人民日报》：有人会误以为松弛感与“躺平”一样，但其实两者截然不同。躺平是在内耗",
+      "locator": "page:1:line:38",
+      "mentioned_sources": [
+        "《人民日报》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪2.9万赞《川渝人与生俱来的松弛感》：累了随地大小睡，菜市场里打麻将，在垃圾桶上打",
+      "locator": "page:2:line:1",
+      "mentioned_sources": [
+        "《川渝人与生俱来的松弛感》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪2025《人民日报》：松弛感并非刻意包装和表现，而是浑然天成的生活态度，是发自内心的",
+      "locator": "page:2:line:13",
+      "mentioned_sources": [
+        "《人民日报》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪2024《三联生活周刊》：松弛感固然需要物质条件、社会保障这些外部条件，但真正重要的",
+      "locator": "page:2:line:15",
+      "mentioned_sources": [
+        "《三联生活周刊》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪2024华中科技大学（《当代青年的精神追求及其社会反思》）：新生代青年的松弛感表现为",
+      "locator": "page:2:line:17",
+      "mentioned_sources": [
+        "《当代青年的精神追求及其社会反思》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "强调：对于某种事物，特别加以郑重表示，使人注意或信服 ——《国语辞典》​•",
+      "locator": "page:2:line:24",
+      "mentioned_sources": [
+        "《国语辞典》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "业压力每增加1分，自伤风险就会增加8%。——《柳叶刀-儿童青少年健康》​",
+      "locator": "page:3:line:14",
+      "mentioned_sources": [
+        "《柳叶刀-儿童青少年健康》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "《2025年职场人请假报告》 后浪研究所​",
+      "locator": "page:3:line:17",
+      "mentioned_sources": [
+        "《2025年职场人请假报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "小红书2000赞《这才是中国小孩该学会的》​",
+      "locator": "page:4:line:8",
+      "mentioned_sources": [
+        "《这才是中国小孩该学会的》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪《装腔启示录》里的女主工作累到进医院的时候说“我终于可以休息了，但即便是在医院，",
+      "locator": "page:4:line:12",
+      "mentioned_sources": [
+        "《装腔启示录》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "【正念疗法】美国加州大学2025 年《针对员工压力的数字冥想干预》通过临床对比试验证明：​",
+      "locator": "page:4:line:20",
+      "mentioned_sources": [
+        "《针对员工压力的数字冥想干预》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "报告《“松弛感”生活十大趋势数据报告》​",
+      "locator": "page:5:line:32",
+      "mentioned_sources": [
+        "《“松弛感”生活十大趋势数据报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪小红书2.9万赞《川渝人与生俱来的松弛感》：累了随地大小睡，菜市场里打麻将，在垃圾",
+      "locator": "page:6:line:2",
+      "mentioned_sources": [
+        "《川渝人与生俱来的松弛感》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "报告《“松弛感”生活十大趋势数据报告》​",
+      "locator": "page:7:line:23",
+      "mentioned_sources": [
+        "《“松弛感”生活十大趋势数据报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "https://www.douban.com/topic/473665698/?_spm_id=NTI3MzQxOTg  ​  卢沁园​",
+      "locator": "page:7:line:30",
+      "mentioned_sources": [
+        "https://www.douban.com/topic/473665698/?_spm_id=NTI3MzQxOTg"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "▪《人民论坛》调查显示：认为自己生活绷得很紧的受调查者中，选择原因是“生存压力”的",
+      "locator": "page:7:line:41",
+      "mentioned_sources": [
+        "《人民论坛》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "包容性。——千瓜报告《“松弛感”生活十大趋势数据报告》​",
+      "locator": "page:8:line:18",
+      "mentioned_sources": [
+        "《“松弛感”生活十大趋势数据报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "弛感——千瓜报告《“松弛感”生活十大趋势数据报告》​",
+      "locator": "page:8:line:25",
+      "mentioned_sources": [
+        "《“松弛感”生活十大趋势数据报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "中国传媒大学《从风格态度迈向生活哲学：“松弛感”的本土化突围》论文通过深度访谈后发现：​",
+      "locator": "page:8:line:37",
+      "mentioned_sources": [
+        "《从风格态度迈向生活哲学：“松弛感”的本土化突围》"
+      ],
+      "externally_verified": false
+    }
+  ],
+  "rebuttals": [],
+  "raw_units": [
+    {
+      "locator": "page:1:line:1",
+      "text": "【反】在筋疲力尽的生活中强调松弛感，让我们",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:2",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:3",
+      "text": "更疲惫/更轻松​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:4",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:5",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:6",
+      "text": " 🌿环节稿：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:7",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:8",
+      "text": "              ​ 松弛感 2.0 一辩稿​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:9",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:10",
+      "text": "              ​ 薪火杯第三轮 二辩稿​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:11",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:12",
+      "text": "              ​ 松弛感-三辩稿​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:13",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:14",
+      "text": "              ​ 松弛感 反四 环节稿​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:15",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:16",
+      "text": "    时间安排：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:17",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:18",
+      "text": "     首质：16:00​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:19",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:20",
+      "text": "     立论：13:30​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:21",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:22",
+      "text": "     质询：11:30​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:23",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:24",
+      "text": "     陈词：8:00​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:25",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:26",
+      "text": "     小结：3:30​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:27",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:28",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:29",
+      "text": "定义​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:30",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:31",
+      "text": " 松弛感：面对压力时从容应对、善待自己、不慌张、不焦虑的心理状态 ——《咬文嚼字》​•",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:32",
+      "text": "  ◦不是标准而是方向：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:33",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:34",
+      "text": "                        到 90，我就是从 70 到 60。​   ▪每个人有不同的松弛阈值，张雪峰是从 100",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:35",
+      "text": "   ▪每个人有不同的方式，有的人松弛的方式是午休晒太阳，有的人松弛的方式是一天去游乐场",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:36",
+      "text": "     坐十次大摆锤​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:37",
+      "text": "  ◦不是躺平：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:38",
+      "text": "   ▪《人民日报》：有人会误以为松弛感与“躺平”一样，但其实两者截然不同。躺平是在内耗",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:39",
+      "text": "     和焦虑的双重挤压下，降低欲望，选择以消极方式来逃避。而松弛感意味着个体承认自身的",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:40",
+      "text": ""
+    },
+    {
+      "locator": "page:1:line:41",
+      "text": "     欲望，怀揣着内心的追求，也能接受不完美的结果。​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:42",
+      "text": "    ▪接质用：松弛感不是摆烂不赶ddl，而是也努力，但是要是真的赶不上不要苛责自己​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:43",
+      "text": "• 【攻防】现状存在不好的“松弛感”的样态（消费主义，表演松弛……）​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:1:line:44",
+      "text": "  ◦松弛感已然在争论中得到了新的理解​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:1",
+      "text": "   ▪2.9万赞《川渝人与生俱来的松弛感》：累了随地大小睡，菜市场里打麻将，在垃圾桶上打",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:2",
+      "text": "     牌，“站累了就蹲着”​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:3",
+      "text": "   ▪小红书 5000 赞：两广好像完全没有容貌焦虑，不在乎打扮，走到哪儿都好松弛​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:4",
+      "text": "   ▪小红书 6500 赞：四川人民与生俱来的松弛感，po 的是一张躺在共享单车上睡觉的照片​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:5",
+      "text": "   ▪小红书：成都人的松弛感在此刻具象化了，人民公园普普通通的一个下午，男女老少唱跳说",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:6",
+      "text": "     来就来​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:7",
+      "text": "  ◦都存在，我方更容易学​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:8",
+      "text": "   ▪你方的帖子说得买个 500 块的衣服，但我方举的帖子​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:9",
+      "text": "  ◦任何有利的口号都可能被消费主义所利用，但有误解≠不提倡（首质打）：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:10",
+      "text": "   ▪有人打着“健康”的旗号卖保健品，所以也不能强调健康生活？​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:11",
+      "text": "   ▪有人打着“爱国”的旗号砸日本车，所以也不能强调爱国？​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:12",
+      "text": "  ◦有误解才需要强调，通过权威媒体输出正确的理解：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:13",
+      "text": "   ▪2025《人民日报》：松弛感并非刻意包装和表现，而是浑然天成的生活态度，是发自内心的",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:14",
+      "text": "     一种自然流淌。其核心不在外表的松弛，而在于内心平静自洽。​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:15",
+      "text": "   ▪2024《三联生活周刊》：松弛感固然需要物质条件、社会保障这些外部条件，但真正重要的",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:16",
+      "text": "     还是内在的力量。是听从自己的内心，不勉强自己去做并不喜欢的事。​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:17",
+      "text": "   ▪2024华中科技大学（《当代青年的精神追求及其社会反思》）：新生代青年的松弛感表现为",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:18",
+      "text": "    忠于自我的行为举止、平静稳定的情绪状态、直率坦诚的语言表达，具有自我悦纳的内涵。​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:19",
+      "text": "• 【攻防】松弛和松弛感​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:20",
+      "text": "  ◦都是对状态的就像孤独和孤独感，没啥区别​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:21",
+      "text": ""
+    },
+    {
+      "locator": "page:2:line:22",
+      "text": ""
+    },
+    {
+      "locator": "page:2:line:23",
+      "text": ""
+    },
+    {
+      "locator": "page:2:line:24",
+      "text": " 强调：对于某种事物，特别加以郑重表示，使人注意或信服 ——《国语辞典》​•",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:25",
+      "text": "  ◦怎么强调？​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:26",
+      "text": "   ▪舆论引导​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:27",
+      "text": "   ▪生态构建​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:28",
+      "text": "  ◦为什么要强调？→ 唤醒沉睡的观念​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:29",
+      "text": "   ▪（1）强调是一个争取话语权的过程​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:30",
+      "text": "   ▪（2）强调是在唤醒一个沉睡的、被容易遗忘但又最重要的东西​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:31",
+      "text": "          • 什么时候要强调善良：是当大家普遍冷漠的时候​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:32",
+      "text": "          • 所以现在：大家普遍紧绷痛苦​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:33",
+      "text": "  ◦【攻防】强调≠怪罪：​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:2:line:34",
+      "text": "   ▪强调反诈不意味着要责怪那些被诈骗的人​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:1",
+      "text": "  ◦【态度】对于不能松弛的人：不苛责，可以引导，可以慢慢来​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:2",
+      "text": "   ▪类比：强调多睡觉，有的人精神衰弱失眠。不是我要打你一拳睡着，而是可以慢慢改善​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:3",
+      "text": "  ◦【态度】纠偏，不是要时刻松弛​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:4",
+      "text": "   ▪类比：强调多睡觉，是因为现在大家很多熬夜，但不是说应该24小时都在睡觉​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:5",
+      "text": "   ▪【攻防】是不是松弛比紧绷更好？如果在精疲力尽的生活中时刻紧绷，确实很累。应该在有",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:6",
+      "text": "     的时候松弛一些。​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:7",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:8",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:9",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:10",
+      "text": "背景（为什么精疲力尽）​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:11",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:12",
+      "text": "1. 精疲力尽中大家感受到痛苦​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:13",
+      "text": "• 研究发现，在15岁时承受较高学业压力的青少年，在直至22岁时仍表现出较高的抑郁症状水平。学",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:14",
+      "text": "  业压力每增加1分，自伤风险就会增加8%。——《柳叶刀-儿童青少年健康》​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:15",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:16",
+      "text": "2. 休息羞耻​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:17",
+      "text": "  ◦《2025年职场人请假报告》 后浪研究所​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:18",
+      "text": "   ▪超过7成人表示，向领导请假会让自己感到羞耻​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:19",
+      "text": "    ▪有47.9%的受访者认为，因为「休息」而请假，本身就不够「正当」​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:20",
+      "text": "   ▪接近3成的职场人会觉得请假这件事需要先证明自己「配休息」​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:21",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:22",
+      "text": "3. 完美主义流行病​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:23",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:24",
+      "text": "                       的受访者认为，在日常事务中追求完美主义是痛苦• 全球前三的市场研究机构益普索调查发现：51%",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:25",
+      "text": "  的来源。​",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "page:3:line:26",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:27",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:28",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:29",
+      "text": "论点一、面对自我苛责带来的过度紧绷，强调松弛感赋予人安心休息的正",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:30",
+      "text": "当性，收获身心的轻松​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:31",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:32",
+      "text": "1.1 现状人们自我苛求过高，在追逐的惯性下越绷越紧，带来两重自我苛求的精神困境​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:33",
+      "text": ""
+    },
+    {
+      "locator": "page:3:line:34",
+      "text": " 【自杀式上进】：时刻在检视自己是不是应该做得更好才对，现在永远不够完美，每天都过得异常•",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:35",
+      "text": "  紧绷。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:36",
+      "text": "  ◦张雪峰​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:37",
+      "text": "   ▪究竟是什么样的终点，才配得上这一路的颠沛流离，我好累，但是，我不敢停下来，真的不",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:38",
+      "text": "      敢。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:39",
+      "text": "    ▪累么?累!不能休息么?不能!你就不怕猝死么?不怕!为什么要这样?做事情，要么就不做，要",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:3:line:40",
+      "text": "      做，就做好!​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:1",
+      "text": "    ▪在张雪峰的微博里搜索“累”字，一共找出正好100条微博。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:2",
+      "text": "  ◦白岩松​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:3",
+      "text": "   ▪病态地追求零失误，越绷越紧。导致掉头发，斑秃，失眠，甚至在枕头下放了刀片。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:4",
+      "text": "   ▪最后看到一句诗，花未开全月未圆，才发现自己一直陷在必须完美的死胡同里​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:5",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:6",
+      "text": " 【压力上瘾症】：在日常的生活中失去了关机的按钮，离开紧绷的环境后反而无所适从，无法脱离•",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:7",
+      "text": "  紧绷的惯性。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:8",
+      "text": "    ◦ 小红书2000赞《这才是中国小孩该学会的》​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:9",
+      "text": "   ▪“每次半夜加完班打车回家，都想在车上咪一会，但脑子会一直转不停:想项目明天要推进",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:10",
+      "text": "     哪些环节，有哪些设计要跟客户敲定，哪个需求要在几点前处理完......感觉自己像个机器。",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:11",
+      "text": "     CPU已经快烧干了，但还是没办法关机。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:12",
+      "text": "   ▪《装腔启示录》里的女主工作累到进医院的时候说“我终于可以休息了，但即便是在医院，",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:13",
+      "text": "     我却依然有很强的负罪感”​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:14",
+      "text": "  ◦衡水创伤​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:15",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:16",
+      "text": "1.2 强调松弛感让大家敢休息、会休息，收获解脱​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:17",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:18",
+      "text": " 讲法：松弛不是优秀者的特权，是被我们忽视的禀赋。我方的态度很简单，不要锚定 100 分的完•",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:19",
+      "text": "  美，永远在追逐突破上限。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:20",
+      "text": "• 【正念疗法】美国加州大学2025 年《针对员工压力的数字冥想干预》通过临床对比试验证明：​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:21",
+      "text": "  ◦在存在中轻度工作压力的员工中，在8周内每天完成10分钟的正念冥想后，工作压力得分平均下",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:22",
+      "text": "    降22.6%，工作倦怠感降低 19.3%。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:23",
+      "text": "   ▪并且在随访的 4 个月后依然能稳定维持，远优于不干预的对照组。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:24",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:25",
+      "text": "             分钟的参与者，压力改善效果是练习 < 5 分钟者的2.1 倍。​   ▪每日练习时长 ≥10",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:26",
+      "text": "  ◦怎么做：抽出 10 分钟，找一个舒适的地方坐下，打开b 站视频​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:27",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:28",
+      "text": "         分钟正念冥想视频 300 万播放量，20分钟正念冥想视频 1700 万播放量​    ▪b 站：10",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:29",
+      "text": "• 案例​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:30",
+      "text": "  ◦【张雪峰】从不敢停下来，即便面临生命的风险也要把事情做到完美。到量力而行，平衡生活",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:31",
+      "text": "    与工作。​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:32",
+      "text": "  ◦【工作】休息的时候不要再时时刻刻复盘自己哪句话可能有问题，哪个材料是不是不完美，不",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:33",
+      "text": "   用时刻紧绷心弦​",
+      "section": "论点",
+      "argument_locator": "page:3:line:29"
+    },
+    {
+      "locator": "page:4:line:34",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:35",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:36",
+      "text": ""
+    },
+    {
+      "locator": "page:4:line:37",
+      "text": "论点二、面对他人审视造成的精神绑架，强调松弛感让人挣脱外界评价的",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:4:line:38",
+      "text": "枷锁，收获自洽和充盈​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:1",
+      "text": "2.1 人们往往在外界眼光的挑剔评价中，选择了焦虑的追赶和紧绷的精致；在对自我的牺牲中，陷入了",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:2",
+      "text": "不自洽的痛苦​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:3",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:4",
+      "text": "【场景1：紧绷的妆容穿搭 vs 松弛感素颜】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:5",
+      "text": "•  Before​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:6",
+      "text": "  ◦女生明明很累了但出门前还要化几小时的精致妆容，不然就是邋遢​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:7",
+      "text": "•  After​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:8",
+      "text": "  ◦抖音 11 万赞的视频：当我一直素颜拍照，我就会得到松弛感​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:9",
+      "text": "  ◦小红书 1.1 万赞的帖子：我爱素颜，无拘无束的我，松弛感，我永远喜欢我自己​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:10",
+      "text": "  ◦小红书 5000 赞：两广好像完全没有容貌焦虑，不在乎打扮，走到哪儿都好松弛​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:11",
+      "text": "  ◦【触发】文淇：穿着拖鞋、背心、短裤，挎着帆布包在街头打乒乓球，被赞“好松弛”​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:12",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:13",
+      "text": "【场景2：紧绷的打卡出片 vs 松弛感旅行】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:14",
+      "text": "•  Before​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:15",
+      "text": "  ◦明明旅游要跋山涉水很累，但我得化全妆，穿着不舒服的束腰拖地裙打卡出片​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:16",
+      "text": "•  After​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:17",
+      "text": "  ◦中国传媒大学通过深度访谈中：一位受访者在描述松弛感的旅游的时候，没有和标志性的景物",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:18",
+      "text": "   合影，随便去周围逛逛，逛到哪算哪里，也不赶时间。疲惫在哪？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:19",
+      "text": "  ◦抖音帖子：当我抛弃精致感旅行，放弃早起化妆，穿最舒服的衣服，才发现旅行也可以很舒适",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:20",
+      "text": "    松弛​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:21",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:22",
+      "text": "【场景3：紧绷的教育氛围 vs 松弛感育儿】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:23",
+      "text": "•  Before​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:24",
+      "text": "  ◦从小就要会一个乐器，不然没面子。隔壁邻居家孩子天天做家务，我很丢脸。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:25",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:26",
+      "text": "         赞帖子：在星巴克看到孩子写了五六个小时作业。写完了妈妈最后看了答案说“你  ◦小红书 2000",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:27",
+      "text": "   虽然是全对，但是字写得太差了，所以不能拿满分”→​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:28",
+      "text": "•  After​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:29",
+      "text": "  ◦孩子对乐器没兴趣不要强逼，培养他真正的兴趣爱好。在繁忙的学业外，生活里给他一些喘息",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:30",
+      "text": "    的空间。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:31",
+      "text": "  ◦松弛感育儿笔记内容上看，“大自然、风筝、骑行、出游”等户外场景词经常出现。——千瓜",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:32",
+      "text": "   报告《“松弛感”生活十大趋势数据报告》​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:33",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:34",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:35",
+      "text": ""
+    },
+    {
+      "locator": "page:5:line:36",
+      "text": "2.2【方向】 强调松弛感是不要太在意外界的评价，要为自己的体验买单​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:37",
+      "text": "• 【不在意外界的评价】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:5:line:38",
+      "text": "  ◦抖音 35 万赞的视频，超绝松弛感是在地铁上随地大小坐，练习舞蹈​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:1",
+      "text": "  ◦【松弛的缩影：川渝人】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:2",
+      "text": "   ▪小红书2.9万赞《川渝人与生俱来的松弛感》：累了随地大小睡，菜市场里打麻将，在垃圾",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:3",
+      "text": "     桶上打牌，“站累了就蹲着”​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:4",
+      "text": "   ▪小红书 6500 赞：四川人民与生俱来的松弛感，po 的是一张躺在一排共享单车上睡觉的照片​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:5",
+      "text": "   ▪小红书：成都人的松弛感在此刻具象化了，人民公园普普通通的一个下午，男女老少唱跳说",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:6",
+      "text": "      来就来​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:7",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:8",
+      "text": "         万赞的爆火视频，四川街头的松弛感是哪怕不认识我，也可以热情的招呼我在街头   ▪抖音 202",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:9",
+      "text": "      拉糖​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:10",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:11",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:12",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:13",
+      "text": "2.3 【方法论】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:14",
+      "text": "• 【假装松弛，直到真的松弛】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:15",
+      "text": "  ◦我许可：“假装自信直到真的自信”​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:16",
+      "text": "  ◦机理：肢体反馈假说​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:17",
+      "text": "• 【按照紧绷的反面活】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:18",
+      "text": "• 【课题分离】​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:19",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:20",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:21",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:22",
+      "text": "自由辩​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:23",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:24",
+      "text": "1. 你的生活没那么多观众​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:25",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:26",
+      "text": "         赞的帖子说的是，“每次去健身房，我总觉得自己做错了，担心别人会觉得我看起  ◦小红书 6500",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:27",
+      "text": "   来很傻，觉得大家都在评价我”，是不是这时候告诉他，松弛点没人会注意你，才能让她学会",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:28",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:29",
+      "text": "   卸下包袱，更轻松？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:30",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:31",
+      "text": "       万赞热帖：只要迟到了就宁可旷课也不进教室，因为要在万众瞩目下走进班级，是不  ◦小红书 2",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:32",
+      "text": "   是告诉他你没有活在聚光灯下，松弛点别太在意别人才让她走出内耗的困境？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:33",
+      "text": "   ▪热评第一：吃饭都不敢光盘，怕收获大家异样的目光​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:34",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:35",
+      "text": "       万点赞的视频：超绝松弛感，人生没有那么多观众，是不顾形象悠闲地躺在三轮车上睡  ◦抖音 83",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:36",
+      "text": "     觉​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:37",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:38",
+      "text": "结论：告诉大家松弛点，生活没那么多观众，才让大家减少内耗，变得更轻松​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:39",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:40",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:41",
+      "text": ""
+    },
+    {
+      "locator": "page:6:line:42",
+      "text": "2. 场景：紧绷的打卡出片 vs 松弛感旅行",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:6:line:43",
+      "text": "  ◦抖音上大家分享的是：放弃早起化妆，穿最舒服的衣服，才发现旅行也可以很舒适松弛​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:1",
+      "text": "         赞的帖子描述松弛感旅行说的是，不用想穿搭，不用早起化妆卷头发，不用找机位  ◦小红书 9700",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:2",
+      "text": "   打卡的旅行真的很爽！​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:3",
+      "text": "  ◦之前为了旅游出片，哪怕跋山涉水很累，也得化全妆，穿着不舒服的束腰拖地裙。可现在中国",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:4",
+      "text": "   传媒大学的访谈中，一位受访者在描述松弛感的旅游的时候说，没有和标志性的景物合影，逛",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:5",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:6",
+      "text": "   到哪算哪里，也不赶时间。为什么没有让大家更轻松?​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:7",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:8",
+      "text": "结论：之前要紧绷地疲惫地旅游，现在松弛感可以逛到哪算哪，怎么舒服怎么来，这是轻松的体现​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:9",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:10",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:11",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:12",
+      "text": "3. 场景：紧绷的教育氛围 vs 松弛感育儿",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:13",
+      "text": "  ◦而值得警惕的是，东亚人的紧绷是在代际传递的，比如孩子得从小就要会一个乐器，不然别人",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:14",
+      "text": "   家孩子吹拉弹唱啥都会，我多没面子。而恰恰是松弛感育儿说孩子对乐器没兴趣不要强逼，培",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:15",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:16",
+      "text": "   养他真正的兴趣爱好，是不是让他们更轻松？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:17",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:18",
+      "text": "         赞帖子：在星巴克看到孩子写了五六个小时作业。写完了妈妈最后看了答案说“你  ◦小红书 2000",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:19",
+      "text": "   虽然是全对，但是字写得太差了，所以不能拿满分”，告诉这个母亲在繁忙的学业外，应该在",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:20",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:21",
+      "text": "   生活里给孩子一些喘息的空间，为什么不会让他更轻松？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:22",
+      "text": "  ◦松弛感育儿笔记内容上看，“大自然、风筝、骑行、出游”等户外场景词经常出现。——千瓜",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:23",
+      "text": "   报告《“松弛感”生活十大趋势数据报告》​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:24",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:25",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:26",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:27",
+      "text": "价值​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:28",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:29",
+      "text": "• 中国人就像蜂鸟一样,必须高频度地振荡翅膀,把自己悬浮在空中",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:30",
+      "text": "   https://www.douban.com/topic/473665698/?_spm_id=NTI3MzQxOTg  ​  卢沁园​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:31",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:32",
+      "text": "攻防​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:33",
+      "text": ""
+    },
+    {
+      "locator": "page:7:line:34",
+      "text": "1. 现实压力​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:35",
+      "text": "• 极端案例切割：​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:36",
+      "text": "  ◦类比：强调要多运动会更健康，不需要论证到能让瘸子也通过跑步来锻炼身体。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:37",
+      "text": "  ◦大胆承认挣扎在温饱线上的人反方解决不了：​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:38",
+      "text": "   ▪这些吃了上顿没下顿的工人们非常明确生活的目标。反方也明白，所以强调松弛感对他们的",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:39",
+      "text": "     生活不会产生影响，也不会更疲惫​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:40",
+      "text": "  ◦占比很少：​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:41",
+      "text": "   ▪《人民论坛》调查显示：认为自己生活绷得很紧的受调查者中，选择原因是“生存压力”的",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:42",
+      "text": "       仅为10.6%。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:43",
+      "text": "• 非极端案例（考研、考公、工作）反诠释：​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:7:line:44",
+      "text": "  ◦更轻松的方式只有解决现实问题吗？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:1",
+      "text": "   ▪我下了班去汤泉，搓澡师傅也没法帮我还房贷，但他能不能让我轻松一点？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:2",
+      "text": "  ◦心态上轻装上阵，即使现实压力不变，也能更轻松​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:3",
+      "text": "   ▪【工作】很多人在初入职场的时候不敢汇报，担心自己汇报的时候，一句话没讲好，就会被",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:4",
+      "text": "    别人嘲笑。但现在意识到不要因为别人的一点在会议里的小的评价就不敢讲话，很松弛地去",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:5",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:6",
+      "text": "     面对每一次汇报，为什么不会更轻松？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:7",
+      "text": "   ▪【高考】一个高考的学生，之前一次模考考不好就特别焦虑觉得人生就完蛋了所以非常紧",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:8",
+      "text": "     绷，现在能放松下来平常心对待考试，虽然考试还是那么多，他为什么不会更轻松？​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:9",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:10",
+      "text": "              赞帖子：我发现读研就是在筛选害怕搞砸的人，保持松弛感，一个周    ▪【读研】小红书5000",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:11",
+      "text": "     末不学习没有什么，并不会搞砸你的毕业，要关注自己的感受。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:12",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:13",
+      "text": "2. 消费主义​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:14",
+      "text": "• 松弛感恰恰在反消费主义​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:15",
+      "text": "  ◦小红书“松弛感爆棚的人的特质”：穿十年前的大衣，也觉得\"经典即潮流\"，即使周围人都在",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:16",
+      "text": "   追捧新款，他们也能自信地穿着自己钟爱的经典款式，展现独特风格。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:17",
+      "text": "  ◦整体上松弛感穿搭的趋势偏向慵懒简约，随性自在。而松弛感本身没有绝对定义，拥有强大的",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:18",
+      "text": "   包容性。——千瓜报告《“松弛感”生活十大趋势数据报告》​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:19",
+      "text": "  ◦松弛感着装并不强调呈现品牌logo，反对将人塑造成消费符号的承载体，而是在日常穿着中突",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:20",
+      "text": "   出“以人为本”，减少穿搭压力。——中国传媒大学《从风格态度迈向生活哲学：“松弛感”",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:21",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:22",
+      "text": "   的本土化突围》论文​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:23",
+      "text": "• 不是消费就叫消费主义，有可能真的能让生活变得更轻松​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:24",
+      "text": "  ◦松弛感育儿：既要上班又要带娃的宝妈宝爸，解放双手省心省力的产品，更容易让他们获得松",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:25",
+      "text": "   弛感——千瓜报告《“松弛感”生活十大趋势数据报告》​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:26",
+      "text": "• 自我肯定，没啥不好​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:27",
+      "text": "  ◦消费者选择与自己理念相符合的产品，把购买与使用松弛感单品作为一种“自我确认”，是对",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:28",
+      "text": "   自己生活态度的一种回应与强调，并在某种意义上由物及人地起到了一种精神支撑作用。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:29",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:30",
+      "text": "3. 经济下行​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:31",
+      "text": "• 经济下行对大家生活的影响是有，但现在大家对它的描绘是灾难化的。每个人都在彼此恫吓​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:32",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:33",
+      "text": "4. 方法错误​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:34",
+      "text": "• 你讲的弊害只是大家没找到适合自己的方式。就像倡导慈善，有钱的捐几百万，拮据的十块八块。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:35",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:36",
+      "text": "5. 追捧，赶时髦，时尚单品​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:37",
+      "text": "• 中国传媒大学《从风格态度迈向生活哲学：“松弛感”的本土化突围》论文通过深度访谈后发现：​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:38",
+      "text": "  ◦【展现真实】事实上，受访者都意识到，真实并不是美的反面，展现真实的勇气也是践行松弛",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:39",
+      "text": "   感的一种方式，它指向悦纳自己，坦诚相待，即使在公共场合，也无须时刻进行自我整饰与社",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:8:line:40",
+      "text": ""
+    },
+    {
+      "locator": "page:8:line:41",
+      "text": "   交表演。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:9:line:1",
+      "text": "◦【Citywalk】参与过citywalk的访谈对象表示，她不认为这是“卖力的表演”，作为参与者，",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    },
+    {
+      "locator": "page:9:line:2",
+      "text": " 在有组织的松弛感实践中获得了社交的快乐与放松的心情。​",
+      "section": "论点",
+      "argument_locator": "page:4:line:37"
+    }
+  ],
+  "warnings": [],
+  "image_gaps": []
+}

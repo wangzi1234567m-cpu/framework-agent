@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "source_root": "E:\\桌面文件\\开发\\框架稿",
+  "parsed": [
+    {
+      "source": "80E58D80E5A8ADE7B28AE5BD9AE79FB4E4ADBCE8839DE59B84EF8CAEE691BBE6B496E6AB_9BE8%.md",
+      "output": "db5efc90e1f1d6ac.json",
+      "sha256": "3380f98323822a79d7723a5a5ca988f74a50237acf5c1481bf7502b29cff8f02"
+    },
+    {
+      "source": "AFE48EBDE4A39DE5B4BCE4A0BBE5B1B8E694OPCA8E58F9BE8BDAEE7B081E49ABBE5BC.md",
+      "output": "a1dab8a863127584.json",
+      "sha256": "2d61c98dabf68f1fb388802cd5da76cd6a789a8807c7d53a37ac32db5e53bb3c"
+    },
+    {
+      "source": "【反】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松.docx",
+      "output": "0b2da7dbb22fc52d.json",
+      "sha256": "cc6d56bdfa4ed65b5e3cc01c697ed95a70673f42954185b56e504772f3027c8e"
+    },
+    {
+      "source": "【反】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松.pdf",
+      "output": "9cc491a2e4c7501d.json",
+      "sha256": "7127bd4252d1b2c9af56bb6bdbc82a69694c7f1ee0cc700bb38dc89125ccb52e"
+    },
+    {
+      "source": "【反】职场焦虑有利于_有害于个人发展.md",
+      "output": "f23584bbb270249b.json",
+      "sha256": "d30f046a6695f1b47dfecbcf75c3d9d64c5055c98d6b38af013cbc903894cee0"
+    },
+    {
+      "source": "如果爱可以量化-框架.docx",
+      "output": "55f579fff7aa06a8.json",
+      "sha256": "eaa676d6382a5bb42b040f000e25b725ee8074afac3ec147894877c223856e6d"
+    },
+    {
+      "source": "如果爱可以量化-框架.md",
+      "output": "fe627857402afe3b.json",
+      "sha256": "0420d5ade6ba8646781e1af391843353a2c8b4f23e9efd5d3da2a937b1733251"
+    },
+    {
+      "source": "对于当代青年，传统就业比OPC模式更能实现职业价值.docx",
+      "output": "7e92b84003544232.json",
+      "sha256": "5363a096de5de27ec946c67c2a530143aebeea934de6cdc58f06fba82aeea066"
+    },
+    {
+      "source": "当今时代，年轻人的人生容错率在变高_变低.md",
+      "output": "39700e4ed3e85231.json",
+      "sha256": "9819808383509845156ade7897414f70dc2744e585936ffc5556cc8248c5e635"
+    },
+    {
+      "source": "本科毕业生首次择业，更应该采取“利益”视角.md",
+      "output": "3acd336d951f0b34.json",
+      "sha256": "a5e8f0122716725964a382cad7578ea476b2cdaf8b7f3d77a8cc86752c3fc52b"
+    },
+    {
+      "source": "预制菜成为堂食主流，是消费者福利的提升.md",
+      "output": "dc0cf4348a334e4e.json",
+      "sha256": "a659969899ba3e22dc08c0a7a6db59f390c87d1e6fdb000c8499d959866315a9"
+    }
+  ],
+  "skipped": [
+    {
+      "source": "~$】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松.docx",
+      "reason": "Word 临时锁文件，不是正式稿件"
+    },
+    {
+      "source": "~$当代青年，传统就业比OPC模式更能实现职业价值.docx",
+      "reason": "Word 临时锁文件，不是正式稿件"
+    }
+  ],
+  "errors": [],
+  "possible_same_draft_exports": [
+    {
+      "files": [
+        "80E58D80E5A8ADE7B28AE5BD9AE79FB4E4ADBCE8839DE59B84EF8CAEE691BBE6B496E6AB_9BE8%.md",
+        "【反】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松.docx",
+        "【反】在筋疲力尽的生活中强调松弛感，让我们更疲惫_更轻松.pdf"
+      ],
+      "kind": "AI 推断：正文标题相近或同名，不能据此认定内容完全相同"
+    },
+    {
+      "files": [
+        "AFE48EBDE4A39DE5B4BCE4A0BBE5B1B8E694OPCA8E58F9BE8BDAEE7B081E49ABBE5BC.md",
+        "对于当代青年，传统就业比OPC模式更能实现职业价值.docx"
+      ],
+      "kind": "AI 推断：正文标题相近或同名，不能据此认定内容完全相同"
+    },
+    {
+      "files": [
+        "如果爱可以量化-框架.docx",
+        "如果爱可以量化-框架.md"
+      ],
+      "kind": "AI 推断：正文标题相近或同名，不能据此认定内容完全相同"
+    }
+  ]
+}

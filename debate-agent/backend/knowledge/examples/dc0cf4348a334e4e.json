@@ -1,0 +1,1986 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "source_path": "../预制菜成为堂食主流，是消费者福利的提升.md",
+    "sha256": "a659969899ba3e22dc08c0a7a6db59f390c87d1e6fdb000c8499d959866315a9",
+    "format": ".md",
+    "unit_type": "原文件行",
+    "original_unchanged": true
+  },
+  "debate_topic": {
+    "text": "预制菜成为堂食主流，是消费者福利的提升",
+    "basis": "文件名；需对照正文确认",
+    "locator": "filename"
+  },
+  "declared_title": null,
+  "position": {
+    "text": "是消费者福利的提升",
+    "basis": "预制菜成为堂食主流，是消费者福利的提升.md",
+    "locator": "filename",
+    "kind": "原稿表述"
+  },
+  "extraction_status": "parsed_unverified",
+  "classification_note": "字段为规则匹配的原稿片段候选，不代表事实核验；无标签的论证或跨行来源可能遗漏。",
+  "judging_criteria": [],
+  "core_claims": [
+    {
+      "text": "1.【高效】预制菜制作流程简化，出餐迅速，缩短食客排队等候时长，提升消费者福利",
+      "locator": "line:59"
+    },
+    {
+      "text": "2.促进菜品普及，高端美食平民化，平民美食更【实惠】",
+      "locator": "line:142"
+    }
+  ],
+  "arguments": [
+    {
+      "text": "1.【高效】预制菜制作流程简化，出餐迅速，缩短食客排队等候时长，提升消费者福利",
+      "locator": "line:59",
+      "mechanisms": [
+        "line:61",
+        "line:82",
+        "line:92",
+        "line:107",
+        "line:117",
+        "line:126"
+      ],
+      "cases": [
+        "line:96"
+      ],
+      "data": [
+        "line:68",
+        "line:70",
+        "line:72",
+        "line:74",
+        "line:80",
+        "line:92",
+        "line:98",
+        "line:100",
+        "line:102",
+        "line:126",
+        "line:130",
+        "line:132",
+        "line:134"
+      ]
+    },
+    {
+      "text": "2.促进菜品普及，高端美食平民化，平民美食更【实惠】",
+      "locator": "line:142",
+      "mechanisms": [
+        "line:153",
+        "line:163",
+        "line:195"
+      ],
+      "cases": [
+        "line:165"
+      ],
+      "data": [
+        "line:146",
+        "line:150",
+        "line:187",
+        "line:191",
+        "line:193"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "text": "step0：消费者对于出餐迅速有需求且传统餐饮做的不好**",
+      "locator": "line:61"
+    },
+    {
+      "text": "【机理】为什么等待越久顾客越容易失望",
+      "locator": "line:82"
+    },
+    {
+      "text": "step对：预制对餐饮店，预制菜已提前完成食材清洗、切配、腌制、预煮等全套前期工序，门店无需现场从零制作，省去大量备餐时，仅需简单加热 / 组装即可出餐，单份出餐时间可压缩至 3-5 分钟**",
+      "locator": "line:92"
+    },
+    {
+      "text": "【机理】-->为什么预制菜快",
+      "locator": "line:107"
+    },
+    {
+      "text": "【数据】-->有多快，能比传统餐饮快多少",
+      "locator": "line:117"
+    },
+    {
+      "text": "step2：对现炒菜餐馆，所有备餐工序（食材清洗、切配、腌制、熬汤、火候把控）必须在门店后厨现场完成，从食材处理到菜品出锅，每一步都依赖人工操作，单份出餐时间普遍在 10-30 分钟，像佛跳墙、招牌炖菜、功夫硬菜这类菜品，更是需要数小时慢炖煨制；高峰时段订单暴增时，后厨人手、灶台、火候都会出现瓶颈，出餐效率大幅下降，极易引发消费者 “上菜慢” 的投诉**",
+      "locator": "line:126"
+    },
+    {
+      "text": "step1：降低成本——市场竞争——返利给消费者，平民美食实惠化",
+      "locator": "line:153"
+    },
+    {
+      "text": "step2：平价化高端菜肴，走向大众",
+      "locator": "line:163"
+    },
+    {
+      "text": "机理：在消费降级的环境下，一碗面不需要太多的附加价值，大家更需要的是一份饱腹的快餐。",
+      "locator": "line:195"
+    },
+    {
+      "text": "机理：",
+      "locator": "line:228"
+    },
+    {
+      "text": "机理：为什么预制菜更好监管",
+      "locator": "line:290"
+    }
+  ],
+  "cases": [
+    {
+      "text": "【案例】",
+      "locator": "line:96"
+    },
+    {
+      "text": "案例：",
+      "locator": "line:165"
+    },
+    {
+      "text": "现有的预制菜能发现问题也证明能批次化，召化回案例：",
+      "locator": "line:283"
+    }
+  ],
+  "data": [
+    {
+      "text": "当消费者到达预选餐厅附近，若遇到“需要等位”“没有特价菜品/套餐优惠”“上菜慢”“菜单不吸引”等情况时，消费者往往会放弃该餐厅。其中，**“需要等位”这一因素的影响程度尤为突出，占比高达85.4%**红餐产业研究院《快餐消费决策链研究报告2025》",
+      "locator": "line:68"
+    },
+    {
+      "text": "艾媒咨询 2025 年餐饮消费数据显示，消费者消费餐饮时关注的因素中，“上菜速度快”占比 28.50%，和食物特色、服务态度等因素处于同一重要层级",
+      "locator": "line:70"
+    },
+    {
+      "text": "当代堂食消费者等不起。艾媒咨询数据显示，43.1% 的消费者到餐馆就餐可接受等位时间为 10—20 分钟，17% 只接受 10 分钟以下",
+      "locator": "line:72"
+    },
+    {
+      "text": "中国烹饪协会早期调查也显示，约 70% 的消费者对点餐后上菜速度的容忍度在 10—20 分钟之间数据显示，在2025年中国餐饮消费者消费餐饮时注重的因素中，菜品丰富度以35.57%的占比位居首位，成为用户最核心的关注维度；紧随其后的是餐饮卫生干净（34.01%）与餐饮价格（33.05%），二者体现了消费者对餐饮基础品质与性价比的重视。而菜品营养健康（31.98%）、食物有特色（29.58%）等因素也获得较高关注，装修风格有档次（20.96%）的占比相对较低。",
+      "locator": "line:74"
+    },
+    {
+      "text": "~~央广网报道，北京重点商圈有餐厅饭点等位超过四五十桌，两人用餐要等约两小时，即使打包也要等 40 分钟；2025 年“五一”期间，北京西单大悦城寿司郎等位动辄三个小时~~",
+      "locator": "line:80"
+    },
+    {
+      "text": "step对：预制对餐饮店，预制菜已提前完成食材清洗、切配、腌制、预煮等全套前期工序，门店无需现场从零制作，省去大量备餐时，仅需简单加热 / 组装即可出餐，单份出餐时间可压缩至 3-5 分钟**",
+      "locator": "line:92"
+    },
+    {
+      "text": "（1）米村拌饭：全店采用预制料理包，店员只需微波加热、搭配配菜，5 分钟即可上桌，高峰期几十份订单同时制作也不会延误。",
+      "locator": "line:98"
+    },
+    {
+      "text": "（2）萨莉亚意式餐厅：后厨无专业厨师，半成品统一解冻加热组装，官方实测平均出餐 4 分钟，一桌菜品短时间内全部上齐。",
+      "locator": "line:100"
+    },
+    {
+      "text": "（3）酸菜鱼从“大菜”变成 3 分钟快餐，唐记同福酸菜鱼相关报道",
+      "locator": "line:102"
+    },
+    {
+      "text": "step2：对现炒菜餐馆，所有备餐工序（食材清洗、切配、腌制、熬汤、火候把控）必须在门店后厨现场完成，从食材处理到菜品出锅，每一步都依赖人工操作，单份出餐时间普遍在 10-30 分钟，像佛跳墙、招牌炖菜、功夫硬菜这类菜品，更是需要数小时慢炖煨制；高峰时段订单暴增时，后厨人手、灶台、火候都会出现瓶颈，出餐效率大幅下降，极易引发消费者 “上菜慢” 的投诉**",
+      "locator": "line:126"
+    },
+    {
+      "text": "1. 当代堂食消费者等不起。艾媒咨询数据显示，43.1% 的消费者到餐馆就餐可接受等位时间为 10—20 分钟，17% 只接受 10 分钟以下。**作**举证：现真餐小老板自己承认（抖音餐饮主馆店家说明拍不做预制菜、全部现杀现混椒麻牛蛙峰现杀 5点只牛蛙要 7–8 分钟菜炖入味再加等24 分钟，合计近 360 分老板原话：“忙的时候一个小时上不来也有，但我们坚持现炒，所以慢”态",
+      "locator": "line:130"
+    },
+    {
+      "text": "2. 西贝从2025 年 9 月整改：有8 款菜从预制改回门店现制，顾客投诉：午市点 3 道菜，近 30 分钟才上齐，服务员回应：公司规定25 分钟内上齐，但高峰经常超时得出：现炒菜在高峰时段出餐效率大幅下",
+      "locator": "line:132"
+    },
+    {
+      "text": "3. 八宝鸭（广州大同酒家，2021 年报道）3 斤清远鸭：起全鸭、酿八宝料、上色、炸、药材扣炖 4 小时总厨：一天做不了几只，必须提前预约",
+      "locator": "line:134"
+    },
+    {
+      "text": "（1）23年5月，上海约有2700家人均消费超过500元的餐厅；到了24年7月，急剧下降到约1300家。剩下的餐厅面临重大挑战，海底捞们为了生存放下身段，采取了低价套餐策略[20]。",
+      "locator": "line:146"
+    },
+    {
+      "text": "（2）红餐产业研究院《餐饮行业季度观察报告（2025年Q3）》显示，2025 年第三季度，餐饮大盘人均消费从一季度的 32.4**元**微涨至三季度的 33.0**元**。这说明当前餐饮消费的主流水准并不是百元级，而是明显偏向大众化、平价化",
+      "locator": "line:150"
+    },
+    {
+      "text": "红烧狮子头/大鸡腿：常见的荤菜大菜，定价均在**10元以下**",
+      "locator": "line:187"
+    },
+    {
+      "text": "Ø  醉面：门店厨房仅负责煮面、浇酱、打包，却凭借20元左右的价格俘获打工人的心，消费者直呼“它能把预制菜做好吃还比现做的卫生”",
+      "locator": "line:191"
+    },
+    {
+      "text": "“北漂的日子很苦，唯有醉面服务员大叔（50岁180老北京）的笑很甜”",
+      "locator": "line:193"
+    },
+    {
+      "text": "安全关于防腐剂与添加剂：中工网的报道表明，合规使用食品添加剂的预制菜是安全的，长期研究显示，按标准摄入添加剂不会在体内蓄积致毒。我国《食品添加剂使用标准》（GB 2760）对添加剂的种类、使用范围和限量有严格规定。市场监管总局2024年明确要求预制菜不得添加防腐剂",
+      "locator": "line:236"
+    },
+    {
+      "text": "新鲜：新国标要求尽量缩短预制菜产品保质期，最长不应超过12个月",
+      "locator": "line:238"
+    },
+    {
+      "text": "（1）2025 年，雀巢因部分 Lean Cuisine 和 Stouffer’s 冷冻餐可能含有木质异物，主动召回有限数量产品。每个产品都对应具体 10 位批次号。公告还要求消费者不要食用，并可退回零售商换货4化处理",
+      "locator": "line:286"
+    },
+    {
+      "text": "2026 年《食品安全国家标准 预制菜》征求意见稿进一步提出，要对预制菜的**原料、生产加工、产品包装、贮存运输、经营销售**等全链条风险因素提出管控措施；同时整合污染物、致病微生物、食品接触材料、过程控制、检验方法等标准，并规定预制菜不得使用防腐剂，食品添加剂要“非必要不添加”",
+      "locator": "line:306"
+    },
+    {
+      "text": "2015年珠海市出现四季食品安全问10",
+      "locator": "line:329"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "text": "[https://www.xinhuanet.com/food/20251017/ee8a5428857d4383a1fd30c6a6b222c0/c.html](https://www.xinhuanet.com/food/20251017/ee8a5428857d4383a1fd30c6a6b222c0/c.html)",
+      "locator": "line:49",
+      "mentioned_sources": [
+        "https://www.xinhuanet.com/food/20251017/ee8a5428857d4383a1fd30c6a6b222c0/c.html"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "当消费者到达预选餐厅附近，若遇到“需要等位”“没有特价菜品/套餐优惠”“上菜慢”“菜单不吸引”等情况时，消费者往往会放弃该餐厅。其中，**“需要等位”这一因素的影响程度尤为突出，占比高达85.4%**红餐产业研究院《快餐消费决策链研究报告2025》",
+      "locator": "line:68",
+      "mentioned_sources": [
+        "《快餐消费决策链研究报告2025》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "心理学中的期望理论 (Expectancy Theory) 指出，等待一段时间可能会让用户觉得产品更具价值https://metaso.cn/s/vulNuyr",
+      "locator": "line:84",
+      "mentioned_sources": [
+        "https://metaso.cn/s/vulNuyr"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "失望感的大小与实际结果和期望的差值成正比。当等待时间过长，顾客的心理阈值被抬高，一旦服务或产品未能达到“值得这么长等待”的高标准，失望感会急剧上升[https://metaso.cn/s/O7Oa5g4](https://metaso.cn/s/O7Oa5g4)",
+      "locator": "line:86",
+      "mentioned_sources": [
+        "https://metaso.cn/s/O7Oa5g4"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "[https://metaso.cn/s/VJ8gKqr](https://metaso.cn/s/VJ8gKqr)",
+      "locator": "line:90",
+      "mentioned_sources": [
+        "https://metaso.cn/s/VJ8gKqr"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "（2）红餐产业研究院《餐饮行业季度观察报告（2025年Q3）》显示，2025 年第三季度，餐饮大盘人均消费从一季度的 32.4**元**微涨至三季度的 33.0**元**。这说明当前餐饮消费的主流水准并不是百元级，而是明显偏向大众化、平价化",
+      "locator": "line:150",
+      "mentioned_sources": [
+        "《餐饮行业季度观察报告（2025年Q3）》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "降低成本（1）美团、安信证券研究所：使用预制菜节省的人工、租房等成本，尤其是人工成本直接减半，最终使利润率上升超40（%。[https://www.thepaper.cn/newsDetail_forward_](https://www.thepaper.cn/newsDetail_forward_31635768)】",
+      "locator": "line:157",
+      "mentioned_sources": [
+        "https://www.thepaper.cn/newsDetail_forward_",
+        "https://www.thepaper.cn/newsDetail_forward_31635768"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "）[6](https://www.thepaper.cn/newsDetail_forward_31635768)[8](https://www.thepaper.cn/newsDetail_forward_31635768)",
+      "locator": "line:159",
+      "mentioned_sources": [
+        "https://www.thepaper.cn/newsDetail_forward_31635768"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "安全关于防腐剂与添加剂：中工网的报道表明，合规使用食品添加剂的预制菜是安全的，长期研究显示，按标准摄入添加剂不会在体内蓄积致毒。我国《食品添加剂使用标准》（GB 2760）对添加剂的种类、使用范围和限量有严格规定。市场监管总局2024年明确要求预制菜不得添加防腐剂",
+      "locator": "line:236",
+      "mentioned_sources": [
+        "《食品添加剂使用标准》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "健康肉类不怎么影响：食品专家姜慧：经过前期预加工的肉类预制菜，如酸菜鱼，其实和自己在家做的效果差不多，只是整个过程更标准化、工业化。[https://health.cnr.cn/yg/20230908/t20230908_526412631.shtml](https://health.cnr.cn/yg/20230908/t20230908_526412631.shtml)",
+      "locator": "line:242",
+      "mentioned_sources": [
+        "https://health.cnr.cn/yg/20230908/t20230908_526412631.shtml"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "[https://www.workercn.cn/c/2025-09-17/8608247.s](https://www.workercn.cn/c/2025-09-17/8608247.shtml)3.[ml](https://www.workercn.cn/c/2025-09-17/8608247.shtml)",
+      "locator": "line:251",
+      "mentioned_sources": [
+        "https://www.workercn.cn/c/2025-09-17/8608247.s",
+        "https://www.workercn.cn/c/2025-09-17/8608247.shtml"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "2026 年《食品安全国家标准 预制菜》征求意见稿进一步提出，要对预制菜的**原料、生产加工、产品包装、贮存运输、经营销售**等全链条风险因素提出管控措施；同时整合污染物、致病微生物、食品接触材料、过程控制、检验方法等标准，并规定预制菜不得使用防腐剂，食品添加剂要“非必要不添加”",
+      "locator": "line:306",
+      "mentioned_sources": [
+        "《食品安全国家标准 预制菜》"
+      ],
+      "externally_verified": false
+    }
+  ],
+  "rebuttals": [],
+  "raw_units": [
+    {
+      "locator": "line:1",
+      "text": "# 【定义】",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:2",
+      "text": ""
+    },
+    {
+      "locator": "line:3",
+      "text": "1. 预制菜",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:4",
+      "text": "#### "
+    },
+    {
+      "locator": "line:5",
+      "text": ""
+    },
+    {
+      "locator": "line:6",
+      "text": "* 【市场监管总局】以一种或多种农产品为原料，不添加防腐剂，经工业化预加工（如炒、炸、烤、煮、蒸等）制成，须加热或熟制后才能食用的预包装菜肴。",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:7",
+      "text": ""
+    },
+    {
+      "locator": "line:8",
+      "text": "【这俩自己补一下，虽然我感觉不太容易打到，但是你们稍微想想，你们觉得啥要聊，啥不要聊；为啥不要聊】",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:9",
+      "text": ""
+    },
+    {
+      "locator": "line:10",
+      "text": "* xxx算",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:11",
+      "text": ""
+    },
+    {
+      "locator": "line:12",
+      "text": "* xxx不算",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:13",
+      "text": ""
+    },
+    {
+      "locator": "line:14",
+      "text": ""
+    },
+    {
+      "locator": "line:15",
+      "text": "1. 消费者福利",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:16",
+      "text": "#### "
+    },
+    {
+      "locator": "line:17",
+      "text": ""
+    },
+    {
+      "locator": "line:18",
+      "text": "* 【这个根据你们要打的写】",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:19",
+      "text": ""
+    },
+    {
+      "locator": "line:20",
+      "text": "* 便宜实惠",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:21",
+      "text": ""
+    },
+    {
+      "locator": "line:22",
+      "text": "* 安全健康",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:23",
+      "text": ""
+    },
+    {
+      "locator": "line:24",
+      "text": "* 口味稳定",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:25",
+      "text": ""
+    },
+    {
+      "locator": "line:26",
+      "text": "* 知情权",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:27",
+      "text": ""
+    },
+    {
+      "locator": "line:28",
+      "text": ""
+    },
+    {
+      "locator": "line:29",
+      "text": ""
+    },
+    {
+      "locator": "line:30",
+      "text": "# 【现状】",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:31",
+      "text": ""
+    },
+    {
+      "locator": "line:32",
+      "text": "【按你们的论来决定要查什么方向的数据，有点不知道你们下面啥有用】",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:33",
+      "text": ""
+    },
+    {
+      "locator": "line:34",
+      "text": "【可能的数据方向：对预制菜的态度是什么；预制菜现在到底发展得咋样...】",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:35",
+      "text": ""
+    },
+    {
+      "locator": "line:36",
+      "text": ""
+    },
+    {
+      "locator": "line:37",
+      "text": "①等菜太久、与预期不符：",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:38",
+      "text": ""
+    },
+    {
+      "locator": "line:39",
+      "text": "* 工作、学习时间紧，不想等很久",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:40",
+      "text": ""
+    },
+    {
+      "locator": "line:41",
+      "text": "* 想把时间花在更有意义的事上而不是等菜",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:42",
+      "text": ""
+    },
+    {
+      "locator": "line:43",
+      "text": "* 等很久后发现菜不一定好吃，没有预期中好吃",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:44",
+      "text": ""
+    },
+    {
+      "locator": "line:45",
+      "text": "* 现炒菜的痛点(预制菜能够保留大部分优点并解决这些痛点）:人力、场地要求与成本高；难以复刻，口味参差不齐；制作慢；|",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:46",
+      "text": ""
+    },
+    {
+      "locator": "line:47",
+      "text": "预制菜的出现，顺应了需求侧的变化，现代社会生活节奏快，预制菜在满足消费者对餐饮供应效率，口味稳定，卫生标准等要求方面具有优势；契合了供给侧的能力，保鲜和运输技术提升，供应链日趋完备，让高品质预制菜成为可能。",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:48",
+      "text": ""
+    },
+    {
+      "locator": "line:49",
+      "text": "* [https://www.xinhuanet.com/food/20251017/ee8a5428857d4383a1fd30c6a6b222c0/c.html](https://www.xinhuanet.com/food/20251017/ee8a5428857d4383a1fd30c6a6b222c0/c.html)",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:50",
+      "text": ""
+    },
+    {
+      "locator": "line:51",
+      "text": ""
+    },
+    {
+      "locator": "line:52",
+      "text": "【这个数据要指向什么利得】",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:53",
+      "text": ""
+    },
+    {
+      "locator": "line:54",
+      "text": "民众的需求：艾媒咨询）",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:55",
+      "text": ""
+    },
+    {
+      "locator": "line:56",
+      "text": ""
+    },
+    {
+      "locator": "line:57",
+      "text": "# 【论点】",
+      "section": "论点",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:58",
+      "text": ""
+    },
+    {
+      "locator": "line:59",
+      "text": "### 1.【高效】预制菜制作流程简化，出餐迅速，缩短食客排队等候时长，提升消费者福利",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:60",
+      "text": ""
+    },
+    {
+      "locator": "line:61",
+      "text": "**step0：消费者对于出餐迅速有需求且传统餐饮做的不好**",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:62",
+      "text": ""
+    },
+    {
+      "locator": "line:63",
+      "text": ""
+    },
+    {
+      "locator": "line:64",
+      "text": "【数据】",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:65",
+      "text": ""
+    },
+    {
+      "locator": "line:66",
+      "text": "* 【有需求】",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:67",
+      "text": ""
+    },
+    {
+      "locator": "line:68",
+      "text": "   * 当消费者到达预选餐厅附近，若遇到“需要等位”“没有特价菜品/套餐优惠”“上菜慢”“菜单不吸引”等情况时，消费者往往会放弃该餐厅。其中，**“需要等位”这一因素的影响程度尤为突出，占比高达85.4%**红餐产业研究院《快餐消费决策链研究报告2025》",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:69",
+      "text": ""
+    },
+    {
+      "locator": "line:70",
+      "text": "   * 艾媒咨询 2025 年餐饮消费数据显示，消费者消费餐饮时关注的因素中，“上菜速度快”占比 28.50%，和食物特色、服务态度等因素处于同一重要层级",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:71",
+      "text": ""
+    },
+    {
+      "locator": "line:72",
+      "text": "   * 当代堂食消费者等不起。艾媒咨询数据显示，43.1% 的消费者到餐馆就餐可接受等位时间为 10—20 分钟，17% 只接受 10 分钟以下",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:73",
+      "text": ""
+    },
+    {
+      "locator": "line:74",
+      "text": "中国烹饪协会早期调查也显示，约 70% 的消费者对点餐后上菜速度的容忍度在 10—20 分钟之间数据显示，在2025年中国餐饮消费者消费餐饮时注重的因素中，菜品丰富度以35.57%的占比位居首位，成为用户最核心的关注维度；紧随其后的是餐饮卫生干净（34.01%）与餐饮价格（33.05%），二者体现了消费者对餐饮基础品质与性价比的重视。而菜品营养健康（31.98%）、食物有特色（29.58%）等因素也获得较高关注，装修风格有档次（20.96%）的占比相对较低。",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:75",
+      "text": ""
+    },
+    {
+      "locator": "line:76",
+      "text": "   * "
+    },
+    {
+      "locator": "line:77",
+      "text": ""
+    },
+    {
+      "locator": "line:78",
+      "text": "* 【排队久】",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:79",
+      "text": ""
+    },
+    {
+      "locator": "line:80",
+      "text": "   * ~~央广网报道，北京重点商圈有餐厅饭点等位超过四五十桌，两人用餐要等约两小时，即使打包也要等 40 分钟；2025 年“五一”期间，北京西单大悦城寿司郎等位动辄三个小时~~",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:81",
+      "text": ""
+    },
+    {
+      "locator": "line:82",
+      "text": "【机理】为什么等待越久顾客越容易失望",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:83",
+      "text": ""
+    },
+    {
+      "locator": "line:84",
+      "text": "*       心理学中的期望理论 (Expectancy Theory) 指出，等待一段时间可能会让用户觉得产品更具价值https://metaso.cn/s/vulNuyr",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:85",
+      "text": ""
+    },
+    {
+      "locator": "line:86",
+      "text": "*       失望感的大小与实际结果和期望的差值成正比。当等待时间过长，顾客的心理阈值被抬高，一旦服务或产品未能达到“值得这么长等待”的高标准，失望感会急剧上升[https://metaso.cn/s/O7Oa5g4](https://metaso.cn/s/O7Oa5g4)",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:87",
+      "text": ""
+    },
+    {
+      "locator": "line:88",
+      "text": "*       随着等待时间变长，顾客的不悦感会持续上升",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:89",
+      "text": ""
+    },
+    {
+      "locator": "line:90",
+      "text": "[https://metaso.cn/s/VJ8gKqr](https://metaso.cn/s/VJ8gKqr)",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:91",
+      "text": ""
+    },
+    {
+      "locator": "line:92",
+      "text": "**step对：预制对餐饮店，预制菜已提前完成食材清洗、切配、腌制、预煮等全套前期工序，门店无需现场从零制作，省去大量备餐时，仅需简单加热 / 组装即可出餐，单份出餐时间可压缩至 3-5 分钟**",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:93",
+      "text": ""
+    },
+    {
+      "locator": "line:94",
+      "text": "。",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:95",
+      "text": ""
+    },
+    {
+      "locator": "line:96",
+      "text": "【案例】",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:97",
+      "text": ""
+    },
+    {
+      "locator": "line:98",
+      "text": "（1）米村拌饭：全店采用预制料理包，店员只需微波加热、搭配配菜，5 分钟即可上桌，高峰期几十份订单同时制作也不会延误。",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:99",
+      "text": ""
+    },
+    {
+      "locator": "line:100",
+      "text": "（2）萨莉亚意式餐厅：后厨无专业厨师，半成品统一解冻加热组装，官方实测平均出餐 4 分钟，一桌菜品短时间内全部上齐。",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:101",
+      "text": ""
+    },
+    {
+      "locator": "line:102",
+      "text": "（3）酸菜鱼从“大菜”变成 3 分钟快餐，唐记同福酸菜鱼相关报道",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:103",
+      "text": ""
+    },
+    {
+      "locator": "line:104",
+      "text": "（4）太二酸菜鱼",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:105",
+      "text": ""
+    },
+    {
+      "locator": "line:106",
+      "text": ""
+    },
+    {
+      "locator": "line:107",
+      "text": "【机理】-->为什么预制菜快",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:108",
+      "text": ""
+    },
+    {
+      "locator": "line:109",
+      "text": "**省掉备菜时间。**",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:110",
+      "text": ""
+    },
+    {
+      "locator": "line:111",
+      "text": "清洗、切配、腌制、预煮、调味这些高耗时环节已经在工厂端完成，门店不需要从零处理食材。",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:112",
+      "text": ""
+    },
+    {
+      "locator": "line:113",
+      "text": "**复杂菜变快。**",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:114",
+      "text": ""
+    },
+    {
+      "locator": "line:115",
+      "text": "红烧肉、花胶鸡、酸菜鱼、扣肉、猪肚鸡这类菜，如果从零做需要长时间炖煮、腌制、熬汤。预制菜提前完成核心工序后，门店只需要复热或短时间熟制，复杂菜就能变成快出餐菜。",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:116",
+      "text": ""
+    },
+    {
+      "locator": "line:117",
+      "text": "【数据】-->有多快，能比传统餐饮快多少",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:118",
+      "text": ""
+    },
+    {
+      "locator": "line:119",
+      "text": "有多快：",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:120",
+      "text": ""
+    },
+    {
+      "locator": "line:121",
+      "text": "齐鲁晚报调查中，供货商介绍，成品可通过隔水加热、微波炉加热等方式快速出菜；半成品肉类已提前腌制，厨师只需搭配配菜简单炒制，**三五分钟即可完成出餐**。同篇报道还提到，供货商产品覆盖鱼香肉丝、肉末茄子、宫保鸡丁等经典菜品",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:122",
+      "text": ""
+    },
+    {
+      "locator": "line:123",
+      "text": ""
+    },
+    {
+      "locator": "line:124",
+      "text": ""
+    },
+    {
+      "locator": "line:125",
+      "text": ""
+    },
+    {
+      "locator": "line:126",
+      "text": "**step2：对现炒菜餐馆，所有备餐工序（食材清洗、切配、腌制、熬汤、火候把控）必须在门店后厨现场完成，从食材处理到菜品出锅，每一步都依赖人工操作，单份出餐时间普遍在 10-30 分钟，像佛跳墙、招牌炖菜、功夫硬菜这类菜品，更是需要数小时慢炖煨制；高峰时段订单暴增时，后厨人手、灶台、火候都会出现瓶颈，出餐效率大幅下降，极易引发消费者 “上菜慢” 的投诉**",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:127",
+      "text": ""
+    },
+    {
+      "locator": "line:128",
+      "text": "数据：",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:129",
+      "text": ""
+    },
+    {
+      "locator": "line:130",
+      "text": "1. 当代堂食消费者等不起。艾媒咨询数据显示，43.1% 的消费者到餐馆就餐可接受等位时间为 10—20 分钟，17% 只接受 10 分钟以下。**作**举证：现真餐小老板自己承认（抖音餐饮主馆店家说明拍不做预制菜、全部现杀现混椒麻牛蛙峰现杀 5点只牛蛙要 7–8 分钟菜炖入味再加等24 分钟，合计近 360 分老板原话：“忙的时候一个小时上不来也有，但我们坚持现炒，所以慢”态",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:131",
+      "text": ""
+    },
+    {
+      "locator": "line:132",
+      "text": "2. 西贝从2025 年 9 月整改：有8 款菜从预制改回门店现制，顾客投诉：午市点 3 道菜，近 30 分钟才上齐，服务员回应：公司规定25 分钟内上齐，但高峰经常超时得出：现炒菜在高峰时段出餐效率大幅下",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:133",
+      "text": ""
+    },
+    {
+      "locator": "line:134",
+      "text": "3. 八宝鸭（广州大同酒家，2021 年报道）3 斤清远鸭：起全鸭、酿八宝料、上色、炸、药材扣炖 4 小时总厨：一天做不了几只，必须提前预约",
+      "section": "论点",
+      "argument_locator": "line:59"
+    },
+    {
+      "locator": "line:135",
+      "text": ""
+    },
+    {
+      "locator": "line:136",
+      "text": ""
+    },
+    {
+      "locator": "line:137",
+      "text": ""
+    },
+    {
+      "locator": "line:138",
+      "text": ""
+    },
+    {
+      "locator": "line:139",
+      "text": ""
+    },
+    {
+      "locator": "line:140",
+      "text": ""
+    },
+    {
+      "locator": "line:141",
+      "text": ""
+    },
+    {
+      "locator": "line:142",
+      "text": "2.促进菜品普及，高端美食平民化，平民美食更【实惠】",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:143",
+      "text": ""
+    },
+    {
+      "locator": "line:144",
+      "text": "【现状】：经济下行，消费降级，打工人居多且生活吃紧，人们不愿意花大价钱消费餐饮",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:145",
+      "text": ""
+    },
+    {
+      "locator": "line:146",
+      "text": "（1）23年5月，上海约有2700家人均消费超过500元的餐厅；到了24年7月，急剧下降到约1300家。剩下的餐厅面临重大挑战，海底捞们为了生存放下身段，采取了低价套餐策略[20]。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:147",
+      "text": ""
+    },
+    {
+      "locator": "line:148",
+      "text": "这完全可以理解，没有多少人愿意在不确定的时期花大钱，每一笔钱必须精打细算，尤其是外出吃饭这种非必需的支出[20]。毕竟，外卖拼好饭方便面和螺蛳粉们，给了不愿意做饭的年轻人很多选择",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:149",
+      "text": ""
+    },
+    {
+      "locator": "line:150",
+      "text": "（2）红餐产业研究院《餐饮行业季度观察报告（2025年Q3）》显示，2025 年第三季度，餐饮大盘人均消费从一季度的 32.4**元**微涨至三季度的 33.0**元**。这说明当前餐饮消费的主流水准并不是百元级，而是明显偏向大众化、平价化",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:151",
+      "text": ""
+    },
+    {
+      "locator": "line:152",
+      "text": ""
+    },
+    {
+      "locator": "line:153",
+      "text": "step1：降低成本——市场竞争——返利给消费者，平民美食实惠化",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:154",
+      "text": ""
+    },
+    {
+      "locator": "line:155",
+      "text": "数据：",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:156",
+      "text": ""
+    },
+    {
+      "locator": "line:157",
+      "text": "降低成本（1）美团、安信证券研究所：使用预制菜节省的人工、租房等成本，尤其是人工成本直接减半，最终使利润率上升超40（%。[https://www.thepaper.cn/newsDetail_forward_](https://www.thepaper.cn/newsDetail_forward_31635768)】",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:158",
+      "text": ""
+    },
+    {
+      "locator": "line:159",
+      "text": "）[6](https://www.thepaper.cn/newsDetail_forward_31635768)[8](https://www.thepaper.cn/newsDetail_forward_31635768)",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:160",
+      "text": ""
+    },
+    {
+      "locator": "line:161",
+      "text": "（2）萨莉亚的厨房内没有厨师和菜刀，所有菜品均由中央工厂预制好后配送到门店，店员只需进行简单的加热、组装或油炸，极大降低人力和后厨面积成本，从而把省下来的钱全部让利给消费者，让普通人花几十块钱就能吃到西餐",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:162",
+      "text": ""
+    },
+    {
+      "locator": "line:163",
+      "text": "step2：平价化高端菜肴，走向大众",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:164",
+      "text": ""
+    },
+    {
+      "locator": "line:165",
+      "text": "* 案例：",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:166",
+      "text": ""
+    },
+    {
+      "locator": "line:167",
+      "text": "（1）京东超市推出聚春园佛跳墙：",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:168",
+      "text": ""
+    },
+    {
+      "locator": "line:169",
+      "text": "* 价格：国宴级别、单价500+的名菜，现在一罐仅需100不到",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:170",
+      "text": ""
+    },
+    {
+      "locator": "line:171",
+      "text": "* 地域限制：原产福建老字号聚春园，现在全国各地都可以以平价随时吃到聚春园原装的佛跳墙",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:172",
+      "text": ""
+    },
+    {
+      "locator": "line:173",
+      "text": "（2）萨莉亚：通过高度标准化的预制体系，将原本带有“阶级感”的西餐大菜，变成了普通人想吃就能吃到的日常美食。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:174",
+      "text": ""
+    },
+    {
+      "locator": "line:175",
+      "text": "例如：",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:176",
+      "text": ""
+    },
+    {
+      "locator": "line:177",
+      "text": "法式焗蜗牛：餐厅里几十上百的经典前菜大菜，萨莉亚堂食售价仅18**元**左右。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:178",
+      "text": ""
+    },
+    {
+      "locator": "line:179",
+      "text": "烤大虾/炸鱿鱼圈：海鲜类硬菜，通过预制油炸和焗烤工艺，控制在20**元**上下。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:180",
+      "text": ""
+    },
+    {
+      "locator": "line:181",
+      "text": "（3）超意兴：“山东人的萨莉亚”，通过工业化生产和自建供应链，将山东传统名吃、宴席硬菜“把子肉”变成了打工人的日常平餐。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:182",
+      "text": ""
+    },
+    {
+      "locator": "line:183",
+      "text": "平价大菜菜单（堂食明码标）：",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:184",
+      "text": ""
+    },
+    {
+      "locator": "line:185",
+      "text": "招牌把子肉：传统鲁菜中的硬菜，超意兴堂食仅售**7** 块。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:186",
+      "text": ""
+    },
+    {
+      "locator": "line:187",
+      "text": "红烧狮子头/大鸡腿：常见的荤菜大菜，定价均在**10元以下**",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:188",
+      "text": ""
+    },
+    {
+      "locator": "line:189",
+      "text": "**日常菜更加实惠：**",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:190",
+      "text": ""
+    },
+    {
+      "locator": "line:191",
+      "text": "Ø  醉面：门店厨房仅负责煮面、浇酱、打包，却凭借20元左右的价格俘获打工人的心，消费者直呼“它能把预制菜做好吃还比现做的卫生”",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:192",
+      "text": ""
+    },
+    {
+      "locator": "line:193",
+      "text": "“北漂的日子很苦，唯有醉面服务员大叔（50岁180老北京）的笑很甜”",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:194",
+      "text": ""
+    },
+    {
+      "locator": "line:195",
+      "text": "机理：在消费降级的环境下，一碗面不需要太多的附加价值，大家更需要的是一份饱腹的快餐。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:196",
+      "text": ""
+    },
+    {
+      "locator": "line:197",
+      "text": "对于目前的快餐连锁品牌来讲，能做到便宜好吃、出品稳定，已然成了最大的“王牌”。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:198",
+      "text": ""
+    },
+    {
+      "locator": "line:199",
+      "text": "&美食普及（甚至文化传播）：",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:200",
+      "text": ""
+    },
+    {
+      "locator": "line:201",
+      "text": "Ø  潮汕地区狮头鹅：预制菜成为狮头鹅“行天下”的利器。通过液氮锁鲜等技术，狮头鹅预制菜在保持传统风味的同时，实现远程配送和长期保存，让千里之外的消费者也能便捷品尝到正宗潮汕卤鹅，促进岭南饮食文化的传播。",
+      "section": "论点",
+      "argument_locator": "line:142"
+    },
+    {
+      "locator": "line:202",
+      "text": ""
+    },
+    {
+      "locator": "line:203",
+      "text": "# 【价值】",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:204",
+      "text": ""
+    },
+    {
+      "locator": "line:205",
+      "text": "价值：民以食为天，推广预制菜可以让人民群众以平价吃大菜，拉近大众与高端、的距离",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:206",
+      "text": ""
+    },
+    {
+      "locator": "line:207",
+      "text": "美味菜肴",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:208",
+      "text": ""
+    },
+    {
+      "locator": "line:209",
+      "text": "预制菜的意义，正在于它用现代食品工业、冷链物流和标准化生产，把过去被地域、价格和厨师门槛限制的美食，带到更多普通人的餐桌上。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:210",
+      "text": ""
+    },
+    {
+      "locator": "line:211",
+      "text": "历史上也是如此。荔枝曾经是“一骑红尘妃子笑”的奢侈品，只有极少数人能吃到；而今天，靠的是农业技术、冷链运输和现代物流，普通人也能在超市、电商和水果店里买到新鲜荔枝。技术进步从来不是美食的敌人，它恰恰是在拉低美食的门槛门京东超市推出聚春园佛跳墙：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:212",
+      "text": ""
+    },
+    {
+      "locator": "line:213",
+      "text": "## 【攻防】：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:214",
+      "text": ""
+    },
+    {
+      "locator": "line:215",
+      "text": "1. 挤占**消费者丧失部分便利性，当预制菜成为堂食主流后，可能得花更多的时间去寻找一家现炒的餐馆讲法（1）成并主流并非意味着**垄断，一个领域不是只能有一种主流",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:216",
+      "text": "# "
+    },
+    {
+      "locator": "line:217",
+      "text": ""
+    },
+    {
+      "locator": "line:218",
+      "text": "口径：良币驱逐劣币：**中**间，",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:219",
+      "text": ""
+    },
+    {
+      "locator": "line:220",
+      "text": "**价值：**预制菜成为主流本质是餐饮不断走向平民化、大众化的体现，让人们以更快捷、更安全、更平价的方式吃到美味佳肴，让厨艺的门槛变低、名厨的手法可复刻、可传播，体现以人为本的深刻人",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:221",
+      "text": ""
+    },
+    {
+      "locator": "line:222",
+      "text": "老乡鸡把菜品分为“餐厅现做、半预制、复热预制”三类",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:223",
+      "text": ""
+    },
+    {
+      "locator": "line:224",
+      "text": "文关怀",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:225",
+      "text": ""
+    },
+    {
+      "locator": "line:226",
+      "text": "# 2.预制菜不健康：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:227",
+      "text": ""
+    },
+    {
+      "locator": "line:228",
+      "text": "机理：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:229",
+      "text": ""
+    },
+    {
+      "locator": "line:230",
+      "text": "只看健康不能论证降低消费者福利：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:231",
+      "text": ""
+    },
+    {
+      "locator": "line:232",
+      "text": "对方觉得高油盐损害消费者福利，那学校里开肯德基为什么降低了福利？对方辩友的意思是天天吃水煮青菜、苦瓜、鸡胸最能让消费者体验好？",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:233",
+      "text": ""
+    },
+    {
+      "locator": "line:234",
+      "text": "预制菜营养流失没那么可怕，合理规划饮食也可以很健康安全：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:235",
+      "text": ""
+    },
+    {
+      "locator": "line:236",
+      "text": "*    安全关于防腐剂与添加剂：中工网的报道表明，合规使用食品添加剂的预制菜是安全的，长期研究显示，按标准摄入添加剂不会在体内蓄积致毒。我国《食品添加剂使用标准》（GB 2760）对添加剂的种类、使用范围和限量有严格规定。市场监管总局2024年明确要求预制菜不得添加防腐剂",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:237",
+      "text": ""
+    },
+    {
+      "locator": "line:238",
+      "text": "* 新鲜：新国标要求尽量缩短预制菜产品保质期，最长不应超过12个月",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:239",
+      "text": ""
+    },
+    {
+      "locator": "line:240",
+      "text": "* 新国标规范监管：核心是全链条闭环监管，从原料、生产、添加剂、保质期、冷链、标签到餐饮明示，每一环都有硬约束，彻底终结“科技与狠活”“过期菜翻新”“冒充现炒”等乱象。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:241",
+      "text": ""
+    },
+    {
+      "locator": "line:242",
+      "text": "*   健康肉类不怎么影响：食品专家姜慧：经过前期预加工的肉类预制菜，如酸菜鱼，其实和自己在家做的效果差不多，只是整个过程更标准化、工业化。[https://health.cnr.cn/yg/20230908/t20230908_526412631.shtml](https://health.cnr.cn/yg/20230908/t20230908_526412631.shtml)",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:243",
+      "text": ""
+    },
+    {
+      "locator": "line:244",
+      "text": "*    健康的关键是合理规划饮食成分，不然现炒菜也不健康：解放军总医院第四医学中心营养科主任刘玲英：预制菜的本质是将加工环节前置，通过科学选择、合理搭配和正确保鲜，完全可以在享受便捷的同时保障营养与安全。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:245",
+      "text": ""
+    },
+    {
+      "locator": "line:246",
+      "text": "每天框选板面+焖子，照样可以养出良子那种400斤大胖子",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:247",
+      "text": ""
+    },
+    {
+      "locator": "line:248",
+      "text": "做法：点粗粮、较清淡的预制菜",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:249",
+      "text": ""
+    },
+    {
+      "locator": "line:250",
+      "text": ""
+    },
+    {
+      "locator": "line:251",
+      "text": "[https://www.workercn.cn/c/2025-09-17/8608247.s](https://www.workercn.cn/c/2025-09-17/8608247.shtml)3.[ml](https://www.workercn.cn/c/2025-09-17/8608247.shtml)",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:252",
+      "text": ""
+    },
+    {
+      "locator": "line:253",
+      "text": ""
+    },
+    {
+      "locator": "line:254",
+      "text": ""
+    },
+    {
+      "locator": "line:255",
+      "text": "预制菜更不容易出现问题",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:256",
+      "text": ""
+    },
+    {
+      "locator": "line:257",
+      "text": "（1）操作环节减少，门店犯错机会减少",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:258",
+      "text": ""
+    },
+    {
+      "locator": "line:259",
+      "text": "现制菜要在门店洗菜、切肉、腌制、生熟分开、下锅、判断火候、暂存、复热、装盘。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:260",
+      "text": ""
+    },
+    {
+      "locator": "line:261",
+      "text": "预制菜加热、熟制、装盘、出餐",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:262",
+      "text": ""
+    },
+    {
+      "locator": "line:263",
+      "text": "（2）经验判断变成参数控制",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:264",
+      "text": ""
+    },
+    {
+      "locator": "line:265",
+      "text": "现制菜依靠厨师和员工的工作经验",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:266",
+      "text": ""
+    },
+    {
+      "locator": "line:267",
+      "text": "而预制菜的工业化生产更适合用参数控制",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:268",
+      "text": ""
+    },
+    {
+      "locator": "line:269",
+      "text": "（3）工厂集中生产，更容易抽检",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:270",
+      "text": ""
+    },
+    {
+      "locator": "line:271",
+      "text": "生产许可证；",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:272",
+      "text": ""
+    },
+    {
+      "locator": "line:273",
+      "text": "原料进货查验；",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:274",
+      "text": ""
+    },
+    {
+      "locator": "line:275",
+      "text": "生产过程控制；",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:276",
+      "text": ""
+    },
+    {
+      "locator": "line:277",
+      "text": "出厂检验；",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:278",
+      "text": ""
+    },
+    {
+      "locator": "line:279",
+      "text": "产品标签；",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:280",
+      "text": ""
+    },
+    {
+      "locator": "line:281",
+      "text": "监督一个工厂比监督一群小后厨要方便的多",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:282",
+      "text": ""
+    },
+    {
+      "locator": "line:283",
+      "text": "现有的预制菜能发现问题也证明能批次化，召化回案例：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:284",
+      "text": ""
+    },
+    {
+      "locator": "line:285",
+      "text": ""
+    },
+    {
+      "locator": "line:286",
+      "text": "（1）2025 年，雀巢因部分 Lean Cuisine 和 Stouffer’s 冷冻餐可能含有木质异物，主动召回有限数量产品。每个产品都对应具体 10 位批次号。公告还要求消费者不要食用，并可退回零售商换货4化处理",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:287",
+      "text": ""
+    },
+    {
+      "locator": "line:288",
+      "text": "3.预制菜流程长，危险节点多，难监管",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:289",
+      "text": ""
+    },
+    {
+      "locator": "line:290",
+      "text": "机理：为什么预制菜更好监管",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:291",
+      "text": ""
+    },
+    {
+      "locator": "line:292",
+      "text": "（1）有明确产品身份：谁生产、哪一批、什么时候生产",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:293",
+      "text": ""
+    },
+    {
+      "locator": "line:294",
+      "text": "现制菜出问题的时候，很难去还原哪块肉有问题，当天温度有没有达标，食材是不是昨天剩下的",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:295",
+      "text": ""
+    },
+    {
+      "locator": "line:296",
+      "text": "（2）预制菜出问题，可以按批次召回尚未被消费的产品，阻断风险继续扩散",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:297",
+      "text": ""
+    },
+    {
+      "locator": "line:298",
+      "text": "现制菜出问题，往往只能处理已经发生的事故",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:299",
+      "text": ""
+    },
+    {
+      "locator": "line:300",
+      "text": "（3）国家标准正在强化全链条监管",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:301",
+      "text": ""
+    },
+    {
+      "locator": "line:302",
+      "text": "预制菜的监管可以贯穿从原料到餐桌的完整链条。监管链条越完整，问题越容易提前发现。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:303",
+      "text": ""
+    },
+    {
+      "locator": "line:304",
+      "text": ""
+    },
+    {
+      "locator": "line:305",
+      "text": ""
+    },
+    {
+      "locator": "line:306",
+      "text": "2026 年《食品安全国家标准 预制菜》征求意见稿进一步提出，要对预制菜的**原料、生产加工、产品包装、贮存运输、经营销售**等全链条风险因素提出管控措施；同时整合污染物、致病微生物、食品接触材料、过程控制、检验方法等标准，并规定预制菜不得使用防腐剂，食品添加剂要“非必要不添加”",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:307",
+      "text": ""
+    },
+    {
+      "locator": "line:308",
+      "text": "举证：",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:309",
+      "text": ""
+    },
+    {
+      "locator": "line:310",
+      "text": ""
+    },
+    {
+      "locator": "line:311",
+      "text": "# 诉诸未来：趋势上更健康，更",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:312",
+      "text": ""
+    },
+    {
+      "locator": "line:313",
+      "text": "# 5.预制菜不好吃——",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:314",
+      "text": ""
+    },
+    {
+      "locator": "line:315",
+      "text": "预制菜也挺好吃的（鱼你在一起、萨评分莉亚等店稳定在4.7以上，年客流量近亿，说明预制菜馆受欢迎也菜”。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:316",
+      "text": ""
+    },
+    {
+      "locator": "line:317",
+      "text": ""
+    },
+    {
+      "locator": "line:318",
+      "text": "【自+质】由1辩容监管",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:319",
+      "text": ""
+    },
+    {
+      "locator": "line:320",
+      "text": ""
+    },
+    {
+      "locator": "line:321",
+      "text": "3.现制菜乱象丛生",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:322",
+      "text": ""
+    },
+    {
+      "locator": "line:323",
+      "text": "胖哥俩肉蟹煲大量使用过期食材",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:324",
+      "text": ""
+    },
+    {
+      "locator": "line:325",
+      "text": "蓝蛙被曝使用过期变质食材，被罚12w元",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:326",
+      "text": ""
+    },
+    {
+      "locator": "line:327",
+      "text": "领味火锅店使用回收提炼的“地沟油卖了近5w锅",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:328",
+      "text": ""
+    },
+    {
+      "locator": "line:329",
+      "text": "2015年珠海市出现四季食品安全问10 ",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:330",
+      "text": ""
+    },
+    {
+      "locator": "line:331",
+      "text": ""
+    },
+    {
+      "locator": "line:332",
+      "text": "中毒",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:333",
+      "text": ""
+    },
+    {
+      "locator": "line:334",
+      "text": ""
+    }
+  ],
+  "warnings": [
+    "line:10：疑似占位内容",
+    "line:128：疑似占位内容",
+    "line:12：疑似占位内容",
+    "line:155：疑似占位内容"
+  ],
+  "image_gaps": []
+}

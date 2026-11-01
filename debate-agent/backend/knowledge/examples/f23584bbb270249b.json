@@ -1,0 +1,1138 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "source_path": "../【反】职场焦虑有利于_有害于个人发展.md",
+    "sha256": "d30f046a6695f1b47dfecbcf75c3d9d64c5055c98d6b38af013cbc903894cee0",
+    "format": ".md",
+    "unit_type": "原文件行",
+    "original_unchanged": true
+  },
+  "debate_topic": {
+    "text": "【反】职场焦虑有利于_有害于个人发展",
+    "basis": "文件名；需对照正文确认",
+    "locator": "filename"
+  },
+  "declared_title": "## 【时间和环节分配】",
+  "position": {
+    "text": "反方",
+    "basis": "标题/文件名中的【反】",
+    "locator": "filename",
+    "kind": "原稿标注"
+  },
+  "extraction_status": "parsed_unverified",
+  "classification_note": "字段为规则匹配的原稿片段候选，不代表事实核验；无标签的论证或跨行来源可能遗漏。",
+  "judging_criteria": [
+    {
+      "text": "1.对于中性的事物，判断有利有害/应该认为有利还是有害 要看现状是适度还是过度**",
+      "locator": "line:31"
+    },
+    {
+      "text": "2.个人发展≠职场发展**",
+      "locator": "line:38"
+    }
+  ],
+  "core_claims": [
+    {
+      "text": "论点一、职场焦虑带来的效率降低和亚健康风险让职场人难以适从，伤害了个人在职场上的发展",
+      "locator": "line:84"
+    },
+    {
+      "text": "论点二、职场焦虑破坏了人们工作与生活之间的平衡，让职场人失去了生活的掌控感，通过纠偏让大家学会调整自己的情绪，才能让大家跳出焦虑的漩涡",
+      "locator": "line:135"
+    }
+  ],
+  "arguments": [
+    {
+      "text": "论点一、职场焦虑带来的效率降低和亚健康风险让职场人难以适从，伤害了个人在职场上的发展",
+      "locator": "line:84",
+      "mechanisms": [
+        "line:86",
+        "line:88",
+        "line:111",
+        "line:120"
+      ],
+      "cases": [
+        "line:98",
+        "line:100",
+        "line:106",
+        "line:129"
+      ],
+      "data": [
+        "line:92",
+        "line:127"
+      ]
+    },
+    {
+      "text": "论点二、职场焦虑破坏了人们工作与生活之间的平衡，让职场人失去了生活的掌控感，通过纠偏让大家学会调整自己的情绪，才能让大家跳出焦虑的漩涡",
+      "locator": "line:135",
+      "mechanisms": [
+        "line:137",
+        "line:161"
+      ],
+      "cases": [
+        "line:147"
+      ],
+      "data": [
+        "line:154",
+        "line:167"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "text": "step1：工作能力效率降低**",
+      "locator": "line:86"
+    },
+    {
+      "text": "【机理】**",
+      "locator": "line:88"
+    },
+    {
+      "text": "【比较】**",
+      "locator": "line:111"
+    },
+    {
+      "text": "step2：职场焦虑让大家不敢休息，健康风险提高，亚健康情况严重**",
+      "locator": "line:120"
+    },
+    {
+      "text": "step1：职场人失去了生活的权力和欲望，对自己的生活失去了掌控感**",
+      "locator": "line:137"
+    },
+    {
+      "text": "step2：隐形的焦虑；大家不愿提及自己处于“职场焦虑”的情况，因为会显得自己的能力低下，要让大家正视焦虑，才有可能主动调整**",
+      "locator": "line:161"
+    }
+  ],
+  "cases": [
+    {
+      "text": "eg：适度喝水有益身体健康，过度喝水会水中毒",
+      "locator": "line:33"
+    },
+    {
+      "text": "eg：开会害怕汇报错，反而不能集中注意力在内容上",
+      "locator": "line:98"
+    },
+    {
+      "text": "eg：面对领导，口吃脸红，太焦虑反而讲不清楚话",
+      "locator": "line:100"
+    },
+    {
+      "text": "eg：",
+      "locator": "line:106"
+    },
+    {
+      "text": "【情景】**",
+      "locator": "line:129"
+    },
+    {
+      "text": "【案例】",
+      "locator": "line:147"
+    }
+  ],
+  "data": [
+    {
+      "text": "52.1%职场人经历焦虑不安，比身体疲劳（36.9%），人际交往（11%）更严重",
+      "locator": "line:50"
+    },
+    {
+      "text": "——《2025职场人亚健康情况调研报告》 1805份有效样本",
+      "locator": "line:52"
+    },
+    {
+      "text": "根据美国国家心理健康研究所的数据，大约有4000万成年人患有焦虑症，其中18％的人属于这种“高功能焦虑”。",
+      "locator": "line:56"
+    },
+    {
+      "text": "在一份覆盖国内11814名职场受访者的调研报告（长江商学院张晓萌教授领导力与行为心理研究中心出品）中，一组数据显示，“重度AI替代担忧者的抑郁比例高达34.13%，远高于经济衰退焦虑群体”，这表明，AI冲击对职场人心理健康的负面影响甚至要强于经济衰退",
+      "locator": "line:58"
+    },
+    {
+      "text": "智联招聘数据显示，75.1%的职场人认为亚健康的主要原因是“工作压力大”，甲方爸爸的夺命连环call、老板的“再改一版”、DDL的“步步紧逼”，分分钟把人逼成“高压气球”",
+      "locator": "line:60"
+    },
+    {
+      "text": "大厂互联网行业，35岁裁员潮，害怕年龄大失业带来焦虑",
+      "locator": "line:71"
+    },
+    {
+      "text": "工时长：2024年全国企业就业人员的周均工作时长49 小时（国家统计局）",
+      "locator": "line:76"
+    },
+    {
+      "text": "加班严重:60%以上的人每周加班2-3次以上，50%遇到隐形加班问题；57.5%没有得到加班费，40.1%几乎每天都24小时oncall（2025年智联招聘）",
+      "locator": "line:78"
+    },
+    {
+      "text": "一个人能够同时使用的认知资源是有限的，如果你把精力和注意力放在了焦虑上，那你本应该放在认真工作上的精力就会被占用神经科学家的研究揭示了一个残酷的事实：人类[前额叶皮层](https://zhida.zhihu.com/search?content_id=255061971&content_type=Article&match_order=1&q=%E5%89%8D%E9%A2%9D%E5%8F%B6%E7%9A%AE%E5%B1%82&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3Njk4Njc5MDQsInEiOiLliY3pop3lj7bnmq7lsYIiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNTUwNjE5NzEsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.6pxIP591VaqAd8HKTc5uA5pHuoa_Iiecx24lRpDtN5U&zhida_source=entity)的认知带宽仅有 10比特 / 秒。假设职场人每日需处理 100 封邮件、参加 3场会议、应对 10项突发任务时，大脑便如同超载的 CPU，不得不启动 “认知节能模式”。那些曾经能引发多巴胺分泌的美好事物，诸如清晨掠过榕树梢的鸽群、茶水间新研磨的咖啡香气，甚至孩子书包上歪扭的涂鸦，都被大脑系统判定为 “非关键进程”，进而强行关闭。",
+      "locator": "line:92"
+    },
+    {
+      "text": "慢性焦虑、新发焦虑与痴呆风险升高4.6倍和7.2倍有关——2024.7《美国老年医学会杂志》的研究",
+      "locator": "line:127"
+    },
+    {
+      "text": "①技术的发展让焦虑弥漫，过去下班就是生活，现在需要24小时oncall",
+      "locator": "line:154"
+    },
+    {
+      "text": "根据美国国家心理健康研究所的数据，大约有4000万成年人患有焦虑症，其中18％的人属于这种“高功能焦虑”。",
+      "locator": "line:167"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "text": "由工作压力、环境、人际关系等因素引发的持续性紧张情绪。其核心特征是对“未来不利情境”的过度担忧，且超出个体心理调节能力 —— 国家卫生健康委员会《职业人群心理健康促进指南》",
+      "locator": "line:19",
+      "mentioned_sources": [
+        "《职业人群心理健康促进指南》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "——《2025职场人亚健康情况调研报告》 1805份有效样本",
+      "locator": "line:52",
+      "mentioned_sources": [
+        "《2025职场人亚健康情况调研报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "一个人能够同时使用的认知资源是有限的，如果你把精力和注意力放在了焦虑上，那你本应该放在认真工作上的精力就会被占用神经科学家的研究揭示了一个残酷的事实：人类[前额叶皮层](https://zhida.zhihu.com/search?content_id=255061971&content_type=Article&match_order=1&q=%E5%89%8D%E9%A2%9D%E5%8F%B6%E7%9A%AE%E5%B1%82&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3Njk4Njc5MDQsInEiOiLliY3pop3lj7bnmq7lsYIiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNTUwNjE5NzEsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.6pxIP591VaqAd8HKTc5uA5pHuoa_Iiecx24lRpDtN5U&zhida_source=entity)的认知带宽仅有 10比特 / 秒。假设职场人每日需处理 100 封邮件、参加 3场会议、应对 10项突发任务时，大脑便如同超载的 CPU，不得不启动 “认知节能模式”。那些曾经能引发多巴胺分泌的美好事物，诸如清晨掠过榕树梢的鸽群、茶水间新研磨的咖啡香气，甚至孩子书包上歪扭的涂鸦，都被大脑系统判定为 “非关键进程”，进而强行关闭。",
+      "locator": "line:92",
+      "mentioned_sources": [
+        "https://zhida.zhihu.com/search?content_id=255061971&content_type=Article&match_order=1&q=%E5%89%8D%E9%A2%9D%E5%8F%B6%E7%9A%AE%E5%B1%82&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3Njk4Njc5MDQsInEiOiLliY3pop3lj7bnmq7lsYIiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNTUwNjE5NzEsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.6pxIP591VaqAd8HKTc5uA5pHuoa_Iiecx24lRpDtN5U&zhida_source=entity"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "焦虑引发的慢性压力，会直接降低人的免疫力——瑞士《免疫学前沿》期刊上发表的研究",
+      "locator": "line:125",
+      "mentioned_sources": [
+        "《免疫学前沿》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "慢性焦虑、新发焦虑与痴呆风险升高4.6倍和7.2倍有关——2024.7《美国老年医学会杂志》的研究",
+      "locator": "line:127",
+      "mentioned_sources": [
+        "《美国老年医学会杂志》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "李美因为害怕被AI取代而失业，在焦虑下频繁出现心慌、头晕、手抖等症状，开会时“大脑一片空白”，甚至因琐事与同事激烈争执。——《长沙晚报》",
+      "locator": "line:131",
+      "mentioned_sources": [
+        "《长沙晚报》"
+      ],
+      "externally_verified": false
+    }
+  ],
+  "rebuttals": [],
+  "raw_units": [
+    {
+      "locator": "line:1",
+      "text": "## 【时间和环节分配】",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:2",
+      "text": ""
+    },
+    {
+      "locator": "line:3",
+      "text": "首质：现状；态度；解决力",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:4",
+      "text": ""
+    },
+    {
+      "locator": "line:5",
+      "text": "立论：",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:6",
+      "text": ""
+    },
+    {
+      "locator": "line:7",
+      "text": "质询二：",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:8",
+      "text": ""
+    },
+    {
+      "locator": "line:9",
+      "text": "陈词一：论点一；能力和健康推完",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:10",
+      "text": ""
+    },
+    {
+      "locator": "line:11",
+      "text": "陈词二：论点二",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:12",
+      "text": ""
+    },
+    {
+      "locator": "line:13",
+      "text": "结辩：",
+      "section": "时间和环节分配",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:14",
+      "text": ""
+    },
+    {
+      "locator": "line:15",
+      "text": "## 【定义】",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:16",
+      "text": ""
+    },
+    {
+      "locator": "line:17",
+      "text": "**职场焦虑**：",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:18",
+      "text": ""
+    },
+    {
+      "locator": "line:19",
+      "text": "由工作压力、环境、人际关系等因素引发的持续性紧张情绪。其核心特征是对“未来不利情境”的过度担忧，且超出个体心理调节能力 —— 国家卫生健康委员会《职业人群心理健康促进指南》",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:20",
+      "text": ""
+    },
+    {
+      "locator": "line:21",
+      "text": "**健康的职场环境【从论点中定义】**",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:22",
+      "text": ""
+    },
+    {
+      "locator": "line:23",
+      "text": "正向：让人在下班之后有时间生活，让人不必在工作时时刻担心失业，让人在工作中感受到价值感而不是被迫成为螺丝钉",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:24",
+      "text": ""
+    },
+    {
+      "locator": "line:25",
+      "text": "反向：那个让我不加班就害怕被裁员，哪怕要抑郁高血压颈椎病也要工作的职场肯定不是一个健康的环境",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:26",
+      "text": ""
+    },
+    {
+      "locator": "line:27",
+      "text": ""
+    },
+    {
+      "locator": "line:28",
+      "text": ""
+    },
+    {
+      "locator": "line:29",
+      "text": "## 【判准】",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:30",
+      "text": ""
+    },
+    {
+      "locator": "line:31",
+      "text": "**1.对于中性的事物，判断有利有害/应该认为有利还是有害 要看现状是适度还是过度**",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:32",
+      "text": ""
+    },
+    {
+      "locator": "line:33",
+      "text": "eg：适度喝水有益身体健康，过度喝水会水中毒",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:34",
+      "text": ""
+    },
+    {
+      "locator": "line:35",
+      "text": "-->我方举证现状上已然过度且会越来越严重，需要纠偏让大家回到正轨",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:36",
+      "text": ""
+    },
+    {
+      "locator": "line:37",
+      "text": ""
+    },
+    {
+      "locator": "line:38",
+      "text": "**2.个人发展≠职场发展**",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:39",
+      "text": ""
+    },
+    {
+      "locator": "line:40",
+      "text": "一个因为焦虑加班996，哪怕能在职场上收获世俗的成功，但如果伤害了健康和生活，不应该被评价为好的个人发展",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:41",
+      "text": ""
+    },
+    {
+      "locator": "line:42",
+      "text": ""
+    },
+    {
+      "locator": "line:43",
+      "text": ""
+    },
+    {
+      "locator": "line:44",
+      "text": "## 【现状】",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:45",
+      "text": ""
+    },
+    {
+      "locator": "line:46",
+      "text": "**1.职场焦虑是普遍且严重的**",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:47",
+      "text": ""
+    },
+    {
+      "locator": "line:48",
+      "text": "【数据】",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:49",
+      "text": ""
+    },
+    {
+      "locator": "line:50",
+      "text": "      * 52.1%职场人经历焦虑不安，比身体疲劳（36.9%），人际交往（11%）更严重",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:51",
+      "text": ""
+    },
+    {
+      "locator": "line:52",
+      "text": "——《2025职场人亚健康情况调研报告》 1805份有效样本",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:53",
+      "text": ""
+    },
+    {
+      "locator": "line:54",
+      "text": "上海市精神卫生中心：",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:55",
+      "text": ""
+    },
+    {
+      "locator": "line:56",
+      "text": "根据美国国家心理健康研究所的数据，大约有4000万成年人患有焦虑症，其中18％的人属于这种“高功能焦虑”。",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:57",
+      "text": ""
+    },
+    {
+      "locator": "line:58",
+      "text": "在一份覆盖国内11814名职场受访者的调研报告（长江商学院张晓萌教授领导力与行为心理研究中心出品）中，一组数据显示，“重度AI替代担忧者的抑郁比例高达34.13%，远高于经济衰退焦虑群体”，这表明，AI冲击对职场人心理健康的负面影响甚至要强于经济衰退",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:59",
+      "text": ""
+    },
+    {
+      "locator": "line:60",
+      "text": "智联招聘数据显示，75.1%的职场人认为亚健康的主要原因是“工作压力大”，甲方爸爸的夺命连环call、老板的“再改一版”、DDL的“步步紧逼”，分分钟把人逼成“高压气球”",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:61",
+      "text": ""
+    },
+    {
+      "locator": "line:62",
+      "text": ""
+    },
+    {
+      "locator": "line:63",
+      "text": "**2.趋势上，职场焦虑在变得越来越严重【首质】**",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:64",
+      "text": ""
+    },
+    {
+      "locator": "line:65",
+      "text": "* AI发展，对于新技能学习的急迫带来焦虑",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:66",
+      "text": ""
+    },
+    {
+      "locator": "line:67",
+      "text": "* 缩编，之前以为考上就是铁饭碗，现在发现不努力还是会下岗",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:68",
+      "text": ""
+    },
+    {
+      "locator": "line:69",
+      "text": "* 时代变化，十年前以为土木就是版本答案，现在成了天坑专业",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:70",
+      "text": ""
+    },
+    {
+      "locator": "line:71",
+      "text": "* 大厂互联网行业，35岁裁员潮，害怕年龄大失业带来焦虑",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:72",
+      "text": ""
+    },
+    {
+      "locator": "line:73",
+      "text": ""
+    },
+    {
+      "locator": "line:74",
+      "text": "**3.职场剥削依然严重**",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:75",
+      "text": ""
+    },
+    {
+      "locator": "line:76",
+      "text": "工时长：2024年全国企业就业人员的周均工作时长49 小时（国家统计局）",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:77",
+      "text": ""
+    },
+    {
+      "locator": "line:78",
+      "text": "加班严重:60%以上的人每周加班2-3次以上，50%遇到隐形加班问题；57.5%没有得到加班费，40.1%几乎每天都24小时oncall（2025年智联招聘）",
+      "section": "现状",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:79",
+      "text": ""
+    },
+    {
+      "locator": "line:80",
+      "text": " "
+    },
+    {
+      "locator": "line:81",
+      "text": ""
+    },
+    {
+      "locator": "line:82",
+      "text": "## 【论点】",
+      "section": "论点",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:83",
+      "text": ""
+    },
+    {
+      "locator": "line:84",
+      "text": "### 论点一、职场焦虑带来的效率降低和亚健康风险让职场人难以适从，伤害了个人在职场上的发展",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:85",
+      "text": ""
+    },
+    {
+      "locator": "line:86",
+      "text": "**step1：工作能力效率降低**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:87",
+      "text": ""
+    },
+    {
+      "locator": "line:88",
+      "text": "**【机理】**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:89",
+      "text": ""
+    },
+    {
+      "locator": "line:90",
+      "text": "* 【认知资源理论】",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:91",
+      "text": ""
+    },
+    {
+      "locator": "line:92",
+      "text": "   * 一个人能够同时使用的认知资源是有限的，如果你把精力和注意力放在了焦虑上，那你本应该放在认真工作上的精力就会被占用神经科学家的研究揭示了一个残酷的事实：人类[前额叶皮层](https://zhida.zhihu.com/search?content_id=255061971&content_type=Article&match_order=1&q=%E5%89%8D%E9%A2%9D%E5%8F%B6%E7%9A%AE%E5%B1%82&zd_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ6aGlkYV9zZXJ2ZXIiLCJleHAiOjE3Njk4Njc5MDQsInEiOiLliY3pop3lj7bnmq7lsYIiLCJ6aGlkYV9zb3VyY2UiOiJlbnRpdHkiLCJjb250ZW50X2lkIjoyNTUwNjE5NzEsImNvbnRlbnRfdHlwZSI6IkFydGljbGUiLCJtYXRjaF9vcmRlciI6MSwiemRfdG9rZW4iOm51bGx9.6pxIP591VaqAd8HKTc5uA5pHuoa_Iiecx24lRpDtN5U&zhida_source=entity)的认知带宽仅有 10比特 / 秒。假设职场人每日需处理 100 封邮件、参加 3场会议、应对 10项突发任务时，大脑便如同超载的 CPU，不得不启动 “认知节能模式”。那些曾经能引发多巴胺分泌的美好事物，诸如清晨掠过榕树梢的鸽群、茶水间新研磨的咖啡香气，甚至孩子书包上歪扭的涂鸦，都被大脑系统判定为 “非关键进程”，进而强行关闭。",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:93",
+      "text": ""
+    },
+    {
+      "locator": "line:94",
+      "text": "* 【目的性颤抖】",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:95",
+      "text": ""
+    },
+    {
+      "locator": "line:96",
+      "text": "   * 越想做好就越做不好，越害怕做不好就越容易做不好",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:97",
+      "text": ""
+    },
+    {
+      "locator": "line:98",
+      "text": "   * eg：开会害怕汇报错，反而不能集中注意力在内容上",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:99",
+      "text": ""
+    },
+    {
+      "locator": "line:100",
+      "text": "   * eg：面对领导，口吃脸红，太焦虑反而讲不清楚话",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:101",
+      "text": ""
+    },
+    {
+      "locator": "line:102",
+      "text": "* 【拖延】 对冲动力的部分",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:103",
+      "text": ""
+    },
+    {
+      "locator": "line:104",
+      "text": "   * 焦虑指向的不是做好事情，而是规避风险，远离危险，所以回避和拖延是焦虑指向的优先选择",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:105",
+      "text": ""
+    },
+    {
+      "locator": "line:106",
+      "text": "   * eg：",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:107",
+      "text": ""
+    },
+    {
+      "locator": "line:108",
+      "text": "**【情景/案例】**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:109",
+      "text": ""
+    },
+    {
+      "locator": "line:110",
+      "text": ""
+    },
+    {
+      "locator": "line:111",
+      "text": "**【比较】**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:112",
+      "text": ""
+    },
+    {
+      "locator": "line:113",
+      "text": "解决力/态度：",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:114",
+      "text": ""
+    },
+    {
+      "locator": "line:115",
+      "text": "①焦虑的职场人如果痛苦，是你没有学会控制情绪",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:116",
+      "text": ""
+    },
+    {
+      "locator": "line:117",
+      "text": "②让你加班焦虑的老板，是培养你的善人，996是福报",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:118",
+      "text": ""
+    },
+    {
+      "locator": "line:119",
+      "text": ""
+    },
+    {
+      "locator": "line:120",
+      "text": "**step2：职场焦虑让大家不敢休息，健康风险提高，亚健康情况严重**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:121",
+      "text": ""
+    },
+    {
+      "locator": "line:122",
+      "text": "> 查几份数据粘进来",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:123",
+      "text": "**【数据】**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:124",
+      "text": ""
+    },
+    {
+      "locator": "line:125",
+      "text": "* 焦虑引发的慢性压力，会直接降低人的免疫力——瑞士《免疫学前沿》期刊上发表的研究",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:126",
+      "text": ""
+    },
+    {
+      "locator": "line:127",
+      "text": "* 慢性焦虑、新发焦虑与痴呆风险升高4.6倍和7.2倍有关——2024.7《美国老年医学会杂志》的研究",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:128",
+      "text": ""
+    },
+    {
+      "locator": "line:129",
+      "text": "**【情景】**",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:130",
+      "text": ""
+    },
+    {
+      "locator": "line:131",
+      "text": "* 李美因为害怕被AI取代而失业，在焦虑下频繁出现心慌、头晕、手抖等症状，开会时“大脑一片空白”，甚至因琐事与同事激烈争执。——《长沙晚报》",
+      "section": "论点",
+      "argument_locator": "line:84"
+    },
+    {
+      "locator": "line:132",
+      "text": ""
+    },
+    {
+      "locator": "line:133",
+      "text": ""
+    },
+    {
+      "locator": "line:134",
+      "text": ""
+    },
+    {
+      "locator": "line:135",
+      "text": "### 论点二、职场焦虑破坏了人们工作与生活之间的平衡，让职场人失去了生活的掌控感，通过纠偏让大家学会调整自己的情绪，才能让大家跳出焦虑的漩涡",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:136",
+      "text": ""
+    },
+    {
+      "locator": "line:137",
+      "text": "**step1：职场人失去了生活的权力和欲望，对自己的生活失去了掌控感**",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:138",
+      "text": ""
+    },
+    {
+      "locator": "line:139",
+      "text": "劳动异化",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:140",
+      "text": ""
+    },
+    {
+      "locator": "line:141",
+      "text": "生活被工作倾轧",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:142",
+      "text": ""
+    },
+    {
+      "locator": "line:143",
+      "text": "除了工作一无所有",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:144",
+      "text": ""
+    },
+    {
+      "locator": "line:145",
+      "text": "为了生活而工作 而不是为了工作而生活",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:146",
+      "text": ""
+    },
+    {
+      "locator": "line:147",
+      "text": "【案例】",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:148",
+      "text": ""
+    },
+    {
+      "locator": "line:149",
+      "text": "在迪士尼找哪里最适合加班",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:150",
+      "text": ""
+    },
+    {
+      "locator": "line:151",
+      "text": ""
+    },
+    {
+      "locator": "line:152",
+      "text": "【历史的比较】",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:153",
+      "text": ""
+    },
+    {
+      "locator": "line:154",
+      "text": "①技术的发展让焦虑弥漫，过去下班就是生活，现在需要24小时oncall",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:155",
+      "text": ""
+    },
+    {
+      "locator": "line:156",
+      "text": "②观念的比较，过去我们认为效率就是生命，时间就是金钱，可是现在我们认为人不应该只属于工作",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:157",
+      "text": ""
+    },
+    {
+      "locator": "line:158",
+      "text": "③古代 出没王侯将相之家 “焦虑是自由的眩晕”",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:159",
+      "text": ""
+    },
+    {
+      "locator": "line:160",
+      "text": ""
+    },
+    {
+      "locator": "line:161",
+      "text": "**step2：隐形的焦虑；大家不愿提及自己处于“职场焦虑”的情况，因为会显得自己的能力低下，要让大家正视焦虑，才有可能主动调整**",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:162",
+      "text": ""
+    },
+    {
+      "locator": "line:163",
+      "text": "【高功能焦虑/微笑抑郁症】",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:164",
+      "text": ""
+    },
+    {
+      "locator": "line:165",
+      "text": "在他人面前表现得活力、积极或淡定、平静，生活上没有异常，内心却饱受着煎熬。在别人眼中，你做事逻辑清晰，业务能力卓越，为人热情开朗、积极向上。可只有你自己才知道，思绪奔腾，辗转反侧的感觉。",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:166",
+      "text": ""
+    },
+    {
+      "locator": "line:167",
+      "text": "根据美国国家心理健康研究所的数据，大约有4000万成年人患有焦虑症，其中18％的人属于这种“高功能焦虑”。",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:168",
+      "text": ""
+    },
+    {
+      "locator": "line:169",
+      "text": "【压力上瘾】",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:170",
+      "text": ""
+    },
+    {
+      "locator": "line:171",
+      "text": ""
+    },
+    {
+      "locator": "line:172",
+      "text": "归因：",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:173",
+      "text": ""
+    },
+    {
+      "locator": "line:174",
+      "text": "大家不觉得焦虑是有问题的",
+      "section": "论点",
+      "argument_locator": "line:135"
+    },
+    {
+      "locator": "line:175",
+      "text": ""
+    },
+    {
+      "locator": "line:176",
+      "text": ""
+    },
+    {
+      "locator": "line:177",
+      "text": ""
+    },
+    {
+      "locator": "line:178",
+      "text": "## 【攻防】",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:179",
+      "text": ""
+    },
+    {
+      "locator": "line:180",
+      "text": ""
+    },
+    {
+      "locator": "line:181",
+      "text": "## 【价值】",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:182",
+      "text": ""
+    },
+    {
+      "locator": "line:183",
+      "text": ""
+    },
+    {
+      "locator": "line:184",
+      "text": ""
+    }
+  ],
+  "warnings": [],
+  "image_gaps": []
+}

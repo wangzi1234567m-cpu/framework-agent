@@ -1,0 +1,1159 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "source_path": "../本科毕业生首次择业，更应该采取“利益”视角.md",
+    "sha256": "a5e8f0122716725964a382cad7578ea476b2cdaf8b7f3d77a8cc86752c3fc52b",
+    "format": ".md",
+    "unit_type": "原文件行",
+    "original_unchanged": true
+  },
+  "debate_topic": {
+    "text": "本科毕业生首次择业，更应该采取“利益”视角",
+    "basis": "文件名；需对照正文确认",
+    "locator": "filename"
+  },
+  "declared_title": null,
+  "position": {
+    "text": "更应该采取利益视角",
+    "basis": "本科毕业生首次择业，更应该采取“利益”视角.md",
+    "locator": "filename",
+    "kind": "原稿表述"
+  },
+  "extraction_status": "parsed_unverified",
+  "classification_note": "字段为规则匹配的原稿片段候选，不代表事实核验；无标签的论证或跨行来源可能遗漏。",
+  "judging_criteria": [
+    {
+      "text": "1、独一性",
+      "locator": "line:33"
+    },
+    {
+      "text": "2、两全性",
+      "locator": "line:35"
+    }
+  ],
+  "core_claims": [
+    {
+      "text": "论点一：现实生活压力",
+      "locator": "line:39"
+    },
+    {
+      "text": "论点二：意义感不需要在工作中体现，不要找生活的意义、可以找工作的意义",
+      "locator": "line:77"
+    }
+  ],
+  "arguments": [
+    {
+      "text": "论点一：现实生活压力",
+      "locator": "line:39",
+      "mechanisms": [
+        "line:41",
+        "line:43",
+        "line:45",
+        "line:60"
+      ],
+      "cases": [],
+      "data": [
+        "line:51",
+        "line:53",
+        "line:55",
+        "line:57",
+        "line:66",
+        "line:68"
+      ]
+    },
+    {
+      "text": "论点二：意义感不需要在工作中体现，不要找生活的意义、可以找工作的意义",
+      "locator": "line:77",
+      "mechanisms": [
+        "line:79",
+        "line:102"
+      ],
+      "cases": [],
+      "data": [
+        "line:89",
+        "line:98"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "text": "step1：短期：起薪高",
+      "locator": "line:41"
+    },
+    {
+      "text": "【逻辑链】",
+      "locator": "line:43"
+    },
+    {
+      "text": "生存压力大——>需要钱",
+      "locator": "line:45"
+    },
+    {
+      "text": "step2：长期：以“利益”视角追求可以有更多的薪资间+发展机会间",
+      "locator": "line:60"
+    },
+    {
+      "text": "step1不要带着“意义包袱”去工作",
+      "locator": "line:79"
+    },
+    {
+      "text": "step2：利益视角能够让我们更早的收获经济独立",
+      "locator": "line:102"
+    }
+  ],
+  "cases": [],
+  "data": [
+    {
+      "text": "2024 届求职毕业生中，认为“薪酬福利”重要的比例为 **71.2%**，认为“稳定最重要”的比例为 **51%——**智联招聘《2024 大学生就业力调研报告》",
+      "locator": "line:9"
+    },
+    {
+      "text": "首次租房常见支付方式包括“押一付一”“押一付三服一”“押一付三”等，这意味着部分毕业生刚走出校园，就需要一次性拿出 **3—5 个月租金**。报告还显示，有近两成毕业生感觉租房经济压力“非常大——《2022 年毕业生租住痛点调查报告》",
+      "locator": "line:15"
+    },
+    {
+      "text": "58同城、安居客《2023年毕业生租住报告》显示，42.7%的毕业生租金来源是父母支持；其次是个人工资，占比为39.3%；另外还有17.8%的受访者会选择通过信贷方式解决租金问题。已租房或计划租房的受访者已支付/计划支付的租金主要集中在801-3500元之间，其中1501-2500元租金比例最高，达29.0%。",
+      "locator": "line:17"
+    },
+    {
+      "text": "2024年，全国累计资助普通高等教育学生4495.61万人次，资助金额2176.42亿元。全国发放国家助学贷款741.54万人，发放金额955.18亿元。其中，发放生源地信用助学贷款726.64万人，发放金额934.37亿元；发放校园地国家助学贷款14.90万人，发放金额20.81亿元。储蓄低，生活开销大，抗风险能力低长期比较",
+      "locator": "line:19"
+    },
+    {
+      "text": "新兴科技行：应届生平均起薪达38万/年，其中核心岗起薪普遍突破80万/年，头部企业核心岗更是突破百万/年",
+      "locator": "line:51"
+    },
+    {
+      "text": "传统行：应届生平均起薪仅8-15万/年，部分中小企业基础岗起薪甚至不足8万/年，两者薪资差距最高达12倍**岗位收入差距大**。",
+      "locator": "line:53"
+    },
+    {
+      "text": "AI行业：，大模型算法等核心岗应届生起薪50-150万/年，而AI数据标注等基础岗起薪仅10-18万/年，差距达5倍以",
+      "locator": "line:55"
+    },
+    {
+      "text": "半导体行业：芯片设计核心岗起薪80-120万/年，而芯片测试基础岗起薪仅12-20万/年，差距超6倍。[https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html](https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html)",
+      "locator": "line:57"
+    },
+    {
+      "text": "信息传输、软件和信息技术服务业毕业五年后的平均月收入为14555元，涨幅为**122%**",
+      "locator": "line:66"
+    },
+    {
+      "text": "教育类毕业五年后的月收入为8324元，涨幅为**66%**",
+      "locator": "line:68"
+    },
+    {
+      "text": "电竞职业化过程伴随着“去趣味化”，这是选手热情消磨的根本原因。对于普通玩家而言，[游戏](https://www.smzdm.com/fenlei/youxi/)是充满创造性和随机性的娱乐。但对于职业选手，游戏则演变为一项高强度、重复性的工作。如选手Showmaker所言，职业生涯初期还能将比赛当作游戏，凭本能去竞技，但随着时间推移，激情会被逐渐磨灭。青训体系更是将这一过程提前并放大，怀揣梦想的年轻人进入青训营后，面对的是日均超过12小时的“厂房式作业”，游戏不再是自由的冒险，而是被简化为枯燥的数字、逻辑和战术执行。选手不能随心所欲地选择英雄，而是要像打磨零件一样，在教练的指导下重复练习对线细节和插眼路线，这本身就是对个性的极端压制。",
+      "locator": "line:89"
+    },
+    {
+      "text": "智联招聘《2025 年职场人工作生活满意度调研报告》显示，驱动职场人每日投入工作的核心动力中，**“物质回报”以 53.8% 位居第一**，**“安全需求”以 44.2% 位居第二**。",
+      "locator": "line:98"
+    },
+    {
+      "text": "华南师范大学2024年调查显示，中小学教师平均每天工作**9.80小时**，每周**51.43小时**；其中每周用于教学任务的时间仅**9.63小时**，而用于**非教学工作任务的时间达11.85小时**（包括安全管理、表格填报、APP信息处理、社区服务等），**非教学时间反而超出教学时间2.22小时**。[http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf](http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf)",
+      "locator": "line:130"
+    },
+    {
+      "text": "关于公益人抑郁水平的调查调查数据显示，36.14%的调查对象不存在抑郁问题，而存在不同程度抑郁的群体中，轻度抑郁组别占比最高，为31.19%，其次为中度抑郁组别为16.83%，中重度抑郁占比为9.41%，重度抑郁占比为6.43%。这意味着本次调查中高达63.86%的公益人患有程度不同的抑郁。[http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html](http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html)",
+      "locator": "line:135"
+    },
+    {
+      "text": "公益人对于生活不满意的比例为43.56%，其中，基本不满意比例为28.71.不满意比例为11.88%，极不满意比例为2.97%",
+      "locator": "line:137"
+    },
+    {
+      "text": "第一，现实生活压力下，首次择业。本科生在真实就业环境中首先感受到的是生存压力。毕业后，房租就是第一道门槛。首次租房常见支付方式包括“押一付一”“押一付三服一”“押一付三”等，这意味着部分毕业生刚走出校园，就需要一次性拿出 3—5 个月租金。租房、通勤、饮食、社交、学习和偶发医疗支出，都是本科毕业生面临的经济压力。而且行业收入差距大：新兴科技行业应届生平均起薪达38万/年，核心岗起薪普遍突破 80 万/年;传统行业应届生平均起薪仅8-15万/年，部分中小企业基础岗起薪甚至不足8万/年，两者薪资差距最高达12倍",
+      "locator": "line:167"
+    },
+    {
+      "text": "长期来看，首次择业采取利益视角还能带来更大的薪资空间和发展机会。根据中国2019届大学毕业生五年后职业发展跟踪评价，信息传输、软件和信息技术服务业毕业五年后的平均月收入为14555元，涨幅为122%；而教育类毕业五年后的月收入为8324元，涨幅为66%。首次择业不是只决定第一份工资，而是在选择一个长期薪酬生态。高增长行业往往有更高利润率和更强市场议价权，利益视角不是短视地只看当下工资，而是看五年后、十年后，能否拥有更高收入，更多选择权。",
+      "locator": "line:171"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "text": "2024 届求职毕业生中，认为“薪酬福利”重要的比例为 **71.2%**，认为“稳定最重要”的比例为 **51%——**智联招聘《2024 大学生就业力调研报告》",
+      "locator": "line:9",
+      "mentioned_sources": [
+        "《2024 大学生就业力调研报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "首次租房常见支付方式包括“押一付一”“押一付三服一”“押一付三”等，这意味着部分毕业生刚走出校园，就需要一次性拿出 **3—5 个月租金**。报告还显示，有近两成毕业生感觉租房经济压力“非常大——《2022 年毕业生租住痛点调查报告》",
+      "locator": "line:15",
+      "mentioned_sources": [
+        "《2022 年毕业生租住痛点调查报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "58同城、安居客《2023年毕业生租住报告》显示，42.7%的毕业生租金来源是父母支持；其次是个人工资，占比为39.3%；另外还有17.8%的受访者会选择通过信贷方式解决租金问题。已租房或计划租房的受访者已支付/计划支付的租金主要集中在801-3500元之间，其中1501-2500元租金比例最高，达29.0%。",
+      "locator": "line:17",
+      "mentioned_sources": [
+        "《2023年毕业生租住报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "[https://www.cbmexpo.com/cn/news/5237.html](https://www.cbmexpo.com/cn/news/5237.html)",
+      "locator": "line:21",
+      "mentioned_sources": [
+        "https://www.cbmexpo.com/cn/news/5237.html"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "半导体行业：芯片设计核心岗起薪80-120万/年，而芯片测试基础岗起薪仅12-20万/年，差距超6倍。[https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html](https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html)",
+      "locator": "line:57",
+      "mentioned_sources": [
+        "https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "[https://edu.sina.cn/sa/2003-10-31/detail-ikftpnny8659509.d.html](https://edu.sina.cn/sa/2003-10-31/detail-ikftpnny8659509.d.html)",
+      "locator": "line:83",
+      "mentioned_sources": [
+        "https://edu.sina.cn/sa/2003-10-31/detail-ikftpnny8659509.d.html"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "电竞职业化过程伴随着“去趣味化”，这是选手热情消磨的根本原因。对于普通玩家而言，[游戏](https://www.smzdm.com/fenlei/youxi/)是充满创造性和随机性的娱乐。但对于职业选手，游戏则演变为一项高强度、重复性的工作。如选手Showmaker所言，职业生涯初期还能将比赛当作游戏，凭本能去竞技，但随着时间推移，激情会被逐渐磨灭。青训体系更是将这一过程提前并放大，怀揣梦想的年轻人进入青训营后，面对的是日均超过12小时的“厂房式作业”，游戏不再是自由的冒险，而是被简化为枯燥的数字、逻辑和战术执行。选手不能随心所欲地选择英雄，而是要像打磨零件一样，在教练的指导下重复练习对线细节和插眼路线，这本身就是对个性的极端压制。",
+      "locator": "line:89",
+      "mentioned_sources": [
+        "https://www.smzdm.com/fenlei/youxi/"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "智联招聘《2025 年职场人工作生活满意度调研报告》显示，驱动职场人每日投入工作的核心动力中，**“物质回报”以 53.8% 位居第一**，**“安全需求”以 44.2% 位居第二**。",
+      "locator": "line:98",
+      "mentioned_sources": [
+        "《2025 年职场人工作生活满意度调研报告》"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "华南师范大学2024年调查显示，中小学教师平均每天工作**9.80小时**，每周**51.43小时**；其中每周用于教学任务的时间仅**9.63小时**，而用于**非教学工作任务的时间达11.85小时**（包括安全管理、表格填报、APP信息处理、社区服务等），**非教学时间反而超出教学时间2.22小时**。[http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf](http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf)",
+      "locator": "line:130",
+      "mentioned_sources": [
+        "http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "关于公益人抑郁水平的调查调查数据显示，36.14%的调查对象不存在抑郁问题，而存在不同程度抑郁的群体中，轻度抑郁组别占比最高，为31.19%，其次为中度抑郁组别为16.83%，中重度抑郁占比为9.41%，重度抑郁占比为6.43%。这意味着本次调查中高达63.86%的公益人患有程度不同的抑郁。[http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html](http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html)",
+      "locator": "line:135",
+      "mentioned_sources": [
+        "http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "[https://arts.51job.com/arts/05/449938.html](https://arts.51job.com/arts/05/449938.html)",
+      "locator": "line:145",
+      "mentioned_sources": [
+        "https://arts.51job.com/arts/05/449938.html"
+      ],
+      "externally_verified": false
+    },
+    {
+      "text": "第二，生活的意义感不需要在工作中体现，我们可以在工作之外寻找生活的意义。我方主张热爱和工作适度隔开，热爱最珍贵的地方，在于它保留了自主性、创造性和自由，而一旦爱好职业化，就会被考核、收入等外部评价重新塑形，往往会带来热情和意义的消磨。uzi道出，“很多退役选手不想再玩英雄联盟了”[游戏](https://www.smzdm.com/fenlei/youxi/)是充满创造性和随机性的娱乐。但对于职业选手，游戏则演变为一项高强度、重复性的工作。如选手Showmaker所言，职业生涯初期还能将比赛当作游戏，凭本能去竞技，但随着时间推移，激情会被逐渐磨灭。此外，利益视角能够让我们更早的收获经济独立，更有资本去追寻人生真正的意义，实现利益和意义的两全。个经济上无法独立、没有储蓄、没有选择权的人，很难拒绝不喜欢的工作，也很难在生活中保留自己的热爱。相反，较好的收入和成长空间，可以让毕业生更早实现经济独立，减少对家庭的依赖，拥有拒绝不喜欢的工作的底气，也有能力在工作之外继续读书、旅行、创作、陪伴家人，做真正喜欢的事情。",
+      "locator": "line:173",
+      "mentioned_sources": [
+        "https://www.smzdm.com/fenlei/youxi/"
+      ],
+      "externally_verified": false
+    }
+  ],
+  "rebuttals": [
+    {
+      "text": "对意义的理解是粗浅的",
+      "locator": "line:111"
+    },
+    {
+      "text": "樊锦诗、乡村支教",
+      "locator": "line:120"
+    },
+    {
+      "text": "1、一些有意义的工作也会加班“医生”、“老师”同样加班很严重",
+      "locator": "line:125"
+    },
+    {
+      "text": "有意义没时间**",
+      "locator": "line:128"
+    },
+    {
+      "text": "华南师范大学2024年调查显示，中小学教师平均每天工作**9.80小时**，每周**51.43小时**；其中每周用于教学任务的时间仅**9.63小时**，而用于**非教学工作任务的时间达11.85小时**（包括安全管理、表格填报、APP信息处理、社区服务等），**非教学时间反而超出教学时间2.22小时**。[http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf](http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf)",
+      "locator": "line:130"
+    },
+    {
+      "text": "有意义也很累**",
+      "locator": "line:133"
+    },
+    {
+      "text": "关于公益人抑郁水平的调查调查数据显示，36.14%的调查对象不存在抑郁问题，而存在不同程度抑郁的群体中，轻度抑郁组别占比最高，为31.19%，其次为中度抑郁组别为16.83%，中重度抑郁占比为9.41%，重度抑郁占比为6.43%。这意味着本次调查中高达63.86%的公益人患有程度不同的抑郁。[http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html](http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html)",
+      "locator": "line:135"
+    },
+    {
+      "text": "公益人对于生活不满意的比例为43.56%，其中，基本不满意比例为28.71.不满意比例为11.88%，极不满意比例为2.97%",
+      "locator": "line:137"
+    },
+    {
+      "text": "2、我们是更有可能经济独立、拒绝掉一些我们不喜欢的工作",
+      "locator": "line:141"
+    },
+    {
+      "text": "携程的调察研究显示零存款=零抗风险能力",
+      "locator": "line:143"
+    },
+    {
+      "text": "[https://arts.51job.com/arts/05/449938.html](https://arts.51job.com/arts/05/449938.html)",
+      "locator": "line:145"
+    }
+  ],
+  "raw_units": [
+    {
+      "locator": "line:1",
+      "text": "# 【背景】",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:2",
+      "text": ""
+    },
+    {
+      "locator": "line:3",
+      "text": "**薪资水平**",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:4",
+      "text": ""
+    },
+    {
+      "locator": "line:5",
+      "text": "[内嵌图片数据；文字未提取，参见原稿对应行]"
+    },
+    {
+      "locator": "line:6",
+      "text": ""
+    },
+    {
+      "locator": "line:7",
+      "text": "**求职意向**",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:8",
+      "text": ""
+    },
+    {
+      "locator": "line:9",
+      "text": "* 2024 届求职毕业生中，认为“薪酬福利”重要的比例为 **71.2%**，认为“稳定最重要”的比例为 **51%——**智联招聘《2024 大学生就业力调研报告》",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:10",
+      "text": ""
+    },
+    {
+      "locator": "line:11",
+      "text": ""
+    },
+    {
+      "locator": "line:12",
+      "text": ""
+    },
+    {
+      "locator": "line:13",
+      "text": "**生活压力大**",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:14",
+      "text": ""
+    },
+    {
+      "locator": "line:15",
+      "text": "* 首次租房常见支付方式包括“押一付一”“押一付三服一”“押一付三”等，这意味着部分毕业生刚走出校园，就需要一次性拿出 **3—5 个月租金**。报告还显示，有近两成毕业生感觉租房经济压力“非常大——《2022 年毕业生租住痛点调查报告》",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:16",
+      "text": ""
+    },
+    {
+      "locator": "line:17",
+      "text": "* 58同城、安居客《2023年毕业生租住报告》显示，42.7%的毕业生租金来源是父母支持；其次是个人工资，占比为39.3%；另外还有17.8%的受访者会选择通过信贷方式解决租金问题。已租房或计划租房的受访者已支付/计划支付的租金主要集中在801-3500元之间，其中1501-2500元租金比例最高，达29.0%。",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:18",
+      "text": ""
+    },
+    {
+      "locator": "line:19",
+      "text": "* 2024年，全国累计资助普通高等教育学生4495.61万人次，资助金额2176.42亿元。全国发放国家助学贷款741.54万人，发放金额955.18亿元。其中，发放生源地信用助学贷款726.64万人，发放金额934.37亿元；发放校园地国家助学贷款14.90万人，发放金额20.81亿元。储蓄低，生活开销大，抗风险能力低长期比较",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:20",
+      "text": ""
+    },
+    {
+      "locator": "line:21",
+      "text": "* [https://www.cbmexpo.com/cn/news/5237.html](https://www.cbmexpo.com/cn/news/5237.html)",
+      "section": "背景",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:22",
+      "text": ""
+    },
+    {
+      "locator": "line:23",
+      "text": ""
+    },
+    {
+      "locator": "line:24",
+      "text": ""
+    },
+    {
+      "locator": "line:25",
+      "text": "# 【定义】",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:26",
+      "text": ""
+    },
+    {
+      "locator": "line:27",
+      "text": "“意义视角”：指工作带来的兴趣爱好、价值认同、社会贡献等内外部意义构建的精神层面的满足、能力提高",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:28",
+      "text": ""
+    },
+    {
+      "locator": "line:29",
+      "text": "“利益视角”：指以核心收入、保险福利、期权股权等长短期经济回报为主的物质层面的收益",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:30",
+      "text": ""
+    },
+    {
+      "locator": "line:31",
+      "text": "# 【判准】",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:32",
+      "text": ""
+    },
+    {
+      "locator": "line:33",
+      "text": "1、独一性",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:34",
+      "text": ""
+    },
+    {
+      "locator": "line:35",
+      "text": "2、两全性",
+      "section": "判准",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:36",
+      "text": ""
+    },
+    {
+      "locator": "line:37",
+      "text": "# 【论点】",
+      "section": "论点",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:38",
+      "text": ""
+    },
+    {
+      "locator": "line:39",
+      "text": "# 论点一：现实生活压力",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:40",
+      "text": ""
+    },
+    {
+      "locator": "line:41",
+      "text": "## step1：短期：起薪高",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:42",
+      "text": ""
+    },
+    {
+      "locator": "line:43",
+      "text": "### 【逻辑链】",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:44",
+      "text": ""
+    },
+    {
+      "locator": "line:45",
+      "text": "生存压力大——>需要钱",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:46",
+      "text": ""
+    },
+    {
+      "locator": "line:47",
+      "text": "【数据】",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:48",
+      "text": ""
+    },
+    {
+      "locator": "line:49",
+      "text": "**行业收入差距大**：",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:50",
+      "text": ""
+    },
+    {
+      "locator": "line:51",
+      "text": "新兴科技行：应届生平均起薪达38万/年，其中核心岗起薪普遍突破80万/年，头部企业核心岗更是突破百万/年",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:52",
+      "text": ""
+    },
+    {
+      "locator": "line:53",
+      "text": "传统行：应届生平均起薪仅8-15万/年，部分中小企业基础岗起薪甚至不足8万/年，两者薪资差距最高达12倍**岗位收入差距大**。",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:54",
+      "text": ""
+    },
+    {
+      "locator": "line:55",
+      "text": "AI行业：，大模型算法等核心岗应届生起薪50-150万/年，而AI数据标注等基础岗起薪仅10-18万/年，差距达5倍以",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:56",
+      "text": ""
+    },
+    {
+      "locator": "line:57",
+      "text": "半导体行业：芯片设计核心岗起薪80-120万/年，而芯片测试基础岗起薪仅12-20万/年，差距超6倍。[https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html](https://mtoutiao.xdf.cn/cet4-6/202604/15156172.html)",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:58",
+      "text": ""
+    },
+    {
+      "locator": "line:59",
+      "text": ""
+    },
+    {
+      "locator": "line:60",
+      "text": "## step2：长期：以“利益”视角追求可以有更多的薪资间+发展机会间",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:61",
+      "text": ""
+    },
+    {
+      "locator": "line:62",
+      "text": "**期薪资涨幅**",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:63",
+      "text": ""
+    },
+    {
+      "locator": "line:64",
+      "text": "**差距大**本科生毕业五年后在主要行业类的月收入与涨幅",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:65",
+      "text": ""
+    },
+    {
+      "locator": "line:66",
+      "text": "* 信息传输、软件和信息技术服务业毕业五年后的平均月收入为14555元，涨幅为**122%**",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:67",
+      "text": ""
+    },
+    {
+      "locator": "line:68",
+      "text": "* 教育类毕业五年后的月收入为8324元，涨幅为**66%**",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:69",
+      "text": ""
+    },
+    {
+      "locator": "line:70",
+      "text": "中国 2019 届大学毕业生五年后职业发展跟踪评价",
+      "section": "论点",
+      "argument_locator": "line:39"
+    },
+    {
+      "locator": "line:71",
+      "text": ""
+    },
+    {
+      "locator": "line:72",
+      "text": ""
+    },
+    {
+      "locator": "line:73",
+      "text": ""
+    },
+    {
+      "locator": "line:74",
+      "text": ""
+    },
+    {
+      "locator": "line:75",
+      "text": ""
+    },
+    {
+      "locator": "line:76",
+      "text": ""
+    },
+    {
+      "locator": "line:77",
+      "text": "# 论点二：意义感不需要在工作中体现，不要找生活的意义、可以找工作的意义",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:78",
+      "text": ""
+    },
+    {
+      "locator": "line:79",
+      "text": "## step1不要带着“意义包袱”去工作",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:80",
+      "text": ""
+    },
+    {
+      "locator": "line:81",
+      "text": "从小痴迷电子游戏的网友，后来进入一家日本游戏公司负责游戏稳定性测试。初期他欣喜若狂，可以无限时玩最新游戏、加班还有外卖伺候。但新鲜感过后，可渐渐新鲜感过去了，每天对着屏幕就是重复那几个动作、步骤，去到某个地方主角A会死去，拾到某样宝物B主角的能力会上升N倍，游戏里的意外变成了公式化的演示。从不再主动加班发展到迟到早退、度日如年。最终他不仅对游戏工作感到厌倦，哪怕是在地铁里看到别人玩手机里的“贪食蛇”游戏，他的胃都会条件反射地一阵阵绞痛。那个游戏里蠕动着的小虫子仿佛从手机屏幕沿着他的喉咙一点点进入身体，侵袭五脏六腑，最后占领整个大脑。",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:82",
+      "text": ""
+    },
+    {
+      "locator": "line:83",
+      "text": "[https://edu.sina.cn/sa/2003-10-31/detail-ikftpnny8659509.d.html](https://edu.sina.cn/sa/2003-10-31/detail-ikftpnny8659509.d.html)",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:84",
+      "text": ""
+    },
+    {
+      "locator": "line:85",
+      "text": ""
+    },
+    {
+      "locator": "line:86",
+      "text": ""
+    },
+    {
+      "locator": "line:87",
+      "text": "zi\"很多退役选手不想再玩英雄联盟了",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:88",
+      "text": ""
+    },
+    {
+      "locator": "line:89",
+      "text": "电竞职业化过程伴随着“去趣味化”，这是选手热情消磨的根本原因。对于普通玩家而言，[游戏](https://www.smzdm.com/fenlei/youxi/)是充满创造性和随机性的娱乐。但对于职业选手，游戏则演变为一项高强度、重复性的工作。如选手Showmaker所言，职业生涯初期还能将比赛当作游戏，凭本能去竞技，但随着时间推移，激情会被逐渐磨灭。青训体系更是将这一过程提前并放大，怀揣梦想的年轻人进入青训营后，面对的是日均超过12小时的“厂房式作业”，游戏不再是自由的冒险，而是被简化为枯燥的数字、逻辑和战术执行。选手不能随心所欲地选择英雄，而是要像打磨零件一样，在教练的指导下重复练习对线细节和插眼路线，这本身就是对个性的极端压制。 ",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:90",
+      "text": ""
+    },
+    {
+      "locator": "line:91",
+      "text": ""
+    },
+    {
+      "locator": "line:92",
+      "text": "网文小说作者 唱歌主播 ",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:93",
+      "text": ""
+    },
+    {
+      "locator": "line:94",
+      "text": "【数据】",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:95",
+      "text": ""
+    },
+    {
+      "locator": "line:96",
+      "text": "现状下大家不是主要为了热爱而工作",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:97",
+      "text": ""
+    },
+    {
+      "locator": "line:98",
+      "text": "智联招聘《2025 年职场人工作生活满意度调研报告》显示，驱动职场人每日投入工作的核心动力中，**“物质回报”以 53.8% 位居第一**，**“安全需求”以 44.2% 位居第二**。",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:99",
+      "text": ""
+    },
+    {
+      "locator": "line:100",
+      "text": ""
+    },
+    {
+      "locator": "line:101",
+      "text": ""
+    },
+    {
+      "locator": "line:102",
+      "text": "## step2：利益视角能够让我们更早的收获经济独立",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:103",
+      "text": ""
+    },
+    {
+      "locator": "line:104",
+      "text": "寻自己人生真正的意：拒绝不喜欢的工作、做自己喜欢的事情义",
+      "section": "论点",
+      "argument_locator": "line:77"
+    },
+    {
+      "locator": "line:105",
+      "text": ""
+    },
+    {
+      "locator": "line:106",
+      "text": ""
+    },
+    {
+      "locator": "line:107",
+      "text": ""
+    },
+    {
+      "locator": "line:108",
+      "text": ""
+    },
+    {
+      "locator": "line:109",
+      "text": "# 【攻防】",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:110",
+      "text": ""
+    },
+    {
+      "locator": "line:111",
+      "text": "对意义的理解是粗浅的",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:112",
+      "text": ""
+    },
+    {
+      "locator": "line:113",
+      "text": ""
+    },
+    {
+      "locator": "line:114",
+      "text": "提高技术水平",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:115",
+      "text": ""
+    },
+    {
+      "locator": "line:116",
+      "text": ""
+    },
+    {
+      "locator": "line:117",
+      "text": "实现国家理想",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:118",
+      "text": ""
+    },
+    {
+      "locator": "line:119",
+      "text": ""
+    },
+    {
+      "locator": "line:120",
+      "text": "樊锦诗、乡村支教",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:121",
+      "text": ""
+    },
+    {
+      "locator": "line:122",
+      "text": ""
+    },
+    {
+      "locator": "line:123",
+      "text": "没时间",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:124",
+      "text": ""
+    },
+    {
+      "locator": "line:125",
+      "text": "1、一些有意义的工作也会加班“医生”、“老师”同样加班很严重",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:126",
+      "text": ""
+    },
+    {
+      "locator": "line:127",
+      "text": ""
+    },
+    {
+      "locator": "line:128",
+      "text": "**有意义没时间**",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:129",
+      "text": ""
+    },
+    {
+      "locator": "line:130",
+      "text": "华南师范大学2024年调查显示，中小学教师平均每天工作**9.80小时**，每周**51.43小时**；其中每周用于教学任务的时间仅**9.63小时**，而用于**非教学工作任务的时间达11.85小时**（包括安全管理、表格填报、APP信息处理、社区服务等），**非教学时间反而超出教学时间2.22小时**。[http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf](http://edu.shandong.gov.cn/attach/0/82125727f0d84855a0dd323e6a621ba5.pdf)",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:131",
+      "text": ""
+    },
+    {
+      "locator": "line:132",
+      "text": ""
+    },
+    {
+      "locator": "line:133",
+      "text": "**有意义也很累**",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:134",
+      "text": ""
+    },
+    {
+      "locator": "line:135",
+      "text": "关于公益人抑郁水平的调查调查数据显示，36.14%的调查对象不存在抑郁问题，而存在不同程度抑郁的群体中，轻度抑郁组别占比最高，为31.19%，其次为中度抑郁组别为16.83%，中重度抑郁占比为9.41%，重度抑郁占比为6.43%。这意味着本次调查中高达63.86%的公益人患有程度不同的抑郁。[http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html](http://www.gongyishibao.com/html/yanjiubaogao/2025/01/29464.html)",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:136",
+      "text": ""
+    },
+    {
+      "locator": "line:137",
+      "text": "公益人对于生活不满意的比例为43.56%，其中，基本不满意比例为28.71.不满意比例为11.88%，极不满意比例为2.97%",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:138",
+      "text": ""
+    },
+    {
+      "locator": "line:139",
+      "text": ""
+    },
+    {
+      "locator": "line:140",
+      "text": ""
+    },
+    {
+      "locator": "line:141",
+      "text": "2、我们是更有可能经济独立、拒绝掉一些我们不喜欢的工作",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:142",
+      "text": ""
+    },
+    {
+      "locator": "line:143",
+      "text": "携程的调察研究显示零存款=零抗风险能力",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:144",
+      "text": ""
+    },
+    {
+      "locator": "line:145",
+      "text": "[https://arts.51job.com/arts/05/449938.html](https://arts.51job.com/arts/05/449938.html)",
+      "section": "攻防",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:146",
+      "text": ""
+    },
+    {
+      "locator": "line:147",
+      "text": ""
+    },
+    {
+      "locator": "line:148",
+      "text": ""
+    },
+    {
+      "locator": "line:149",
+      "text": ""
+    },
+    {
+      "locator": "line:150",
+      "text": ""
+    },
+    {
+      "locator": "line:151",
+      "text": ""
+    },
+    {
+      "locator": "line:152",
+      "text": ""
+    },
+    {
+      "locator": "line:153",
+      "text": ""
+    },
+    {
+      "locator": "line:154",
+      "text": "# 【价值】",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:155",
+      "text": ""
+    },
+    {
+      "locator": "line:156",
+      "text": ""
+    },
+    {
+      "locator": "line:157",
+      "text": "【一辩稿】】",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:158",
+      "text": ""
+    },
+    {
+      "locator": "line:159",
+      "text": "各位评委、对方辩友，大家好。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:160",
+      "text": ""
+    },
+    {
+      "locator": "line:161",
+      "text": "开宗明义。所谓“意义视角”：指工作带来的兴趣爱好、价值认同、社会贡献等内外部意义构建的精神层面的满足、能力提高，而“利益视角”：指以核心收入、保险福利、期权股权等长短期经济回报为主的物质层面的收益聚焦那些本科毕业进行择业的人群，我方认为原因有二：其一，专业本身不适合继续深造，实践性强；其二，家庭条件受限或个人兴趣原因无法继续深造。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:162",
+      "text": ""
+    },
+    {
+      "locator": "line:163",
+      "text": "我方判准有二：第一，独一性比较，如果某一方只能在择业中获得，另一方能在其他方面获得，择业时应优先选择前者。第二，两全性。优先选择哪一视角更能实现未来意义和利益的两全",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:164",
+      "text": ""
+    },
+    {
+      "locator": "line:165",
+      "text": "我方论证如下",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:166",
+      "text": ""
+    },
+    {
+      "locator": "line:167",
+      "text": "第一，现实生活压力下，首次择业。本科生在真实就业环境中首先感受到的是生存压力。毕业后，房租就是第一道门槛。首次租房常见支付方式包括“押一付一”“押一付三服一”“押一付三”等，这意味着部分毕业生刚走出校园，就需要一次性拿出 3—5 个月租金。租房、通勤、饮食、社交、学习和偶发医疗支出，都是本科毕业生面临的经济压力。而且行业收入差距大：新兴科技行业应届生平均起薪达38万/年，核心岗起薪普遍突破 80 万/年;传统行业应届生平均起薪仅8-15万/年，部分中小企业基础岗起薪甚至不足8万/年，两者薪资差距最高达12倍",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:168",
+      "text": ""
+    },
+    {
+      "locator": "line:169",
+      "text": "在这种情况下，短期起薪高能够帮助毕业生实现经济独立、建立应急储蓄，提高应对风险的能力。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:170",
+      "text": ""
+    },
+    {
+      "locator": "line:171",
+      "text": "长期来看，首次择业采取利益视角还能带来更大的薪资空间和发展机会。根据中国2019届大学毕业生五年后职业发展跟踪评价，信息传输、软件和信息技术服务业毕业五年后的平均月收入为14555元，涨幅为122%；而教育类毕业五年后的月收入为8324元，涨幅为66%。首次择业不是只决定第一份工资，而是在选择一个长期薪酬生态。高增长行业往往有更高利润率和更强市场议价权，利益视角不是短视地只看当下工资，而是看五年后、十年后，能否拥有更高收入，更多选择权。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:172",
+      "text": ""
+    },
+    {
+      "locator": "line:173",
+      "text": "第二，生活的意义感不需要在工作中体现，我们可以在工作之外寻找生活的意义。我方主张热爱和工作适度隔开，热爱最珍贵的地方，在于它保留了自主性、创造性和自由，而一旦爱好职业化，就会被考核、收入等外部评价重新塑形，往往会带来热情和意义的消磨。uzi道出，“很多退役选手不想再玩英雄联盟了”[游戏](https://www.smzdm.com/fenlei/youxi/)是充满创造性和随机性的娱乐。但对于职业选手，游戏则演变为一项高强度、重复性的工作。如选手Showmaker所言，职业生涯初期还能将比赛当作游戏，凭本能去竞技，但随着时间推移，激情会被逐渐磨灭。此外，利益视角能够让我们更早的收获经济独立，更有资本去追寻人生真正的意义，实现利益和意义的两全。个经济上无法独立、没有储蓄、没有选择权的人，很难拒绝不喜欢的工作，也很难在生活中保留自己的热爱。相反，较好的收入和成长空间，可以让毕业生更早实现经济独立，减少对家庭的依赖，拥有拒绝不喜欢的工作的底气，也有能力在工作之外继续读书、旅行、创作、陪伴家人，做真正喜欢的事情。",
+      "section": "价值",
+      "argument_locator": null
+    },
+    {
+      "locator": "line:174",
+      "text": ""
+    }
+  ],
+  "warnings": [
+    "line:5：内嵌图片未解析"
+  ],
+  "image_gaps": []
+}

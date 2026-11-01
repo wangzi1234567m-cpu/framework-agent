@@ -1,0 +1,924 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "source_path": "../如果爱可以量化-框架.docx",
+    "sha256": "eaa676d6382a5bb42b040f000e25b725ee8074afac3ec147894877c223856e6d",
+    "format": ".docx",
+    "unit_type": "Word XML 段落",
+    "original_unchanged": true
+  },
+  "debate_topic": {
+    "text": "如果爱可以量化，是人类的幸运——框架",
+    "basis": "正文标题",
+    "locator": "word/document.xml:paragraph:1"
+  },
+  "declared_title": "如果爱可以量化，是人类的幸运——框架",
+  "position": {
+    "text": "如果爱可以量化，是人类的幸运",
+    "basis": "如果爱可以量化，是人类的幸运——框架",
+    "locator": "word/document.xml:paragraph:1",
+    "kind": "原稿表述"
+  },
+  "extraction_status": "parsed_unverified",
+  "classification_note": "字段为规则匹配的原稿片段候选，不代表事实核验；无标签的论证或跨行来源可能遗漏。",
+  "judging_criteria": [
+    {
+      "text": "判断一件事是人类的幸运/不幸：是否增强了人类对自己及外界情况的掌控",
+      "locator": "word/document.xml:paragraph:7"
+    }
+  ],
+  "core_claims": [
+    {
+      "text": "【论点1】在亲密关系中，爱的量化不仅能减少误会，还能帮助人们更好的经营感情，增强了人类个人层面的掌控。",
+      "locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "text": "【论点2】在选择社会职能时，爱的量化能帮助人们筛选出候选者中潜在的危险人员，从源头上避免惨剧的发生，增强了人类社会层面的掌控。",
+      "locator": "word/document.xml:paragraph:36"
+    }
+  ],
+  "arguments": [
+    {
+      "text": "【论点1】在亲密关系中，爱的量化不仅能减少误会，还能帮助人们更好的经营感情，增强了人类个人层面的掌控。",
+      "locator": "word/document.xml:paragraph:15",
+      "mechanisms": [
+        "word/document.xml:paragraph:17",
+        "word/document.xml:paragraph:21"
+      ],
+      "cases": [
+        "word/document.xml:paragraph:18",
+        "word/document.xml:paragraph:19",
+        "word/document.xml:paragraph:22",
+        "word/document.xml:paragraph:32"
+      ],
+      "data": []
+    },
+    {
+      "text": "【论点2】在选择社会职能时，爱的量化能帮助人们筛选出候选者中潜在的危险人员，从源头上避免惨剧的发生，增强了人类社会层面的掌控。",
+      "locator": "word/document.xml:paragraph:36",
+      "mechanisms": [
+        "word/document.xml:paragraph:38",
+        "word/document.xml:paragraph:42",
+        "word/document.xml:paragraph:49",
+        "word/document.xml:paragraph:88",
+        "word/document.xml:paragraph:92",
+        "word/document.xml:paragraph:105",
+        "word/document.xml:paragraph:113"
+      ],
+      "cases": [
+        "word/document.xml:paragraph:43",
+        "word/document.xml:paragraph:46",
+        "word/document.xml:paragraph:59",
+        "word/document.xml:paragraph:77",
+        "word/document.xml:paragraph:83",
+        "word/document.xml:paragraph:89",
+        "word/document.xml:paragraph:90",
+        "word/document.xml:paragraph:94",
+        "word/document.xml:paragraph:102",
+        "word/document.xml:paragraph:103",
+        "word/document.xml:paragraph:128"
+      ],
+      "data": [
+        "word/document.xml:paragraph:45"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "text": "step1：爱的量化值，能准确的反映亲密关系中双方爱的程度，减少了彼此间的误会，能避免感情中的伤害与错过。",
+      "locator": "word/document.xml:paragraph:17"
+    },
+    {
+      "text": "step2：爱的量化值的波动曲线，能准确的衡量不同的行为会对亲密关系造成怎样的影响，从而指导人们的行为，帮助人们更好的经营感情。",
+      "locator": "word/document.xml:paragraph:21"
+    },
+    {
+      "text": "step1：对于社会中的很多岗位来说，“爱”是一项必备素质。",
+      "locator": "word/document.xml:paragraph:38"
+    },
+    {
+      "text": "step2：而当这些岗位混入一些“关爱程度”很低的人时，很有可能酿成惨剧。",
+      "locator": "word/document.xml:paragraph:42"
+    },
+    {
+      "text": "step3：爱的量化，能筛选出候选者中“关爱程度”过低的人，禁止其参与相关岗位或密切监督其行为，将惨剧扼杀在摇篮里。",
+      "locator": "word/document.xml:paragraph:49"
+    },
+    {
+      "text": "step1：爱的分数不是对每个人都越高越好，而是因人而异的",
+      "locator": "word/document.xml:paragraph:88"
+    },
+    {
+      "text": "step2：量化后才能让每个人在寻找伴侣时满足自己的个性化需求，加强了独特性。",
+      "locator": "word/document.xml:paragraph:92"
+    },
+    {
+      "text": "4.1. 攀比让人痛苦",
+      "locator": "word/document.xml:paragraph:105"
+    },
+    {
+      "text": "4.2. 波动让人痛苦",
+      "locator": "word/document.xml:paragraph:113"
+    }
+  ],
+  "cases": [
+    {
+      "text": "避免伤害例子：女孩以为男生的甜言蜜语代表的是深深的爱，但其实男生只是个爱情骗子。这时爱的量化可以让女孩看破渣男的真实面目，避免进一步的伤害。",
+      "locator": "word/document.xml:paragraph:18"
+    },
+    {
+      "text": "避免错过例子：一对有情人彼此喜欢，但由于没谈过恋爱不善表达，都误以为对方不爱自己。这时爱的量化可以",
+      "locator": "word/document.xml:paragraph:19"
+    },
+    {
+      "text": "类比：体重秤",
+      "locator": "word/document.xml:paragraph:22"
+    },
+    {
+      "text": "（2）消除误会不一定是好事，有时人类需要活在误会中，因为真相会造成伤害。（eg：妈妈比起姐姐更爱弟弟）",
+      "locator": "word/document.xml:paragraph:32"
+    },
+    {
+      "text": "eg1：幼师——不仅造成了身体伤害，还让孩子产生了厌学倾向",
+      "locator": "word/document.xml:paragraph:43"
+    },
+    {
+      "text": "eg2：护工——造成死亡",
+      "locator": "word/document.xml:paragraph:46"
+    },
+    {
+      "text": "如果关爱程度一般，那可以综合考虑再决定要不要（类比：一个应聘程序员代码能力一般，但很擅长沟通，公司可以结合自己的需求选择是否录用）",
+      "locator": "word/document.xml:paragraph:59"
+    },
+    {
+      "text": "eg：对抑郁水平的测量中，产后抑郁和更年期抑郁的表征截然相反，但可以测出是相同的抑郁水平，所以量化时可以考虑每个人的特异性，并得到一个统一的结果。",
+      "locator": "word/document.xml:paragraph:77"
+    },
+    {
+      "text": "今天讨论的是一个发展趋势问题。或许刚开始没有那么准，但随着科学的进步总会走向测量准确的。（类比：温度测量的发展）",
+      "locator": "word/document.xml:paragraph:83"
+    },
+    {
+      "text": "eg1：在open-relationship中，大家只想要个50，60分的爱情，不要妨碍我同时和其他人玩。如果你爱的太深，我反而得跟你说拜拜。",
+      "locator": "word/document.xml:paragraph:89"
+    },
+    {
+      "text": "eg2：有的女孩希望老公事业心重一些，不要爱老婆多过爱事业，你爱的太深反而让我觉得是个废物男。",
+      "locator": "word/document.xml:paragraph:90"
+    },
+    {
+      "text": "类比：牛排，有了几分熟这个量化概念，才能保证每个人吃肉的个性化需求被满足。肠胃不好的人可以点七分熟，享受原始风味的可以点三分熟，量化在更清晰的表达每个人的诉求。",
+      "locator": "word/document.xml:paragraph:94"
+    },
+    {
+      "text": "类比：我去照ct，发现我有肿瘤，我很痛苦；这不是ct让你痛苦，是肿瘤让你痛苦（早发现，早点治；治不了，早点料理后事）",
+      "locator": "word/document.xml:paragraph:102"
+    },
+    {
+      "text": "例子：爱情骗子。",
+      "locator": "word/document.xml:paragraph:103"
+    },
+    {
+      "text": "类比：体重秤的出现让我们不用再自己感知胖了几斤，让我们把更多精力投入到身材管理上",
+      "locator": "word/document.xml:paragraph:128"
+    }
+  ],
+  "data": [
+    {
+      "text": "山西省蓝天幼儿园，一名幼师在10分钟内狂扇一名女童70个耳光。",
+      "locator": "word/document.xml:paragraph:45"
+    }
+  ],
+  "evidence_sources": [],
+  "rebuttals": [],
+  "raw_units": [
+    {
+      "locator": "word/document.xml:paragraph:1",
+      "text": "如果爱可以量化，是人类的幸运——框架",
+      "section": null,
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:2",
+      "text": "【定义】",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:3",
+      "text": "量化：通过数据规范模糊抽象的事物，使之达到比较分析的目的。",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:4",
+      "text": "特点：省去低效耗时的人工主观评估过程，从而直接获得客观精准的结果",
+      "section": "定义",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:5",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:6",
+      "text": "【标准】",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:7",
+      "text": "判断一件事是人类的幸运/不幸：是否增强了人类对自己及外界情况的掌控",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:8",
+      "text": "（1）幸运例子",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:9",
+      "text": "火的出现：让人类摆脱了黑暗和寒冷的束缚，增强了人类对世界的掌控",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:10",
+      "text": "（火的出现也导致了火灾等伤害的发生，但不能因此就说火是人类的不幸，因为从机制上它增强了人类的掌控）",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:11",
+      "text": "体重秤的出现：让人类能获得自己的体重数据，增强了人类对健康的掌控",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:12",
+      "text": "（2）不幸例子",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:13",
+      "text": "新冠疫情：让世界陷入失控，使人类无法掌控自己的生命",
+      "section": "标准",
+      "argument_locator": null
+    },
+    {
+      "locator": "word/document.xml:paragraph:14",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:15",
+      "text": "【论点1】在亲密关系中，爱的量化不仅能减少误会，还能帮助人们更好的经营感情，增强了人类个人层面的掌控。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:16",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:17",
+      "text": "step1：爱的量化值，能准确的反映亲密关系中双方爱的程度，减少了彼此间的误会，能避免感情中的伤害与错过。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:18",
+      "text": "避免伤害例子：女孩以为男生的甜言蜜语代表的是深深的爱，但其实男生只是个爱情骗子。这时爱的量化可以让女孩看破渣男的真实面目，避免进一步的伤害。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:19",
+      "text": "避免错过例子：一对有情人彼此喜欢，但由于没谈过恋爱不善表达，都误以为对方不爱自己。这时爱的量化可以",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:20",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:21",
+      "text": "step2：爱的量化值的波动曲线，能准确的衡量不同的行为会对亲密关系造成怎样的影响，从而指导人们的行为，帮助人们更好的经营感情。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:22",
+      "text": "类比：体重秤",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:23",
+      "text": "聚餐过多会让体重上升，保持运动会让体重降低，根据体重秤的数据反馈，每个人可以更好的衡量自己的健康状况，制定健身计划",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:24",
+      "text": "指导我们该做什么：",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:25",
+      "text": "比起给孩子买鞋买包玩具，陪着玩一下午更能提高孩子对父母的爱，这说明孩子需要的不是那些物质，而是父母的陪伴",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:26",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:27",
+      "text": "论点1预反驳：",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:28",
+      "text": "（1）爱的量化也会增加误会，比如看到数值稍有下降误会对方不爱自己了，但其实只是对方这两天心情不好。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:29",
+      "text": "在爱可以量化的世界观中，爱每天稍有起伏是很正常的，就像你称体重一天之内也会有1斤上下的浮动，人们不会像您方所说因为一点点微小变化就产生误会。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:30",
+      "text": "如果是大幅波动，那意味确实有事发生，要知道、要解决",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:31",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:32",
+      "text": "（2）消除误会不一定是好事，有时人类需要活在误会中，因为真相会造成伤害。（eg：妈妈比起姐姐更爱弟弟）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:33",
+      "text": "回归核心反驳逻辑：对方认为要让人活在假象中，我方认为要直面问题、解决问题，这是双方价值态度的分歧",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:15"
+    },
+    {
+      "locator": "word/document.xml:paragraph:34",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:35",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:36",
+      "text": "【论点2】在选择社会职能时，爱的量化能帮助人们筛选出候选者中潜在的危险人员，从源头上避免惨剧的发生，增强了人类社会层面的掌控。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:37",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:38",
+      "text": "step1：对于社会中的很多岗位来说，“爱”是一项必备素质。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:39",
+      "text": "幼师：要关爱幼儿园的孩子",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:40",
+      "text": "护工：要关爱看护的老人",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:41",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:42",
+      "text": "step2：而当这些岗位混入一些“关爱程度”很低的人时，很有可能酿成惨剧。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:43",
+      "text": "eg1：幼师——不仅造成了身体伤害，还让孩子产生了厌学倾向",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:44",
+      "text": "天津金色摇篮幼儿园，一名幼师对全班31名儿童的头部、臀部等多个部位进行针扎，平均每个孩子身上有50个针孔。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:45",
+      "text": "山西省蓝天幼儿园，一名幼师在10分钟内狂扇一名女童70个耳光。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:46",
+      "text": "eg2：护工——造成死亡",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:47",
+      "text": "江苏省某护工虞某，负责照顾瘫痪在床的老人，结果她趁其他家人不在，坐在老人胸口上用毛巾将活活老人闷死",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:48",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:49",
+      "text": "step3：爱的量化，能筛选出候选者中“关爱程度”过低的人，禁止其参与相关岗位或密切监督其行为，将惨剧扼杀在摇篮里。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:50",
+      "text": "关爱程度过于低：直接禁止危险人员参与该职业",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:51",
+      "text": "关爱程度偏低：密切监督其工作期间的“关爱值”变化",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:52",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:53",
+      "text": "论点2预反驳：",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:54",
+      "text": "（1）爱会挤占其他指标，这不合理",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:55",
+      "text": "对于每个岗位，“爱”只是众多考量指标中的一个，其他指标如专业水平，沟通能力也十分重要。爱的量化只会让“爱”这一个指标的衡量变得更加精准，并不会使其压倒所有其他指标成为唯一判准。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:56",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:57",
+      "text": "（2）那对于一个其他能力很强，但“关爱程度”一般的人，你们要不要呢？",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:58",
+      "text": "态度：我们不是要求每个人一定要超高，而是至少不能低到一个危险水平",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:59",
+      "text": "如果关爱程度一般，那可以综合考虑再决定要不要（类比：一个应聘程序员代码能力一般，但很擅长沟通，公司可以结合自己的需求选择是否录用）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:60",
+      "text": "如果关爱程度达到了危险的等级，那完全不能录用，或者录用后要密切监督（因为在我方举出的领域，“关爱程度”这一指标非常重要）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:61",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:62",
+      "text": "（3）你怎么画出那条红线？",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:63",
+      "text": "对于曾经的犯罪者进行统计分析，得出犯罪者的“关爱数值”，与此数值越接近，越危险。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:64",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:65",
+      "text": "希特勒",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:66",
+      "text": "可以测希特勒对犹太民族的爱，如果一个政客只对自己的民族爱很高，而对其他民族扽人爱的值非常低，那说明他有种族主义倾向，也不适合当选",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:67",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:68",
+      "text": "金正恩会用技术监测所有人",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:69",
+      "text": "照这个逻辑，摄像技术的出现也是人类的不幸——你不能用有极端反例发生的可能性来论证他就是不幸",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:70",
+      "text": "按你这种滑坡逻辑，有什么技术是人类的幸运吗？",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:71",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:72",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:73",
+      "text": "反驳",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:74",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:75",
+      "text": "爱的量化是所有人统一标准，还是每个人标准不同？",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:76",
+      "text": "我们是用统一的标准，但同时考量了每个人的特异性，准确量化每个人爱的深浅程度。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:77",
+      "text": "eg：对抑郁水平的测量中，产后抑郁和更年期抑郁的表征截然相反，但可以测出是相同的抑郁水平，所以量化时可以考虑每个人的特异性，并得到一个统一的结果。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:78",
+      "text": "关于这道脑洞题的设定，我方的合理推测是，每个人的量化方式是一致的，并且每个人爱的量化值属于个人隐私，不是任何人都可以随时随意观看的。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:79",
+      "text": "底线：不同人的量化值之间是可以比较的，但不意味着每个人的标准一样（例如：称职的男朋友对女生需要爱到多少分，完全是因人而异的，不存在社会的统一标准）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:80",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:81",
+      "text": "对面说，爱涉及的方面太多，量化只能采样一部分指标，因此测不准。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:82",
+      "text": "我方认为辩题应该讨论量化准确的情况，不然如果爱的量化结果是测不准的，那也就没有人会当回事，正反方的利益都无法论证。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:83",
+      "text": "今天讨论的是一个发展趋势问题。或许刚开始没有那么准，但随着科学的进步总会走向测量准确的。（类比：温度测量的发展）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:84",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:85",
+      "text": "量化伤害了爱的独特性、多元性。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:86",
+      "text": "恰恰相反，量化才能带来个性化，个性化才会加强爱的独特性、多元性",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:87",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:88",
+      "text": "step1：爱的分数不是对每个人都越高越好，而是因人而异的",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:89",
+      "text": "eg1：在open-relationship中，大家只想要个50，60分的爱情，不要妨碍我同时和其他人玩。如果你爱的太深，我反而得跟你说拜拜。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:90",
+      "text": "eg2：有的女孩希望老公事业心重一些，不要爱老婆多过爱事业，你爱的太深反而让我觉得是个废物男。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:91",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:92",
+      "text": "step2：量化后才能让每个人在寻找伴侣时满足自己的个性化需求，加强了独特性。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:93",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:94",
+      "text": "类比：牛排，有了几分熟这个量化概念，才能保证每个人吃肉的个性化需求被满足。肠胃不好的人可以点七分熟，享受原始风味的可以点三分熟，量化在更清晰的表达每个人的诉求。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:95",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:96",
+      "text": "量化会暴露问题，引起争吵，带来痛苦",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:97",
+      "text": "（1）根属性拆解。不是量化在让你痛苦，而是量化暴露出的问题在让你痛苦。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:98",
+      "text": "（2）量化在减少痛苦。量化其实是在避免积少成多，从而引发更大的痛苦。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:99",
+      "text": "没有量化时，问题不是消失了，而是潜伏起来了。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:100",
+      "text": "潜伏的问题就像一颗定时炸弹，在未来引爆时只会带来更大的伤害。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:101",
+      "text": "模型：压死骆驼的最后一根稻草",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:102",
+      "text": "类比：我去照ct，发现我有肿瘤，我很痛苦；这不是ct让你痛苦，是肿瘤让你痛苦（早发现，早点治；治不了，早点料理后事）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:103",
+      "text": "例子：爱情骗子。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:104",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:105",
+      "text": "4.1. 攀比让人痛苦",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:106",
+      "text": "量化没有加剧攀比",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:107",
+      "text": "爱的绝对值比较没意义，要看相对值。（你男朋友爱你60分，但只爱别人10分；你闺蜜男朋友爱她70分，但他是中央空调，爱所有女生都70分）——比较绝对值没意义",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:108",
+      "text": "爱的分数不是越高越好的，而是因人而异的。因此没有必要攀比。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:109",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:110",
+      "text": "你没有论证攀比是人类的不幸。（看情况出）",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:111",
+      "text": "攀比同时也是人类进步的动力。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:112",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:113",
+      "text": "4.2. 波动让人痛苦",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:114",
+      "text": "在爱可以量化的世界观中，爱每天稍有起伏是很正常的，就像你称体重一天之内也会有1斤上下的浮动，人们不会像您方所说因为一点点微小变化就产生误会。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:115",
+      "text": "如果是大幅波动，那意味确实有事发生，要知道、要解决——回归上面的主反驳逻辑“暴露问题”",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:116",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:117",
+      "text": "量化让人形成惰性，忘记去体验与感受",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:118",
+      "text": "有分数也不影响我感受此刻的感动。对象给我做了一顿饭，送了我一束玫瑰，这些美好的体验不会因为有一个打分就消失了。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:119",
+      "text": "量化不仅没有让人忘记感受，反而让人铭记感受。——看着曲线涨幅的地方，回忆起那一晚的浪漫。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:120",
+      "text": "模型不同：其他例子中分数就是目的，但亲密关系中分数不是最终目的，只是个参考。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:121",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:122",
+      "text": "量化抹去了爱的神秘性/朦胧美",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:123",
+      "text": "抹去了朦胧带来的美，但是也抹去了朦胧带来的痛苦，辗转反侧想他是不是不爱我了，您方怎么论证抹去朦胧坏处比好处更多？",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:124",
+      "text": "同时带来了爱的坦诚美，彼此坦诚相待，也是爱情的本质，您方怎么论证爱情中神秘性比坦诚性更重要？",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:125",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:126",
+      "text": "7. 爱情中猜测对方心思的这些过程就是经历本身，量化抹去了这些经历",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:127",
+      "text": "并没有抹去爱情的经历。只是省去了低层次的体验，让我们更多投入到高层次的体验中，也就是认真经营一段感情",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:128",
+      "text": "类比：体重秤的出现让我们不用再自己感知胖了几斤，让我们把更多精力投入到身材管理上",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:129",
+      "text": ""
+    },
+    {
+      "locator": "word/document.xml:paragraph:130",
+      "text": "小的波动没有必要量化，它自己会消失；大的波动没有必要量化，明显能感觉出来",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:131",
+      "text": "小的波动会累积变成大的波动，当最后一根稻草被放上时，已经亡羊补牢、为时已晚。",
+      "section": "论点",
+      "argument_locator": "word/document.xml:paragraph:36"
+    },
+    {
+      "locator": "word/document.xml:paragraph:132",
+      "text": ""
+    }
+  ],
+  "warnings": [],
+  "image_gaps": []
+}
