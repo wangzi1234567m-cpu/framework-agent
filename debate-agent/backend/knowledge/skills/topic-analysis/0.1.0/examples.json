@@ -1,9 +1,9 @@
 {
   "cases": [
     {
-      "name": "synthetic_valid",
+      "name": "synthetic_valid_language_boundary",
       "rule_ids": [],
-      "review_note": "仅演示字段形状，写作质量尚未审核",
+      "review_note": "演示完整 TopicResponse 字段与题解方法论；定义背书因 MVP 无检索而标待核验",
       "request": {
         "context": {
           "project_id": "00000000-0000-4000-8000-000000000001",
@@ -11,26 +11,41 @@
           "skill_version": "0.1.0",
           "request_id": "00000000-0000-4000-8000-000000000002"
         },
-        "motion": "大学生应优先选择兴趣还是就业前景",
-        "side": "正方",
+        "motion": "语言是/不是人类的边界",
+        "side": "反方",
         "format": "4v4",
         "duration_seconds": 240
       },
       "response": {
         "analysis": {
-          "discussion_scope": "大学生选择学习方向",
-          "affirmative_position": "兴趣优先",
-          "negative_position": "就业前景优先",
-          "judging_criteria": ["长期发展"]
+          "definitions": {
+            "边界": "决定认知、思考、价值所能触及范围的界线，而非不可逾越的绝对边界"
+          },
+          "discussion_scope": "语言在认知、思考、价值等关键领域是否构成边界",
+          "assumptions": ["边界是相对而非绝对的", "讨论限于可论证的重要领域"],
+          "core_conflicts": ["语言是否决定思维", "语言之外是否存在认识方式"],
+          "affirmative_position": "语言结构决定认知与思考的边界",
+          "negative_position": "语言只是表达工具，认知、思考、价值存在语言之外的边界",
+          "clash_points": ["语言与思维的关系", "语言之外是否有认识"],
+          "judging_criteria": ["哪个立场更能解释认知与思考的来源", "边界能否被语言外经验突破"],
+          "strategy_options": ["以反例突破语言决定论", "用领域式定义压缩对方战场"],
+          "opponent_attacks": ["无语言则无概念", "对方把语言之外的利好塞进定义"]
         },
-        "uncertainty_notes": ["讨论范围待人工确认"]
+        "uncertainty_notes": ["边界与语言决定论的定义背书待核验，MVP 无外部检索"]
       }
     },
     {
       "name": "business_status_not_allowed",
       "rule_ids": [],
-      "review_note": "Agent 不能返回人工审批状态",
-      "invalid_response": {"status": "APPROVED"},
+      "review_note": "Agent 不能返回人工审批状态或业务字段",
+      "invalid_response": {
+        "analysis": {
+          "discussion_scope": "讨论范围",
+          "affirmative_position": "正方主张",
+          "negative_position": "反方主张"
+        },
+        "status": "APPROVED"
+      },
       "expected_error": "CANDIDATE_SCHEMA_INVALID"
     }
   ]
