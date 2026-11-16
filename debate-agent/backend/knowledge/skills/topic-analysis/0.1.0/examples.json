@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "name": "synthetic_valid",
+      "rule_ids": [],
+      "review_note": "仅演示字段形状，写作质量尚未审核",
+      "request": {
+        "context": {
+          "project_id": "00000000-0000-4000-8000-000000000001",
+          "rule_set_version": "draft-v1",
+          "skill_version": "0.1.0",
+          "request_id": "00000000-0000-4000-8000-000000000002"
+        },
+        "motion": "大学生应优先选择兴趣还是就业前景",
+        "side": "正方",
+        "format": "4v4",
+        "duration_seconds": 240
+      },
+      "response": {
+        "analysis": {
+          "discussion_scope": "大学生选择学习方向",
+          "affirmative_position": "兴趣优先",
+          "negative_position": "就业前景优先",
+          "judging_criteria": ["长期发展"]
+        },
+        "uncertainty_notes": ["讨论范围待人工确认"]
+      }
+    },
+    {
+      "name": "business_status_not_allowed",
+      "rule_ids": [],
+      "review_note": "Agent 不能返回人工审批状态",
+      "invalid_response": {"status": "APPROVED"},
+      "expected_error": "CANDIDATE_SCHEMA_INVALID"
+    }
+  ]
+}

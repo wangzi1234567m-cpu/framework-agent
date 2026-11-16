@@ -1,0 +1,194 @@
+{
+  "note": "纯合成辩题，只演示契约；不含已核验事实或来源。",
+  "topic_request": {
+    "context": {
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "schema_version": 1,
+      "rule_set_version": "contract-fixture-v0",
+      "skill_version": "topic-fixture-v0",
+      "request_id": "00000000-0000-4000-8000-000000000002"
+    },
+    "motion": "大学生应优先选择兴趣还是就业前景",
+    "side": "正方（兴趣）",
+    "format": "华语4v4",
+    "duration_seconds": 240,
+    "competition_context": "",
+    "user_requirements": ""
+  },
+  "topic_response": {
+    "analysis": {
+      "definitions": {
+        "优先": "作为选择时更重要的考虑因素，而不是唯一因素"
+      },
+      "discussion_scope": "讨论大学生面临的学习和职业方向选择",
+      "assumptions": [],
+      "core_conflicts": [
+        "短期就业确定性与长期投入动力如何比较"
+      ],
+      "affirmative_position": "兴趣应成为优先的选择依据",
+      "negative_position": "就业前景应成为优先的选择依据",
+      "clash_points": [
+        "两种选择依据如何影响持续投入"
+      ],
+      "judging_criteria": [
+        "哪个依据更有利于形成可持续的个人发展"
+      ],
+      "strategy_options": [
+        "从持续投入的机制切入"
+      ],
+      "opponent_attacks": [
+        "兴趣可能无法满足现实收入需要"
+      ]
+    },
+    "uncertainty_notes": [
+      "需由用户确认讨论范围及判准"
+    ]
+  },
+  "framework_request": {
+    "context": {
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "schema_version": 1,
+      "rule_set_version": "contract-fixture-v0",
+      "skill_version": "argument-fixture-v0",
+      "request_id": "00000000-0000-4000-8000-000000000003"
+    },
+    "motion": "大学生应优先选择兴趣还是就业前景",
+    "side": "正方（兴趣）",
+    "format": "华语4v4",
+    "duration_seconds": 240,
+    "approved_topic_analysis_id": "00000000-0000-4000-8000-000000000004",
+    "topic_version": 1,
+    "base_edit_version": null,
+    "approved_topic": {
+      "definitions": {
+        "优先": "作为选择时更重要的考虑因素，而不是唯一因素"
+      },
+      "discussion_scope": "讨论大学生面临的学习和职业方向选择",
+      "assumptions": [],
+      "core_conflicts": [
+        "短期就业确定性与长期投入动力如何比较"
+      ],
+      "affirmative_position": "兴趣应成为优先的选择依据",
+      "negative_position": "就业前景应成为优先的选择依据",
+      "clash_points": [
+        "两种选择依据如何影响持续投入"
+      ],
+      "judging_criteria": [
+        "哪个依据更有利于形成可持续的个人发展"
+      ],
+      "strategy_options": [
+        "从持续投入的机制切入"
+      ],
+      "opponent_attacks": [
+        "兴趣可能无法满足现实收入需要"
+      ]
+    }
+  },
+  "framework_response": {
+    "thesis": "兴趣可作为大学生选择方向时的优先考虑因素",
+    "arguments": [
+      {
+        "ref": "arg-1",
+        "order": 0,
+        "title": "兴趣可能帮助形成持续投入",
+        "core_claim": "更愿意长期投入的方向，有机会形成更深的学习积累",
+        "explanation": "讨论优先选择依据如何影响持续学习，而非否认就业约束",
+        "reasoning_nodes": [
+          {
+            "ref": "node-1",
+            "label": "选择",
+            "kind": "behavioral",
+            "content": "兴趣可能提高主动接触和反复练习的意愿",
+            "order": 0,
+            "children": [
+              {
+                "ref": "node-2",
+                "label": "积累",
+                "kind": "causal",
+                "content": "持续练习可能带来更深入的技能积累；实际效果仍待证据验证",
+                "order": 0,
+                "children": []
+              }
+            ]
+          }
+        ],
+        "impact": "为比较短期与长期选择标准提供一个讨论方向",
+        "evidence_needs": [
+          {
+            "ref": "need-1",
+            "target_node_ref": "node-2",
+            "question": "是否有原始研究支持兴趣与持续投入或技能积累的关联？",
+            "acceptable_source": "可核查的原始研究报告"
+          }
+        ],
+        "attack_defense": [
+          {
+            "opposing_claim": "就业前景更加现实",
+            "response": "需比较短期确定性与长期投入，不应把优先等同于唯一",
+            "weighing": "回到可持续发展的判准"
+          }
+        ]
+      }
+    ],
+    "weighing": "比较长期积累与短期确定性",
+    "overall_strategy": "先说明优先并非唯一，再展开持续投入的机理",
+    "uncertainty_notes": [
+      "尚无已核验证据，本候选仅生成 EvidenceNeed"
+    ]
+  },
+  "invalid_responses": {
+    "fake_approval": {
+      "thesis": "兴趣优先",
+      "arguments": [],
+      "approved_by": "00000000-0000-4000-8000-000000000099"
+    },
+    "duplicate_ref": {
+      "thesis": "兴趣优先",
+      "arguments": [
+        {
+          "ref": "arg-1",
+          "order": 0,
+          "title": "一个论点",
+          "core_claim": "主张",
+          "explanation": "解释",
+          "reasoning_nodes": [
+            {
+              "ref": "arg-1",
+              "content": "重复引用",
+              "order": 0
+            }
+          ],
+          "impact": "影响"
+        }
+      ]
+    },
+    "cross_argument_need": {
+      "thesis": "兴趣优先",
+      "arguments": [
+        {
+          "ref": "arg-1",
+          "order": 0,
+          "title": "一个论点",
+          "core_claim": "主张",
+          "explanation": "解释",
+          "reasoning_nodes": [
+            {
+              "ref": "node-1",
+              "content": "机理",
+              "order": 0
+            }
+          ],
+          "impact": "影响",
+          "evidence_needs": [
+            {
+              "ref": "need-1",
+              "target_node_ref": "node-unknown",
+              "question": "待查问题",
+              "acceptable_source": "原始研究"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

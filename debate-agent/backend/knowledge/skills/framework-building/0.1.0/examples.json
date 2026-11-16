@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "name": "synthetic_valid",
+      "rule_ids": [],
+      "review_note": "只演示机理与证据需求，未提供已核验来源",
+      "request": {
+        "context": {
+          "project_id": "00000000-0000-4000-8000-000000000001",
+          "rule_set_version": "draft-v1",
+          "skill_version": "0.1.0",
+          "request_id": "00000000-0000-4000-8000-000000000003"
+        },
+        "motion": "大学生应优先选择兴趣还是就业前景",
+        "side": "正方",
+        "format": "4v4",
+        "duration_seconds": 240,
+        "approved_topic_analysis_id": "00000000-0000-4000-8000-000000000004",
+        "topic_version": 1,
+        "approved_topic": {
+          "discussion_scope": "大学生选择学习方向",
+          "affirmative_position": "兴趣优先",
+          "negative_position": "就业前景优先",
+          "judging_criteria": ["长期发展"]
+        }
+      },
+      "response": {
+        "thesis": "兴趣是可讨论的优先因素",
+        "arguments": [{
+          "ref": "arg-1",
+          "order": 0,
+          "title": "持续投入",
+          "core_claim": "兴趣可能促进投入",
+          "explanation": "需要区分学习动力与最终就业结果",
+          "reasoning_nodes": [{
+            "ref": "node-1",
+            "content": "学习者可能更愿意投入时间",
+            "order": 0
+          }],
+          "impact": "用于讨论长期发展",
+          "evidence_needs": [{
+            "ref": "need-1",
+            "target_node_ref": "node-1",
+            "question": "兴趣与持续投入有何关联？",
+            "acceptable_source": "可核查的原始研究"
+          }]
+        }]
+      }
+    },
+    {
+      "name": "duplicate_ref",
+      "rule_ids": [],
+      "review_note": "论点和机理不能复用局部引用",
+      "invalid_response": {
+        "thesis": "兴趣优先",
+        "arguments": [{
+          "ref": "arg-1",
+          "order": 0,
+          "title": "论点",
+          "core_claim": "主张",
+          "explanation": "解释",
+          "reasoning_nodes": [{"ref": "arg-1", "content": "机理", "order": 0}],
+          "impact": "影响"
+        }]
+      },
+      "expected_error": "CANDIDATE_SCHEMA_INVALID"
+    }
+  ]
+}

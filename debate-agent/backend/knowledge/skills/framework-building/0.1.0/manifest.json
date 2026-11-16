@@ -1,0 +1,19 @@
+{
+  "contract_version": 1,
+  "skill_id": "framework-building",
+  "skill_version": "0.1.0",
+  "agent_type": "FRAMEWORK",
+  "request_contract": "FrameworkRequest@1",
+  "response_contract": "FrameworkResponse@1",
+  "rule_set_version": "draft-v1",
+  "rule_ids": [],
+  "prompt_version": "0.1.0",
+  "stage_prompts": {
+    "analyze": "prompts/analyze.md",
+    "draft": "prompts/draft.md",
+    "review": "prompts/review.md",
+    "revise": "prompts/revise.md"
+  },
+  "source_sample_ids": [],
+  "submission_status": "DRAFT"
+}
