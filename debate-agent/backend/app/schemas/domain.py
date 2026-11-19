@@ -114,6 +114,8 @@ class DebateCase(Contract):
     weighing: str = ""
     arguments: list[Argument] = Field(default_factory=list)
     overall_strategy: str = ""
+    attack_defense: list[AttackDefense] = Field(default_factory=list)
+    conclusion: str = ""
 
     @model_validator(mode="after")
     def validate_ids(self) -> DebateCase:
@@ -132,13 +134,23 @@ class DebateCase(Contract):
         return self
 
 
+class DefinitionNote(Contract):
+    term: str
+    source_id: str
+    quote: str
+    explanation: str
+
+
 class TopicAnalysisContent(Contract):
+    background: str = Field(default="", description="Topic context; unverified facts remain explicitly uncertain.")
+    target_audience: str = Field(default="", description="People covered by the topic, not the readership of the draft.")
     definitions: dict[str, str] = Field(default_factory=dict)
-    discussion_scope: str
+    definition_notes: list[DefinitionNote] = Field(default_factory=list)
+    discussion_scope: str = Field(default="", description="Legacy internal field; omit in new concise output.")
     assumptions: list[str] = Field(default_factory=list)
     core_conflicts: list[str] = Field(default_factory=list)
-    affirmative_position: str
-    negative_position: str
+    affirmative_position: str = ""
+    negative_position: str = ""
     clash_points: list[str] = Field(default_factory=list)
     judging_criteria: list[str] = Field(default_factory=list)
     strategy_options: list[str] = Field(default_factory=list)

@@ -92,6 +92,30 @@ class ContractsTests(unittest.TestCase):
             framework_response,
         )
 
+    def test_topic_context_fields_are_nested_and_backward_compatible(self):
+        legacy = TopicResponse.model_validate(self.examples["topic_response"])
+        self.assertEqual(legacy.analysis.background, "")
+        self.assertEqual(legacy.analysis.target_audience, "")
+        content = {
+            **legacy.analysis.model_dump(),
+            "background": "Synthetic topic context; not verified external evidence.",
+            "target_audience": "People affected by the policy.",
+        }
+        response = TopicResponse.model_validate({"analysis": content})
+        revised = ReviseTopic(expected_version=1, idempotency_key="context", content=content)
+        request = FrameworkRequest.model_validate({
+            **self.examples["framework_request"], "approved_topic": revised.content.model_dump(),
+        })
+        self.assertEqual(request.approved_topic, response.analysis)
+        self.assertEqual(
+            TopicResponse.model_validate_json(response.model_dump_json()), response,
+        )
+        for field in ("background", "target_audience"):
+            with self.subTest(field=field), self.assertRaises(ValidationError):
+                TopicResponse.model_validate({"analysis": content, field: "wrong level"})
+            with self.subTest(field=field), self.assertRaises(ValidationError):
+                TopicResponse.model_validate({"analysis": {**content, field: ["wrong type"]}})
+
     def test_p1_rejects_invalid_candidate_refs_and_business_fields(self):
         for name, response in self.examples["invalid_responses"].items():
             with self.subTest(name=name), self.assertRaises(ValidationError):

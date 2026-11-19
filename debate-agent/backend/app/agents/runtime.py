@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import json
 from collections.abc import Awaitable, Callable
 from typing import Any, Protocol
 
@@ -39,13 +40,21 @@ Checkpoint = Callable[[str, dict[str, Any]], Awaitable[None]]
 
 
 class WritingAgent:
-    def __init__(self, skill: SkillPack, model: ModelPort, *, timeout_seconds: float = 45):
+    def __init__(self, skill: SkillPack, model: ModelPort, *, timeout_seconds: float = 180,
+                 always_revise: bool = False):
         self.skill = skill
         self.model = model
         self.timeout_seconds = timeout_seconds
+        self.always_revise = always_revise
 
     async def _complete(self, stage: str, payload: dict[str, Any]) -> dict[str, Any]:
         instructions = self.skill.instructions + "\n\n" + self.skill.prompts[stage]
+        output = TopicResponse if self.skill.manifest.agent_type == "TOPIC" else FrameworkResponse
+        schema = Review.model_json_schema() if stage == "review" else (
+            output.model_json_schema() if stage in {"draft", "revise"} else {"type": "object"}
+        )
+        # Business jobs and experiments must give the model the same DTO boundary.
+        instructions += "\nRequired output JSON Schema:\n" + json.dumps(schema, ensure_ascii=False)
         try:
             value = await asyncio.wait_for(
                 self.model.complete(stage, instructions, payload), timeout=self.timeout_seconds,
@@ -77,7 +86,7 @@ class WritingAgent:
         if checkpoint:
             await checkpoint("SELF_REVIEW", review.model_dump(mode="json"))
         remaining = review
-        if review.findings:
+        if review.findings or self.always_revise:
             draft = await self._complete(
                 "revise", {"request": original, "candidate": draft, "findings": review.model_dump(mode="json")},
             )

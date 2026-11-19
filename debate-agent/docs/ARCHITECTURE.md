@@ -94,6 +94,19 @@ API 前缀 `/api/v1`，所有资源读写检查项目所有权；`reviewer_id` �
 
 `FrameworkRequest` 已补 `competition_context/user_requirements` 可选字段；框架 Agent 可读取项目文字背景和用户要求，但不能假设能读取未传入的用户工作区正文。文件上传不属于本期。
 
+### 5.1 本轮题解字段对齐
+
+题解背景和讨论涉及人群属于可审核的题解内容，不新增另一套顶层响应字段：
+
+| 交付内容 | 题解输出路径与类型 | 人工读回/修改 | 框架输入路径 |
+| --- | --- | --- | --- |
+| 背景、问题产生的语境 | `analysis.background: str = ""` | `TopicAnalysis.content.background` / `ReviseTopic.content.background` | `approved_topic.background` |
+| 辩题涉及、受影响的人群 | `analysis.target_audience: str = ""` | `TopicAnalysis.content.target_audience` / `ReviseTopic.content.target_audience` | `approved_topic.target_audience` |
+
+`target_audience` 不是稿件读者或评委。未确定时保留空字符串，并在 `uncertainty_notes` 写明缺口；不得凭空补充人群事实。背景中的待核查事实同样须明确不确定性。`competition_context` 是用户输入的赛制/背景补充，不能代替经过人工审核的上述输出。两个字段为兼容性新增，继续采用 `TopicResponse@1` 和 `FrameworkRequest@1`；旧 JSON 未提供字段仍合法。新增内容保存在原有题解 JSON 中，无需新数据库列；人工批准后随完整 `approved_topic` 快照传给框架 Agent。
+
+例如题解候选的 `analysis` 除其他原有字段外可以包含 `"background": "问题发生的语境"`、`"target_audience": "本题讨论的人群"`；不要将它们放到 `TopicResponse` 顶层，也不要传数组。如果对方实际 Schema 使用其他类型或不同语义，应在 PR 中附完整 JSON 样例再评审，截图中的字段名称不是完整 Schema。
+
 ## 6. 写作方法负责人交付契约（可直接转交）
 
 **目标：** 分别交付题解和框架两个可审查的 Skill/Prompt 草案。你负责从获授权的人写框架稿中提炼方法和量表，不负责 Agent Python 代码、Schema、数据库和部署。AI 可以初提取，但必须区分原稿事实、AI 推断和人工确认；先用两份风格不同的稿件校准，不以样本数量代替质量。公开仓库不得存放未经授权原稿、个人资料或模型密钥。
@@ -132,6 +145,93 @@ API 前缀 `/api/v1`，所有资源读写检查项目所有权；`reviewer_id` �
 
 每个包的 `examples.json` 至少包含一个合成合法示例和一个失败/边界示例，示例标明请求、预期响应或错误码、涉及规则和审核说明；合法示例最终经 Pydantic 校验。另交付两篇已授权稿件的结构化标注、待审核规则、评分量表草案、版本变更与局限说明。评分维度要有 1/3/5 分行为锚点，区分机器可检查项与需辩手判断项。两人共同审核规则、冻结盲测题和量表；系统负责人接入、运行并反馈失败案例。GitHub PR 推荐但不强制她编写代码。
 
+### 6.1 提交、测试与正式发布不是同一道关口
+
+- **现在就可以提交 DRAFT PR**：不要求先补齐全部交付物或登记 `published.json`。PR 中列出已完成、待补项与 DTO 疑问；不完整包可以作为草案评审，但不能宣称已验收。方法包必须放在本节规定的目录，`.claude/agents/` 不会被当前运行器加载。
+- **包格式验收**：每包保留至少一个合成合法请求/响应和一个 Schema 拒绝示例。合成示例不是授权真实样本的替代品，但也不需要被真实稿件替换；真实样本标注单独交付。字段对齐时可在题解例子的 `analysis` 和框架例子的 `approved_topic` 中加入第 5.1 节字段。
+- **方法内容验收**：`rule_ids` 与 `source_sample_ids` 空数组仅适用于骨架占位；正式方法交付须引用实际规则和已授权样本。附规则原文定位、反例、审核状态、量表和版本/局限说明。未审核内容保持待审，不得伪称人工批准。
+- **离线草案测试无需发布**：从 `debate-agent/backend/` 执行下列命令。它们验证格式与合成运行链路，不证明真实写作效果。真实模型草案实验由系统负责人在隔离测试入口显式使用 `SkillRegistry.load(..., allow_draft=True)` 和对应 Agent，密钥及私有材料不入 Git；不开放生产 API 的草案开关。
+- **正式启用**：双方完成方法评审后，由系统负责人登记包哈希、审核人和时间，并设置 active 版本。合并 PR 不等于发布；不要为了先测草案而填入虚假的发布记录。
+
+```powershell
+python -m app.agents.skills TOPIC 0.1.0
+python -m app.agents.skills FRAMEWORK 0.1.0
+python -m unittest discover -s tests -v
+```
+
+此次字段对齐由系统负责人维护公共 Schema、测试和本文；方法负责人调整 Skill 的字段映射与示例。她不必实现数据库、Agent 函数或自行发布。代码修改未提交推送前，对方仍须等待取得这次契约更新，不能只根据文档描述假设远端已支持新增字段。
+
+### 6.2 方法交付的完成条件与 Schema 责任
+
+方法负责人最小交付归为三类：两套完整的题解/框架 Skill 包（含规则与反例）；至少两篇已授权、风格不同稿件的结构化标注；评分量表及校准案例。另附版本变更、适用边界、未解决问题和校验结果。这里口语所称“论点 Skill”对应 `framework-building`，须覆盖完整框架响应，包括机理、比较、攻防和证据需求，不只输出论点标题。
+
+满足文件和内容要求并经双方审阅，即完成本轮**方法交付验收**；不要求她实现 Agent 或证明最终产品全面优于通用模型。真实效果通过 [MVP 的独立 A/B/C 实验](MVP.md#3-质量对照三组实验) 另行验证，不应混淆两次验收。
+
+DTO 缺口由系统负责人负责：方法负责人附最小 JSON、字段语义、类型、是否必需、原稿依据；系统负责人决定新增字段还是映射现有字段，并验证“Agent 输出 -> 保存/人工修改 -> 审批 -> 框架输入”全链路，更新 Schema、测试和本文。双方确认版本后再发布。可以逐项解决已明确的缺口，但不能在没见完整样例前承诺不存在任何后续缺口；不合理需求应明确拒绝或延期，不能静默丢字段。
+
+### 6.3 如何把原稿标注成可理解、可追溯的经验
+
+以下是**离线标注交付格式 v1**，不是 `TopicResponse`、运行时业务 ID 或已实现的自动加载接口。可公开标注放在 `backend/knowledge/samples/<sample_id>.json`；规则放在 `backend/knowledge/rules/<rule_set_version>.json`。私有原文和未经授权的摘录留在仓库外，由代号关联。系统负责人后续提供校验/转换；当前 Skill 加载器不会自动读取这两类文件，只有已审规则写入 Skill/Prompt 才参与生成。
+
+1. **建来源索引**：记录 sample_id、原稿内容 SHA-256、授权记录引用、辩题、持方、版本及用途。用途先分 `METHOD`（提炼）、`CALIBRATION`（校准）、`HOLDOUT`（封存）；同题改写、同源版本归同组，不能分别塞进开发和盲测。封存题与稿件不要交给方法作者调试。
+2. **按完整论证单元切分**：不是每句话一条标签。一个单元保留原文、页/段/行定位，标出定义、背景、人群、判准、主张、机理、影响、证据、攻防或比较。多个单元用关系边表示“解释/支持/限定/反驳”，主论只在原稿明确出现时认定。
+3. **分离原文与解释**：`text` 只放原文；`interpretation` 记录标注者对作用的解释。原稿明确内容标 `SOURCE_EXPLICIT`，推断标 `AI_INFERRED`；由谁复核、是否接受单独记录，人工同意不会把推断变成原文事实。没有的内容列入 gaps，不补造。
+4. **评价局部质量**：写明有效之处、论证缺口及适用前提。把案例、统计、假设、类比分开；原稿引用只证明“原稿引用了它”，默认 `UNVERIFIED`，不因稿件优秀就算证据已核验。
+5. **抽象为条件化规则**：从单元提炼“在什么条件下，执行什么动作，怎样检查”，附支持定位和反例；单篇经验只作为候选，不上升为所有辩题必遵循的规律。跨样本对照后由辩手审核。
+6. **写进 Skill 并验证迁移**：把规则映射到 analyze/draft/review/revise 和输出字段，在 manifest 填 rule_ids/source_sample_ids；在新的开发题上检查能否迁移，不复制原稿事实到新题。回填失败案例；最终盲测题不得用于这个循环。
+
+单元示例（全为合成内容，非真实来源或已授权样本；实际文件须包含索引、所有单元、关系和 gaps）：
+
+```json
+{
+  "annotation_version": 1,
+  "sample_id": "SYNTHETIC-01",
+  "origin": "SYNTHETIC",
+  "split": "METHOD",
+  "units": [
+    {
+      "unit_id": "u1",
+      "argument_ref": "arg-1",
+      "type": "MECHANISM",
+      "text": "练习机会增加，使技能得到反复运用，进而改善表现。",
+      "locator": {"kind": "line", "start": 1, "end": 1},
+      "provenance": "SOURCE_EXPLICIT",
+      "interpretation": "连接机会与结果，但中间效果仍需材料支持。",
+      "review": {"status": "PENDING", "reviewer": null},
+      "evidence_status": "UNVERIFIED",
+      "strengths": ["写出中间环节"],
+      "limitations": ["尚未排除反馈质量差的情形"]
+    }
+  ],
+  "relations": [],
+  "gaps": ["缺少支持机制的证据"]
+}
+```
+
+真实标注额外必填 `source_sha256`、`authorization_ref`、`motion`、`side`。单元 type 使用 `BACKGROUND|AUDIENCE|DEFINITION|CRITERION|CLAIM|MECHANISM|IMPACT|EVIDENCE|ATTACK|DEFENSE|WEIGHING|OTHER`，未能可靠识别时为 OTHER，不补造。关系记录 `from/to/type`，端点必须存在；结构父子与语义支持分开，当前关系类型含 STRUCTURAL_CHILD、ILLUSTRATES、EXPLAINS、INTERPRETED_BY、SUPPORTED_BY、QUALIFIED_BY、DECOMPOSES。自动角色标记 `role_provenance=AI_INFERRED`，原文保持 SOURCE_EXPLICIT，语义关系与解释待人审。证据单元额外记录原稿所列出处和 `material_kind=DATA|CASE|HYPOTHETICAL|ANALOGY|OTHER`，无出处明确写 null；位置必须对应该哈希版本。当前脚本材料类别为启发式候选，CASE 是否真实或假想须复核；`source_as_written` 保留原文块，不表示其包含可靠出处，`verified_source=null`。
+
+规则记录至少含 `rule_id, version, purpose, applies_when, action, output_paths[], self_check, counterexample, support[{sample_id, unit_id}], epistemic_status, review`。例如可提炼“因果论证时写清中间环节与成立条件”，检查“能否解释原因如何导致后果”，反例是“重复主张而无环节”；不能把“多写几层”当作深度，也不能固定所有题目的机理步数。`epistemic_status` 区分候选推断与专家确认，审核记录保留人员和时间。
+
+PR 验收检查：原文可定位、哈希/授权可核对；每条规则可回到单元；manifest 引用能找到规则/样本；推断与事实分开；反例和 gaps 不被隐藏；两份稿由人工复核。用少量优质标注起步，不要求全库逐句标注，也不在本阶段微调。
+
+### 6.4 评分标准怎样交给机器使用
+
+评分锚点与对照规程统一见 [MVP 第 4 节](MVP.md#4-人机评分边界)。方法负责人将其整理为 `backend/knowledge/evals/rubric.md`（人可读）与 `rubric.json`（同版本的结构化草案），并附至少两份完整校准稿及独立评分理由。文件能被机器读取不等于评测运行器已实现；该运行器由系统负责人开发。
+
+当前 `rubric.json` 0.2.0 草案顶层为 `rubric_version, submission_status=DRAFT, dimensions[], aggregation, aesthetics, machine_checks[], severe_error_rule, decision_policy`。维度使用 `key, name, evaluator, anchors{"1","3","5"}`，六组权重位于 `aggregation.weights`；同组子项平均，1–5映射0–100加权总分，审美不计入论证总分。评分结果建议记录匿名 `output_id, rubric_version, judge_id, judge_type=HUMAN|MODEL, scores[{dimension_id, score, evidence_paths[], reason}], critical_errors[], unresolved_checks[]`，其中 dimension_id 对应 key；评分导入器尚未实现。必须附文本位置和理由；缺失评价保留 null，不出总分，应有但未写的内容评分1。2/4分及暂定3分内平局见量表，仍待共同冻结。两人先确认量表、成本/时间上限和优势门槛，不能正式实验结束后改标准。
+
+### 6.5 本机真实业务验证
+
+`app.local_real` 显式复用 Service、Runner、两套 DRAFT Skill 和真实模型适配器，固定本机测试身份、独立持久 SQLite，不读取生产数据库配置。Next.js 展示题解→人工确认→框架候选→编辑→用户确认正式版本；候选可先下载。`AUTOMATED_TEST_ONLY` 审批记录必须显示为流程测试，不表示用户认可。默认长输出预算为 TOPIC 16384 / FRAMEWORK 32768 token，可配置；自审不代替用户审核。该入口及阶段轨迹路径见 README，不构成生产鉴权、PG并发或质量优势验收。
+
+语义质量评分仍需辩手定义和校准；只有 JSON 合法、引用端点存在、费用/耗时等可直接检验项才能确定性自动评分。模型评审只提供有理由的辅助判断，未核验事实标 UNKNOWN，不能将“模型觉得真实”当核验结论。作者不是唯一评委；评审人尽量不知来源，交叉评分后再讨论。
+
 ## 7. 当前实施状态与设计保留
 
-已存在领域/Agent/API DTO、ORM/Alembic 迁移、Service 的最小闭环、工作区及题解项目级读回、只读 Markdown 导出、候选 `ref` 映射、SkillRegistry、两个 Agent 的分步运行器、PostgreSQL 风格的任务租约/领取及合成测试。现有两个 Skill 包均为**未审核的 DRAFT 占位**，默认不可发布运行。**尚未实现**可信身份接入、前端、正式 Skill 审核发布、经真实 PostgreSQL 验证的并发/故障恢复、真实模型效果及 A/B/C 对照实验。旧全功能模型中的证据核验、SpeechWriter、ChangeProposal 仅为后续扩展字段和方向，不属于当前 MVP；修改公共契约时同步更新代码、测试及本文，经双方审查。
+已存在领域/Agent/API DTO、ORM/Alembic 迁移、Service 的最小闭环、工作区及题解项目级读回、只读 Markdown 导出、候选 `ref` 映射、SkillRegistry、两个 Agent 的分步运行器、PostgreSQL 风格的任务租约/领取及合成测试。现有两个 Skill 包均为**未审核的 DRAFT 占位**，默认不可发布运行。
+
+Next.js 本机工作台通过独立 `app.demo` 使用临时 SQLite、固定 Mock 模型和模拟身份，复用业务路由/Service/Runner；它不加载外部模型配置，不开放 `app.main` 的身份校验。仅供 localhost 开发，不得部署。普通 Agent 仍按需修订；离线实验显式 `always_revise=True` 固定五次调用。
+
+`app.experiments` 提供同模型 B/C 方法消融：同一份 request（框架专项含相同确认题解）、相同输出 Schema 与每次预算，基线仅用通用阶段指令、无方法包正文。记录阶段输入输出、哈希、模型与 token/时间，导出匿名稿件和单独映射；失败保留，质量评分暂不自动产生。默认 Mock，真实模型仅通过 `--model real` 显式启用；草案要求 `--allow-draft`，不写发布清单。完整用法见 [README](../README.md)。
+
+**尚未实现/验证**可信身份接入、正式前端数据持久化和登录、正式 Skill 审核发布、经真实 PostgreSQL 验证的并发/故障恢复、真实模型效果、评分导入/质量统计及完整 A/B/C 对照结论。旧全功能模型中的证据核验、SpeechWriter、ChangeProposal 仅为后续扩展字段和方向，不属于当前 MVP；修改公共契约时同步更新代码、测试及本文，经双方审查。

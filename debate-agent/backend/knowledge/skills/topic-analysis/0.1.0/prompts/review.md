@@ -13,6 +13,7 @@
 6. 政策辩是否给出可落地方向；脑洞题是否声明设定边界。
 7. 定义/判准是否给了「骨干句」收口、判准是否配正例+反例；是否用定义战技巧锁定有利范围。
 8. 若辩题隐含价值态度分野，是否写入 judging_criteria 或 opponent_attacks。
+9. analysis.background / analysis.target_audience 是 Schema 内合法字符串字段，不因其存在判为缺陷；仅检查背景事实是否明确待核验、人群是否对应辩题而非稿件读者。字段合法性以运行器附带的 JSON Schema 为准。
 
 severity 取 `BLOCKING`（必须修复，否则失败）或 `IMPROVEMENT`（建议优化）。
 没有缺陷就返回 `{"findings":[]}`。这是模型自审，不能批准题解。只输出 JSON 对象。

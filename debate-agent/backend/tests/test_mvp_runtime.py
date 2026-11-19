@@ -129,6 +129,11 @@ class MVPPersistenceTests(unittest.IsolatedAsyncioTestCase):
             ).id
 
     async def test_full_mvp_flow_and_idempotency(self):
+        self.models["TOPIC"].candidate = copy.deepcopy(EXAMPLES["topic_response"])
+        self.models["TOPIC"].candidate["analysis"].update({
+            "background": "Synthetic background for persistence testing.",
+            "target_audience": "People affected by the motion.",
+        })
         project = self.create_project()
         with self.service() as session:
             service = MVPService(session, SKILLS, allow_draft=True)
@@ -146,6 +151,8 @@ class MVPPersistenceTests(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(service.get_job(self.actor, first.job_id).status, "SUCCEEDED")
             topic = service.current_topic(self.actor, project)
             self.assertEqual(topic.status, "PENDING_APPROVAL")
+            self.assertEqual(topic.content.background, "Synthetic background for persistence testing.")
+            self.assertEqual(topic.content.target_audience, "People affected by the motion.")
             self.assertEqual(first.job_id, service.start_topic(
                 self.actor, project, StartGeneration(idempotency_key="topic-1"),
             ).job_id)
@@ -160,6 +167,10 @@ class MVPPersistenceTests(unittest.IsolatedAsyncioTestCase):
             framework_job = service.start_framework(self.actor, project, StartFramework(
                 idempotency_key="framework-1", approved_topic_analysis_id=topic.id, expected_topic_version=1,
             ))
+            record = session.get(GenerationJobRecord, framework_job.job_id)
+            request = FrameworkRequest.model_validate(record.input_snapshot["request"])
+            self.assertEqual(request.approved_topic.background, topic.content.background)
+            self.assertEqual(request.approved_topic.target_audience, topic.content.target_audience)
         self.assertTrue(await self.runner.run_once())
         with self.service() as session:
             service = MVPService(session, SKILLS, allow_draft=True)
