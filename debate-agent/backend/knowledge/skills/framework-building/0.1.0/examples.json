@@ -1,9 +1,9 @@
 {
   "cases": [
     {
-      "name": "synthetic_valid",
+      "name": "synthetic_valid_interest_vs_employment",
       "rule_ids": [],
-      "review_note": "只演示机理与证据需求，未提供已核验来源",
+      "review_note": "演示完整 FrameworkResponse：递归机理、evidence_needs 与攻防；证据需求为待查而非已核验",
       "request": {
         "context": {
           "project_id": "00000000-0000-4000-8000-000000000001",
@@ -18,50 +18,103 @@
         "approved_topic_analysis_id": "00000000-0000-4000-8000-000000000004",
         "topic_version": 1,
         "approved_topic": {
-          "discussion_scope": "大学生选择学习方向",
+          "definitions": {
+            "兴趣": "对某领域的持续内在偏好",
+            "就业前景": "毕业后的就业机会与收入水平"
+          },
+          "discussion_scope": "大学生选择学习或职业方向",
+          "assumptions": ["讨论限于在校大学生的方向选择"],
+          "core_conflicts": ["内在动机 vs 现实回报"],
           "affirmative_position": "兴趣优先",
           "negative_position": "就业前景优先",
-          "judging_criteria": ["长期发展"]
+          "clash_points": ["兴趣是否等于能力", "就业前景是否稳定"],
+          "judging_criteria": ["长期发展", "个人可持续性"],
+          "strategy_options": ["以长期发展与内在可持续为主战场"],
+          "opponent_attacks": ["兴趣不赚钱", "兴趣易变"]
         }
       },
       "response": {
-        "thesis": "兴趣是可讨论的优先因素",
-        "arguments": [{
-          "ref": "arg-1",
-          "order": 0,
-          "title": "持续投入",
-          "core_claim": "兴趣可能促进投入",
-          "explanation": "需要区分学习动力与最终就业结果",
-          "reasoning_nodes": [{
-            "ref": "node-1",
-            "content": "学习者可能更愿意投入时间",
-            "order": 0
-          }],
-          "impact": "用于讨论长期发展",
-          "evidence_needs": [{
-            "ref": "need-1",
-            "target_node_ref": "node-1",
-            "question": "兴趣与持续投入有何关联？",
-            "acceptable_source": "可核查的原始研究"
-          }]
-        }]
+        "thesis": "兴趣优先更有利于长期可持续的个人发展",
+        "arguments": [
+          {
+            "ref": "arg-1",
+            "order": 0,
+            "title": "兴趣优先：提供持续投入的内在动机，支撑长期发展",
+            "core_claim": "兴趣带来的内在动机让人更可能持续投入，从而在长期获得发展",
+            "explanation": "长期发展依赖持续投入而非短期回报，兴趣是持续投入的稳定来源",
+            "reasoning_nodes": [
+              {
+                "ref": "node-1",
+                "label": "现状/问题",
+                "kind": "problem",
+                "content": "仅看就业前景，兴趣缺失会导致投入不可持续",
+                "order": 0,
+                "children": [
+                  {
+                    "ref": "node-1-1",
+                    "label": "中间环节",
+                    "kind": "mechanism",
+                    "content": "兴趣提供内在动机，让人更愿意长期投入",
+                    "order": 0,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "ref": "node-2",
+                "label": "后果",
+                "kind": "impact",
+                "content": "持续投入带来能力积累，回扣「长期发展」判准",
+                "order": 1,
+                "children": []
+              }
+            ],
+            "impact": "长期发展更依赖持续投入，兴趣是稳定来源",
+            "evidence_needs": [
+              {
+                "ref": "need-1",
+                "target_node_ref": "node-1-1",
+                "question": "兴趣与持续投入之间是否存在可核验的关联？",
+                "acceptable_source": "可核查的原始研究"
+              }
+            ],
+            "attack_defense": [
+              {
+                "opposing_claim": "兴趣不赚钱、无法生存",
+                "response": "长期发展不等于短期回报，且兴趣驱动更易形成竞争力",
+                "weighing": "以「长期发展」判准衡量，非短期收入"
+              }
+            ]
+          }
+        ],
+        "weighing": "以长期发展与个人可持续性为优先判准",
+        "overall_strategy": "以内在动机与长期可持续为主战场，用机理回扣判准",
+        "uncertainty_notes": ["兴趣与持续投入的关联证据待核验"]
       }
     },
     {
       "name": "duplicate_ref",
       "rule_ids": [],
-      "review_note": "论点和机理不能复用局部引用",
+      "review_note": "论点与机理节点不能复用局部引用 ref",
       "invalid_response": {
         "thesis": "兴趣优先",
-        "arguments": [{
-          "ref": "arg-1",
-          "order": 0,
-          "title": "论点",
-          "core_claim": "主张",
-          "explanation": "解释",
-          "reasoning_nodes": [{"ref": "arg-1", "content": "机理", "order": 0}],
-          "impact": "影响"
-        }]
+        "arguments": [
+          {
+            "ref": "arg-1",
+            "order": 0,
+            "title": "论点",
+            "core_claim": "主张",
+            "explanation": "解释",
+            "reasoning_nodes": [
+              {
+                "ref": "arg-1",
+                "content": "机理",
+                "order": 0
+              }
+            ],
+            "impact": "影响"
+          }
+        ]
       },
       "expected_error": "CANDIDATE_SCHEMA_INVALID"
     }
