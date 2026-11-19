@@ -10,7 +10,7 @@ from pathlib import Path
 
 from app.agents.skills import SkillRegistry
 from app.core.database import session_factory
-from app.infrastructure.llm.openai_compatible import OpenAICompatibleModel
+from app.infrastructure.llm.openai_compatible import OpenAICompatibleModel, output_budget
 from app.workflow.runner import JobRunner
 
 
@@ -21,7 +21,7 @@ async def main() -> None:
     worker = JobRunner(
         session_factory(),
         SkillRegistry(Path(__file__).resolve().parents[2] / "knowledge" / "skills"),
-        lambda _kind: OpenAICompatibleModel(),
+        lambda kind: OpenAICompatibleModel(max_tokens=output_budget(kind)),
         f"{socket.gethostname()}-{os.getpid()}",
     )
     while await worker.run_once():

@@ -71,6 +71,8 @@ def materialize_framework(
         weighing=response.weighing,
         arguments=arguments,
         overall_strategy=response.overall_strategy,
+        attack_defense=response.attack_defense,
+        conclusion=response.conclusion,
     )
     mapping = CandidateRefMapping(
         job_id=job_id, request_id=request.context.request_id, candidate_ref_to_id=assigned,

@@ -42,3 +42,18 @@ jobs:
         env:
           DATABASE_URL: postgresql+psycopg://test_user:test_password@localhost:5432/debate_agent
         run: python -m alembic -c backend/alembic.ini upgrade head
+
+  frontend-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: debate-agent/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: debate-agent/frontend/package-lock.json
+      - run: npm ci
+      - run: npm run build

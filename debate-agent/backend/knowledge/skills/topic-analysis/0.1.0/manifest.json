@@ -6,7 +6,7 @@
   "request_contract": "TopicRequest@1",
   "response_contract": "TopicResponse@1",
   "rule_set_version": "draft-v1",
-  "rule_ids": [],
+  "rule_ids": ["T-DEF-CONTRAST", "T-SCOPE-PUBLIC", "T-CRITERION-EXAMPLE"],
   "prompt_version": "0.1.0",
   "stage_prompts": {
     "analyze": "prompts/analyze.md",
@@ -14,6 +14,6 @@
     "review": "prompts/review.md",
     "revise": "prompts/revise.md"
   },
-  "source_sample_ids": [],
+  "source_sample_ids": ["S-AI-LETTER", "S-LANGUAGE", "S-LOVE-QUANTIFICATION"],
   "submission_status": "DRAFT"
 }

@@ -21,7 +21,7 @@ class JobRunner:
     def __init__(
         self, sessions: sessionmaker[Session], skills: SkillRegistry,
         model_factory: Callable[[str], ModelPort], worker_id: str, *,
-        lease_seconds: int = 180, allow_draft: bool = False,
+        lease_seconds: int = 240, allow_draft: bool = False,
     ):
         self.sessions = sessions
         self.skills = skills

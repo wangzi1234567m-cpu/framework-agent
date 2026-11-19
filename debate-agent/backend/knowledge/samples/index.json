@@ -1,0 +1,11 @@
+{
+  "annotation_version": 1,
+  "status": "DRAFT",
+  "local_annotations": "../../../local-evaluations/structure-annotations-v3",
+  "publication_policy": "Full source excerpts remain local; this request is not authorization to publish manuscripts.",
+  "samples": [
+    {"sample_id": "S-AI-LETTER", "sha256": "b67c20093421857541058aa0bbb769df9161526d3abb7ee8ade0f75ac7891d67", "review_status": "PENDING"},
+    {"sample_id": "S-LANGUAGE", "sha256": "06c5e16124a06317a6a46bd09bea742a0ac74f67e4ef0ef9321a99ece3897e1f", "review_status": "PENDING"},
+    {"sample_id": "S-LOVE-QUANTIFICATION", "sha256": "0420d5ade6ba8646781e1af391843353a2c8b4f23e9efd5d3da2a937b1733251", "review_status": "PENDING"}
+  ]
+}

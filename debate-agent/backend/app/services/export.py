@@ -2,18 +2,22 @@
 
 from __future__ import annotations
 
-from app.schemas.domain import CaseRevision, ReasoningNode
+from app.schemas.domain import CaseRevision, DebateCase, ReasoningNode
 
 
 def _reasoning(node: ReasoningNode, depth: int) -> list[str]:
-    lines = [f'{"  " * depth}- {node.content}']
+    label = f"{node.label} [{node.kind}]："
+    lines = [f'{"  " * depth}- {label}{node.content}']
     for child in sorted(node.children, key=lambda item: item.order):
         lines.extend(_reasoning(child, depth + 1))
     return lines
 
 
 def render_revision_markdown(revision: CaseRevision) -> str:
-    case = revision.snapshot
+    return render_case_markdown(revision.snapshot)
+
+
+def render_case_markdown(case: DebateCase) -> str:
     lines = [
         f"# {case.motion}",
         "",
@@ -36,6 +40,7 @@ def render_revision_markdown(revision: CaseRevision) -> str:
         lines.append(f"影响：{argument.impact}")
         for item in argument.attack_defense:
             lines.append(f"- 攻防：对方主张「{item.opposing_claim}」；回应「{item.response}」")
+            lines.append(f"  比较：{item.weighing}")
         if argument.evidence_needs:
             lines.extend(["", "待查证据（非已核验事实）："])
             lines.extend(

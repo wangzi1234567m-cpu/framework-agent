@@ -80,6 +80,8 @@ class FrameworkResponse(Contract):
     arguments: list[CandidateArgument] = Field(min_length=1)
     weighing: str = ""
     overall_strategy: str = ""
+    attack_defense: list[AttackDefense] = Field(default_factory=list)
+    conclusion: str = ""
     uncertainty_notes: list[str] = Field(default_factory=list)
 
     @model_validator(mode="after")

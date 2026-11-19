@@ -1,6 +1,6 @@
 {
   "contract_version": 1,
-  "rubric_version": "0.1.0",
+  "rubric_version": "0.2.0",
   "submission_status": "DRAFT",
   "scales": {
     "1": "缺失或严重错误",
@@ -9,12 +9,20 @@
   },
   "dimensions": [
     {
+      "key": "topic_and_criteria",
+      "name": "题解与判准",
+      "group": "论证质量",
+      "evaluator": "human",
+      "definition": "定义、范围、主体与判准回应原辩题，双方有可比较的证明责任；框架专项评估对已确认题解的遵循",
+      "anchors": {"1": "偏题、偷换概念、缺少判准或预设己方胜出", "3": "基本理解辩题且有判准，但边界或双方比较条件仍需明显修改", "5": "定义与范围清楚，双方获胜条件可比较，论证方向及框架均回扣判准"}
+    },
+    {
       "key": "conciseness",
-      "name": "论点精简·金句化",
+      "name": "论点精简",
       "group": "A_立意与论点",
       "evaluator": "human",
-      "definition": "一句话判断句可辩驳，带小金句标签，一语中的",
-      "anchors": {"1": "冗长绕口、主张要找半天", "3": "能懂但不利落", "5": "一句话可辩驳可直念，带小金句标签"}
+      "definition": "主张清楚、可辩驳、表达精简；金句不作为论证质量加分",
+      "anchors": {"1": "冗长绕口、主张要找半天", "3": "能懂但不利落", "5": "主张清楚且可直接陈述，没有不必要的冗余"}
     },
     {
       "key": "differentiation",
@@ -29,40 +37,40 @@
       "name": "维度跳脱",
       "group": "A_立意与论点",
       "evaluator": "human",
-      "definition": "跳出常规轴、重构更高维价值",
-      "anchors": {"1": "照搬常规轴", "3": "换包装但轴不变", "5": "跳出二元对立、重构更高维价值，有案例坐实"}
+      "definition": "论证角度对本题的解释增量；不因新奇自动加分",
+      "anchors": {"1": "套用角度且不回应本题", "3": "角度相关但独立贡献有限", "5": "角度相关、贡献清楚且有有效支撑，常规角度也可满分"}
     },
     {
       "key": "decomposition",
       "name": "论点内部分解",
       "group": "A_立意与论点",
       "evaluator": "human",
-      "definition": "论点拆多方向、机理再分层（含概念细分）",
-      "anchors": {"1": "没拆方向/机理", "3": "拆了方向但机理没分层", "5": "论点→多方向→机理再分层，完整细致"}
+      "definition": "按逻辑需要分解主张，层数本身不计论证分",
+      "anchors": {"1": "关键问题未分解或重复凑层", "3": "已分解但关键环节或关系仍不清楚", "5": "各部分承担必要且不同的作用，完整连接主张，不要求固定层数"}
     },
     {
       "key": "progression",
       "name": "逐层递进",
       "group": "B_论证结构",
       "evaluator": "human",
-      "definition": "分小点递进非并列；并列是基线、递进是高分",
-      "anchors": {"1": "小点并列堆砌", "3": "有推进但不连贯", "5": "层层递进成逻辑链，末层回扣判准"}
+      "definition": "递进或并列关系符合推理需要；不因排版层数加分",
+      "anchors": {"1": "堆砌或关系矛盾", "3": "结构可辨但关键连接需补足", "5": "关系清楚、各部分有效支持主张并回扣判准，合理并列也可满分"}
     },
     {
       "key": "case_usage",
       "name": "案例运用·比较铺设",
       "group": "B_论证结构",
       "evaluator": "human",
-      "definition": "生活情景案例铺框架 + 两重比较 + 诠释回扣",
-      "anchors": {"1": "无案例、或脱节", "3": "有案例但没比较没铺框架", "5": "两重比较/对照，铺展勾连、回扣论证"}
+      "definition": "材料支持具体机理且经诠释回扣，数量不自动加分",
+      "anchors": {"1": "材料脱节或冒充其不能证明的结论", "3": "材料相关但支持对象或证明边界不清", "5": "材料类别、支持对象、诠释和边界清楚；假想只作解释，不冒充事实证据"}
     },
     {
       "key": "mechanism",
       "name": "机理支撑",
       "group": "B_论证结构",
       "evaluator": "human",
-      "definition": "专有名词+定义，解释「为什么」",
-      "anchors": {"1": "无机理只有断言", "3": "有名词没定义", "5": "专有名词+定义+解释机制"}
+      "definition": "解释为什么及成立条件；专有名词不替代中间推理",
+      "anchors": {"1": "无机理只有断言", "3": "有中间环节但关键因果或前提仍缺失", "5": "条件、作用过程和结果连接清楚，并识别替代解释和证明边界"}
     },
     {
       "key": "landability",
@@ -75,7 +83,7 @@
     {
       "key": "literary_usage",
       "name": "文学/生活语句",
-      "group": "C_语言与价值",
+      "group": "审美表现",
       "evaluator": "human",
       "definition": "文学语句与生活案例贯穿全文",
       "anchors": {"1": "无文学语句", "3": "有但堆在结尾", "5": "文学语句贯穿论证，服务论点"}
@@ -83,9 +91,9 @@
     {
       "key": "value_elevation",
       "name": "价值升华",
-      "group": "C_语言与价值",
+      "group": "审美表现",
       "evaluator": "human",
-      "definition": "落点深、金句收尾、可落回时代",
+      "definition": "文学感染力、金句和时代意象，仅计审美；实质价值比较由 attack_compare 评价",
       "anchors": {"1": "无价值落点", "3": "有落点但浅", "5": "落点深、金句收尾、落时代打动人"}
     },
     {
@@ -106,11 +114,11 @@
     },
     {
       "key": "attack_case_density",
-      "name": "攻防案例密度",
+      "name": "攻防支撑与比较",
       "group": "D_实战可用",
       "evaluator": "human",
-      "definition": "攻防里放生活情景案例，不只有逻辑",
-      "anchors": {"1": "攻防只有逻辑", "3": "有案例但少", "5": "攻防放生活案例，具体有人"}
+      "definition": "回应最强异议后以有效推理或材料完成比较；保留旧key兼容，不按案例密度计分",
+      "anchors": {"1": "回避异议或没有有效比较", "3": "回应相关但替代路径、损害或价值比较不充分", "5": "击中最强异议，支撑有效且同尺度比较，回扣判准；不要求案例配额"}
     },
     {
       "key": "fact_caution",
@@ -122,21 +130,39 @@
     }
   ],
   "aggregation": {
+    "subdimension_formula": "各组所列 dims 的算术平均；topic_and_criteria 直接评分",
+    "total_formula": "100 * sum(weight * (group_score - 1) / 4)",
     "weights": [
-      {"key": "topic_and_criteria", "name": "题解与判准", "weight": 0.20, "source": "TopicResponse"},
+      {"key": "topic_and_criteria", "name": "题解与判准", "weight": 0.20, "dims": ["topic_and_criteria"]},
       {"key": "argument_design", "name": "论点分工", "weight": 0.20, "dims": ["differentiation", "freshness", "decomposition"]},
       {"key": "reasoning_depth", "name": "机理连贯与深度", "weight": 0.20, "dims": ["progression", "case_usage", "mechanism"]},
       {"key": "fact_caution", "name": "事实谨慎/证据需求", "weight": 0.15, "dims": ["fact_caution"]},
       {"key": "attack_compare", "name": "攻防与比较", "weight": 0.15, "dims": ["short_attack", "attack_case_density"]},
-      {"key": "usability", "name": "实战可用性", "weight": 0.10, "dims": ["field_readiness", "landability", "literary_usage", "value_elevation", "conciseness"]}
+      {"key": "usability", "name": "实战可用性", "weight": 0.10, "dims": ["field_readiness", "landability", "conciseness"]}
     ]
+  },
+  "aesthetics": {
+    "included_in_argument_total": false,
+    "dims": ["literary_usage", "value_elevation"],
+    "additional_observations": ["金句辨识度", "专业术语运用", "段落与层次的节奏感"],
+    "policy": "单列审美评分与理由，不把名词、金句或层数当论证证明；不抵消严重事实错误"
+  },
+  "decision_policy": {
+    "status": "DRAFT_PENDING_USER_CONFIRMATION",
+    "intermediate_scores": "2介于1与3、4介于3与5；须附具体文本位置与过渡理由",
+    "missing_rating": "未评分为null，状态INCOMPLETE，不生成总分，不自动改权重",
+    "missing_required_content": "应有却未产出的内容评分1；不适用项须在实验前约定，不事后删除低分项",
+    "tie_margin_points": 3,
+    "tie_policy": "逐题总分差绝对值<=3暂记平；至少两人独立评，维度相差>=2分先复核",
+    "critical_errors": "确认的伪造另计并判该稿不通过；尚未核查为UNKNOWN，不把自审当事实验证",
+    "pass_threshold": "最低优势、允许成本和严重错误上限仍需用户在正式盲测前确认"
   },
   "machine_checks": [
     {"key": "dto_valid", "check": "Pydantic 校验通过（TopicResponse / FrameworkResponse）"},
     {"key": "ref_unique", "check": "ref 全响应唯一；evidence_needs.target_node_ref 只指向同论点节点"},
     {"key": "required_fields", "check": "必填字段非空（discussion_scope/affirmative_position/negative_position；arguments 每项 title/core_claim/explanation/impact）"},
     {"key": "no_business_fields", "check": "不含 status / approved_by / 正式证据等级 / 数据库 ID"},
-    {"key": "no_fabrication_marker", "check": "无来源事实是否用 evidence_needs 表达、未编造数据/链接"},
+    {"key": "no_fabrication_marker", "check": "仅检查待查标记的存在；是否伪造需辅助语义检查及人工核验", "evaluator": "human_with_model_assistance"},
     {"key": "layered_structure", "check": "reasoning_nodes 至少 1 层子节点（是否分层）"},
     {"key": "has_attack_defense", "check": "attack_defense 非空（有无攻防）"},
     {"key": "process_metrics", "check": "生成失败率/重试次数/成本/耗时/人工修改量（实验记录，非质量分）"}

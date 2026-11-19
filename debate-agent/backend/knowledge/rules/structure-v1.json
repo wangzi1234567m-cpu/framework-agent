@@ -1,0 +1,233 @@
+{
+  "version": "structure-v1",
+  "status": "DRAFT",
+  "rules": [
+    {
+      "rule_id": "T-DEF-CONTRAST",
+      "version": "structure-v1",
+      "agent_type": "TOPIC",
+      "purpose": "先定义并区分近邻概念",
+      "applies_when": "辩题词容易把质量、真诚、效果等不同维度混同",
+      "action": "写清是什么、不是什么，区分定义与利益论证；不把己方结论预埋进定义。",
+      "output_paths": [
+        "analysis.definitions",
+        "analysis.discussion_scope"
+      ],
+      "self_check": "定义是否仍让双方有可论证空间",
+      "counterexample": "把‘更好’定义为己方利益最大。",
+      "support": [
+        {
+          "sample_id": "S-AI-LETTER",
+          "unit_id": "u-L31"
+        },
+        {
+          "sample_id": "S-LANGUAGE",
+          "unit_id": "u-L15"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "T-SCOPE-PUBLIC",
+      "version": "structure-v1",
+      "agent_type": "TOPIC",
+      "purpose": "范围与证明责任对齐",
+      "applies_when": "集合概念、领域限定或反例涉及个体/整体层级",
+      "action": "明确讨论主体与重要领域，解释个体例子如何上升到集合主张，保留可被质疑的边界。",
+      "output_paths": [
+        "analysis.discussion_scope",
+        "analysis.target_audience"
+      ],
+      "self_check": "有没有以个体例子直接代替整体结论",
+      "counterexample": "一个运动员突破即全体知识已拓宽。",
+      "support": [
+        {
+          "sample_id": "S-LANGUAGE",
+          "unit_id": "u-L45"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "T-CRITERION-EXAMPLE",
+      "version": "structure-v1",
+      "agent_type": "TOPIC",
+      "purpose": "判准用正反例解释",
+      "applies_when": "价值或比较题需要操作化胜负判断",
+      "action": "给可比较判准并以正反情景说明；双方如何获胜都应清楚，情景不替代事实证明。",
+      "output_paths": [
+        "analysis.judging_criteria"
+      ],
+      "self_check": "能否用同一标准评价双方",
+      "counterexample": "只重复己方立场不说明如何比较。",
+      "support": [
+        {
+          "sample_id": "S-LOVE-QUANTIFICATION",
+          "unit_id": "u-L11"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "F-DIVISION",
+      "version": "structure-v1",
+      "agent_type": "FRAMEWORK",
+      "purpose": "论点按功能分工",
+      "applies_when": "需要多个论点共同支持主旨",
+      "action": "每论选择不同原因、作用端或受益层级；内部再分解，不能换例子重复同一机制。",
+      "output_paths": [
+        "arguments[].core_claim",
+        "arguments[].explanation"
+      ],
+      "self_check": "删掉一个论点是否损失独立贡献",
+      "counterexample": "个体论与群体论仅重复同一学习收益。",
+      "support": [
+        {
+          "sample_id": "S-AI-LETTER",
+          "unit_id": "u-L47"
+        },
+        {
+          "sample_id": "S-LOVE-QUANTIFICATION",
+          "unit_id": "u-L53"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "F-MECHANISM-CONDITION",
+      "version": "structure-v1",
+      "agent_type": "FRAMEWORK",
+      "purpose": "机理写中间环节与前提",
+      "applies_when": "从主张推到后果的因果或条件论证",
+      "action": "解释问题如何经中间环节导致后果，写成立条件并回扣判准；层数按逻辑需要而不是固定配额。",
+      "output_paths": [
+        "arguments[].reasoning_nodes",
+        "arguments[].impact"
+      ],
+      "self_check": "节点是否新增解释而非重复标题",
+      "counterexample": "把主张拆成五个同义节点。",
+      "support": [
+        {
+          "sample_id": "S-AI-LETTER",
+          "unit_id": "u-L67"
+        },
+        {
+          "sample_id": "S-LOVE-QUANTIFICATION",
+          "unit_id": "u-L70"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "F-MATERIAL-INTERPRET",
+      "version": "structure-v1",
+      "agent_type": "FRAMEWORK",
+      "purpose": "材料经诠释接回机理",
+      "applies_when": "案例、数据、类比被用作论据",
+      "action": "标清材料类别、支持对象、诠释与不能证明的内容；有来源也不自动等于因果成立，无来源列待查。",
+      "output_paths": [
+        "arguments[].reasoning_nodes",
+        "arguments[].evidence_needs"
+      ],
+      "self_check": "能否说清材料证明哪个环节而非仅贴例子",
+      "counterexample": "把调查百分比不加条件相加，再泛化为所有人。",
+      "support": [
+        {
+          "sample_id": "S-AI-LETTER",
+          "unit_id": "u-L53"
+        },
+        {
+          "sample_id": "S-LANGUAGE",
+          "unit_id": "u-L115"
+        },
+        {
+          "sample_id": "S-LOVE-QUANTIFICATION",
+          "unit_id": "u-L36"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "F-ATTACK-COMPARE",
+      "version": "structure-v1",
+      "agent_type": "FRAMEWORK",
+      "purpose": "攻防回应后退层比较",
+      "applies_when": "对方以例外、副作用或价值异议攻击主张",
+      "action": "准确复述异议，区分问题来源与工具作用，回应后比较损害与价值，回到已确认判准。",
+      "output_paths": [
+        "arguments[].attack_defense",
+        "weighing"
+      ],
+      "self_check": "回应是否击中异议且没有偷换比较尺度",
+      "counterexample": "只重复主张或把一切风险称滑坡。",
+      "support": [
+        {
+          "sample_id": "S-LOVE-QUANTIFICATION",
+          "unit_id": "u-L130"
+        },
+        {
+          "sample_id": "S-AI-LETTER",
+          "unit_id": "u-L137"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    },
+    {
+      "rule_id": "A-EXPRESSION",
+      "version": "structure-v1",
+      "agent_type": "FRAMEWORK",
+      "purpose": "审美服务表达不替代证明",
+      "applies_when": "抽象价值需要可感表达或上场骨干句",
+      "action": "允许金句、文学意象和专业术语提升表达辨识度，单独审美评价，不因其存在认定论证有效。",
+      "output_paths": [
+        "weighing",
+        "arguments[].title"
+      ],
+      "self_check": "去掉修辞后推理是否仍成立",
+      "counterexample": "引用名句或术语就当成机理已证明。",
+      "support": [
+        {
+          "sample_id": "S-AI-LETTER",
+          "unit_id": "u-L161"
+        },
+        {
+          "sample_id": "S-LANGUAGE",
+          "unit_id": "u-L305"
+        }
+      ],
+      "epistemic_status": "AI_INFERRED",
+      "review": {
+        "status": "PENDING",
+        "reviewer": null
+      }
+    }
+  ]
+}
