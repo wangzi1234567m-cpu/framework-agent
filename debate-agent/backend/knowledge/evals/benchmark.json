@@ -1,1 +1,49 @@
-{}
+{
+  "contract_version": 1,
+  "status": "DRAFT",
+  "experiment": "A/B/C 对照（题解到框架稿质量对比）",
+  "groups": {
+    "A": {
+      "name": "通用模型直接生成",
+      "purpose": "回答产品是否优于日常通用模型使用",
+      "condition": "固定同一底层模型、题目、持方、材料、输出目标；记录提示词、调用数、时间、费用"
+    },
+    "B": {
+      "name": "相同步骤但不加载专有 Skill/规则",
+      "purpose": "从流程增益中分离出写作方法的增量",
+      "condition": "与 C 保持相同的分析/起草/自审/修订预算和结构约束，只替换方法内容（一般性结构提示，不含专有规则）"
+    },
+    "C": {
+      "name": "完整题解确认 + Skill/Prompt 工作流",
+      "purpose": "测产品表现",
+      "condition": "同题、同底层模型、同检索权限；题解人工确认和修改时间分别记录，不隐去额外人工投入"
+    }
+  },
+  "comparison": {
+    "primary_metric": "C 相对 A 与 B 的逐题胜/平/负 + 人工修改时长",
+    "notes": [
+      "A 与 C 比较整体产品价值；B 与 C 才能更直接检验 Skill/Prompt 是否有增量",
+      "若 A 是单次调用、C 是多次调用，必须同时报告成本/时间和资源差异，不把提升全归因于 Skill",
+      "B 的一般性结构提示与 C 的专有方法隔离；测试题及其优秀参考稿不得用于撰写/调试 Skill"
+    ]
+  },
+  "metrics": {
+    "machine": ["schema_valid", "ref_errors", "generation_failure_rate", "retries", "cost", "duration", "human_edit_amount"],
+    "human": ["topic_and_criteria", "argument_design", "reasoning_depth", "fact_caution", "attack_compare", "usability"],
+    "severe_error": "真实来源伪造 / 关键事实编造，单独计严重错误率，不被文笔分抵消"
+  },
+  "blind_review": {
+    "process": "匿名打乱 A/B/C 产物，至少两名辩手独立按 rubric.json 打分（1-5），分歧大时复核",
+    "freeze_before": "评分量表与独立测试题在看结果前共同冻结"
+  },
+  "freeze_questions": {
+    "status": "待冻结",
+    "min_count": 20,
+    "requirement": "未参与经验提炼、题型和难度尽量分层；每题记录材料授权与随机设置",
+    "items": []
+  },
+  "pass_threshold": {
+    "status": "待双方在看结果前共同确认",
+    "components": ["权重", "盲评准入", "并列/分歧处理", "允许成本增加", "最低优势", "严重错误上限"]
+  }
+}

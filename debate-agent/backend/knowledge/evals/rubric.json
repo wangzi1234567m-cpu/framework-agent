@@ -1,0 +1,145 @@
+{
+  "contract_version": 1,
+  "rubric_version": "0.1.0",
+  "submission_status": "DRAFT",
+  "scales": {
+    "1": "缺失或严重错误",
+    "3": "基本可用但须明显修改",
+    "5": "准确充分、可直接用于备赛"
+  },
+  "dimensions": [
+    {
+      "key": "conciseness",
+      "name": "论点精简·金句化",
+      "group": "A_立意与论点",
+      "evaluator": "human",
+      "definition": "一句话判断句可辩驳，带小金句标签，一语中的",
+      "anchors": {"1": "冗长绕口、主张要找半天", "3": "能懂但不利落", "5": "一句话可辩驳可直念，带小金句标签"}
+    },
+    {
+      "key": "differentiation",
+      "name": "论点分工",
+      "group": "A_立意与论点",
+      "evaluator": "human",
+      "definition": "两论不同维度、不重复凑数",
+      "anchors": {"1": "两论同质、换例子不换维度", "3": "维度不同但切割模糊", "5": "维度清晰、不同受益层，不重复"}
+    },
+    {
+      "key": "freshness",
+      "name": "维度跳脱",
+      "group": "A_立意与论点",
+      "evaluator": "human",
+      "definition": "跳出常规轴、重构更高维价值",
+      "anchors": {"1": "照搬常规轴", "3": "换包装但轴不变", "5": "跳出二元对立、重构更高维价值，有案例坐实"}
+    },
+    {
+      "key": "decomposition",
+      "name": "论点内部分解",
+      "group": "A_立意与论点",
+      "evaluator": "human",
+      "definition": "论点拆多方向、机理再分层（含概念细分）",
+      "anchors": {"1": "没拆方向/机理", "3": "拆了方向但机理没分层", "5": "论点→多方向→机理再分层，完整细致"}
+    },
+    {
+      "key": "progression",
+      "name": "逐层递进",
+      "group": "B_论证结构",
+      "evaluator": "human",
+      "definition": "分小点递进非并列；并列是基线、递进是高分",
+      "anchors": {"1": "小点并列堆砌", "3": "有推进但不连贯", "5": "层层递进成逻辑链，末层回扣判准"}
+    },
+    {
+      "key": "case_usage",
+      "name": "案例运用·比较铺设",
+      "group": "B_论证结构",
+      "evaluator": "human",
+      "definition": "生活情景案例铺框架 + 两重比较 + 诠释回扣",
+      "anchors": {"1": "无案例、或脱节", "3": "有案例但没比较没铺框架", "5": "两重比较/对照，铺展勾连、回扣论证"}
+    },
+    {
+      "key": "mechanism",
+      "name": "机理支撑",
+      "group": "B_论证结构",
+      "evaluator": "human",
+      "definition": "专有名词+定义，解释「为什么」",
+      "anchors": {"1": "无机理只有断言", "3": "有名词没定义", "5": "专有名词+定义+解释机制"}
+    },
+    {
+      "key": "landability",
+      "name": "论点落地性",
+      "group": "B_论证结构",
+      "evaluator": "human",
+      "definition": "铺具体方法/样态，直观可落地",
+      "anchors": {"1": "抽象空谈", "3": "有样态但浮于表面", "5": "铺具体方法/样态，直观"}
+    },
+    {
+      "key": "literary_usage",
+      "name": "文学/生活语句",
+      "group": "C_语言与价值",
+      "evaluator": "human",
+      "definition": "文学语句与生活案例贯穿全文",
+      "anchors": {"1": "无文学语句", "3": "有但堆在结尾", "5": "文学语句贯穿论证，服务论点"}
+    },
+    {
+      "key": "value_elevation",
+      "name": "价值升华",
+      "group": "C_语言与价值",
+      "evaluator": "human",
+      "definition": "落点深、金句收尾、可落回时代",
+      "anchors": {"1": "无价值落点", "3": "有落点但浅", "5": "落点深、金句收尾、落时代打动人"}
+    },
+    {
+      "key": "field_readiness",
+      "name": "陈词就绪",
+      "group": "D_实战可用",
+      "evaluator": "human",
+      "definition": "拿起就念，论点句/过渡句可直接读",
+      "anchors": {"1": "不知从哪念", "3": "能读但要临时组织", "5": "论点句/过渡句原样可读，拿起就念"}
+    },
+    {
+      "key": "short_attack",
+      "name": "短打素材",
+      "group": "D_实战可用",
+      "evaluator": "human",
+      "definition": "自由辩短案例、一句话反制、质询预案",
+      "anchors": {"1": "无短打素材", "3": "有但不多", "5": "短案例、一句话反制、质询预案齐备"}
+    },
+    {
+      "key": "attack_case_density",
+      "name": "攻防案例密度",
+      "group": "D_实战可用",
+      "evaluator": "human",
+      "definition": "攻防里放生活情景案例，不只有逻辑",
+      "anchors": {"1": "攻防只有逻辑", "3": "有案例但少", "5": "攻防放生活案例，具体有人"}
+    },
+    {
+      "key": "fact_caution",
+      "name": "事实谨慎",
+      "group": "否决项",
+      "evaluator": "machine_and_human",
+      "definition": "数据/案例有出处，不编造（通过/不通过）",
+      "anchors": {"1": "编造数据/来源", "3": "有数据但出处含糊", "5": "有出处、无证据标待核验"}
+    }
+  ],
+  "aggregation": {
+    "weights": [
+      {"key": "topic_and_criteria", "name": "题解与判准", "weight": 0.20, "source": "TopicResponse"},
+      {"key": "argument_design", "name": "论点分工", "weight": 0.20, "dims": ["differentiation", "freshness", "decomposition"]},
+      {"key": "reasoning_depth", "name": "机理连贯与深度", "weight": 0.20, "dims": ["progression", "case_usage", "mechanism"]},
+      {"key": "fact_caution", "name": "事实谨慎/证据需求", "weight": 0.15, "dims": ["fact_caution"]},
+      {"key": "attack_compare", "name": "攻防与比较", "weight": 0.15, "dims": ["short_attack", "attack_case_density"]},
+      {"key": "usability", "name": "实战可用性", "weight": 0.10, "dims": ["field_readiness", "landability", "literary_usage", "value_elevation", "conciseness"]}
+    ]
+  },
+  "machine_checks": [
+    {"key": "dto_valid", "check": "Pydantic 校验通过（TopicResponse / FrameworkResponse）"},
+    {"key": "ref_unique", "check": "ref 全响应唯一；evidence_needs.target_node_ref 只指向同论点节点"},
+    {"key": "required_fields", "check": "必填字段非空（discussion_scope/affirmative_position/negative_position；arguments 每项 title/core_claim/explanation/impact）"},
+    {"key": "no_business_fields", "check": "不含 status / approved_by / 正式证据等级 / 数据库 ID"},
+    {"key": "no_fabrication_marker", "check": "无来源事实是否用 evidence_needs 表达、未编造数据/链接"},
+    {"key": "layered_structure", "check": "reasoning_nodes 至少 1 层子节点（是否分层）"},
+    {"key": "has_attack_defense", "check": "attack_defense 非空（有无攻防）"},
+    {"key": "process_metrics", "check": "生成失败率/重试次数/成本/耗时/人工修改量（实验记录，非质量分）"}
+  ],
+  "severe_error_rule": "真实来源伪造、关键事实编造 → 另计严重错误率，一票否决，不被文笔/价值分抵消"
+}
